@@ -543,24 +543,39 @@
                           {%- if section.settings.quantity_enabled and settings.custom_quantity_breaks -%}
                             <label class="inline-label" for="{{ quantity_id }}" {% if section.settings.quantity_enabled == false and settings.custom_quantity_breaks %}hidden {% endif %}>{{ 'products.product.quantity' | t }}</label><br>
 
-
-                            {% if collection.handle == "posture-shirt" or product.handle contains "womens-posture-shirt" or product.handle contains "mens-posture-shirt" %}
-                            {%- render "posture-shirt-radios" -%}
-                   
-                            {%- endif -%}
-
+                              <!-- manual Qb check start -->
+                              {% if collection.handle == "posture-shirt" or product.handle contains "womens-posture-shirt" or product.handle contains "mens-posture-shirt" %}
+                              {%- render "a3-posture-shirt-radios" -%}
+                              {%- elsif  product.handle ==  "skulderstoette-comfort" -%}
+                              {%- render "a2-comfort-plus-radios" -%}
+                              {%- elsif  product.handle ==  "skulderstoette-basic" -%}
+                              {%- render "a1-basic-brace-radios" -%}
+                              {%- elsif  product.handle == "skulderstoette-premium" -%}
+                              {%- render "a4-premium-brace-radios" -%}
+                              {%- elsif  product.handle ==  "laendebaelte" -%}
+                              {%- render "a5-backbrace-radios" -%}
+                              {%- endif -%}
+                          <!-- manual Qb check end  -->
 
                           {%- endif -%}
 
                           {%- render "dbtfy-inventory-quantity", product: product -%}
-
                           {%- if section.settings.quantity_enabled -%}
-                               {% if collection.handle == "posture-shirt" or product.handle contains "womens-posture-shirt" or product.handle contains "mens-posture-shirt" %}
-                                    {%- assign hide_quantity_box = false -%}
-                                {%- else -%}
-
-                                {%- render "quantity-selector", type: "product", id: quantity_id -%}
-                            {%- endif -%}
+                                 <!-- Quantity selecter check start -->
+                                 {% if collection.handle == "posture-shirt" or product.handle contains "womens-posture-shirt" or product.handle contains "mens-posture-shirt" %}
+                                 {%- assign hide_quantity_box = false -%}
+                                 {%- elsif  product.handle ==  "skulderstoette-comfort" -%}
+                                         {%- assign hide_quantity_box = false -%}
+                                 {%- elsif  product.handle ==  "skulderstoette-basic" -%}
+                                         {%- assign hide_quantity_box = false -%}
+                                 {%- elsif  product.handle ==  "skulderstoette-premium" -%}
+                                         {%- assign hide_quantity_box = false -%}
+                                 {%- elsif  product.handle == "laendebaelte" -%}
+                                         {%- assign hide_quantity_box = false -%}
+                                 {%- else -%}
+                                     {%- render "quantity-selector", type: "product", id: quantity_id -%}
+                                 {%- endif -%}
+                                 <!-- Quantity selecter check end  -->
                           {%- elsif settings.custom_quantity_breaks -%}
                   
                        {%- endif -%}

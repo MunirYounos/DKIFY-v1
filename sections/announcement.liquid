@@ -14,7 +14,7 @@
       <div class="grid__item large-six-twelfths medium--six-twelfths announcement-item announcement-message overflow-hidden text-center{% if section.blocks.size > 1 %} slick slick-announcement{% endif %}"
         data-autoplayspeed="{{ section.settings.announcement_autoplayspeed | times: 1000 }}">
         {%- for block in section.blocks -%}
-        <a target="_blank" href="{{ block.settings.announcement_link }}" class="announcement-message-item announcement-{{ block.id }}  flex justify-center align-center" {{ block.shopify_attributes }}>
+        <a target="_self" href="{{ block.settings.announcement_link }}" class="announcement-message-item announcement-{{ block.id }}  flex justify-center align-center" {{ block.shopify_attributes }}>
       
             {%- unless block.settings.announcement_text == blank -%}
               <span class="announcement-message"> 

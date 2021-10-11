@@ -32,31 +32,19 @@
             <div class="grid__item " {{ block.shopify_attributes }}>
               <div class="media-wrapper video-wrapper">
                 {%- if block.settings.video_url == blank -%}
-                  <iframe class="media lazyload" data-src="//www.youtube.com/embed/_9VUPq3SxOc?rel=0&showinfo=0&vq=720" width="850" height="480" frameborder="0" allowfullscreen></iframe>
+                  <iframe class="media  lazyload" data-src="//www.youtube.com/embed/_9VUPq3SxOc?rel=0&showinfo=0&vq=720" width="850" height="480" frameborder="0" allowfullscreen></iframe>
                 {%- else -%}
                   {%- if block.settings.video_url.type == "youtube" -%}
-                        {%- if shop.locale == 'fr' -%}
-                          <iframe class="media lazyload" data-src="//www.youtube.com/embed/{{ block.settings.video_url_fr.id }}?rel=0&showinfo=0&vq=720" width="850" height="480" frameborder="0" allowfullscreen></iframe>
-                        {% else %}
-                        <iframe class="media lazyload" data-src="//www.youtube.com/embed/{{ block.settings.video_url.id }}?rel=0&showinfo=0&vq=720" width="850" height="480" frameborder="0" allowfullscreen></iframe>
-                        {%- endif -%}
+          
+                        <iframe class="media yt-video lazyload" data-src="//www.youtube.com/embed/{{ block.settings.video_url.id }}?rel=0&showinfo=0&vq=720" width="850" height="480" frameborder="0" allowfullscreen></iframe>
 
                     {%- if block.settings.video_cover_image or block.settings.video_cover_image_fr !=blank -%}
-                          {% if shop.locale == 'fr' %}
-                          <div class="youtube-cover-image"
-                            style=" background-image:url('{{block.settings.video_cover_image_fr | img_url: '1920x1080'}}')">
-                                {%- if block.settings.animated_button -%}
-                                  <span class="youtube-button"></span>
-                              {%- endif -%}
-                            </div>
-                          {% else %}
                              <div class="youtube-cover-image"
                               style=" background-image:url('{{block.settings.video_cover_image | img_url: '1920x1080'}}')">
                                   {%- if block.settings.animated_button -%}
                                     <span class="youtube-button"></span>
                                 {%- endif -%}
                               </div>
-                          {%- endif -%}
                     {%- endif -%}
                   {%- endif -%}
                   {%- if block.settings.video_url.type == "vimeo" -%}
@@ -143,21 +131,9 @@
           "info": "Add an image with 1920x1080px, not more than 100k."
           },
           {
-            "type": "image_picker",
-            "id": "video_cover_image_fr",
-            "label": "Video cover image FR",
-            "info": "Add an image with 1920x1080px, not more than 100k."
-            },
-          {
             "type": "video_url",
             "id": "video_url",
-            "label": "Video link NL",
-            "accept": ["youtube", "vimeo"]
-          },
-          {
-            "type": "video_url",
-            "id": "video_url_fr",
-            "label": "Video link FR",
+            "label": "Video link",
             "accept": ["youtube", "vimeo"]
           },
           {

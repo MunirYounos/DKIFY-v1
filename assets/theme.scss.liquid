@@ -5564,7 +5564,7 @@ cite {
   }
 
   .rte {
-    margin-bottom: 0;
+    margin-bottom: 5px;
   }
 
   p {
@@ -5595,6 +5595,7 @@ cite {
   }
 }
 .announcement-message-item{
+
   @include screenUp($postSmall){
     & > *{
       flex-grow: 1;
@@ -5603,9 +5604,6 @@ cite {
   .announcement-message{
     p{
       margin:0 5px 0 0;
-      @include screen($small){
-        display:none;
-      }
     }
   }
   .announcement-image {
@@ -5613,6 +5611,7 @@ cite {
       min-width: 160px;
     }
   }
+
 }
 /*================ _Header ================*/
 .header-section {
@@ -6718,7 +6717,11 @@ background-color: $colorAccent;
   margin-top: $spacer-xs;
   margin-bottom: 0;
   color: $colorSecondary;
-  @include accentFontStack;
+  font-weight: 500;
+  font-size: .75rem;
+  font-style: normal;
+  text-transform: initial;
+  letter-spacing: .1px;
 }
 
 // Order discount
@@ -8169,6 +8172,11 @@ body:not(.dbtfy-newsletter_popup-destroy) {
   }
 }
 {%- endif -%}
+
+.newsletter__input {
+  border: 2px solid lighten($colorLightGray, 30%);
+  border-radius:4px;
+}
 /* end-dbtfy-newsletter-popup */
 
 /* start-dbtfy-order-feedback */
@@ -9968,7 +9976,22 @@ selector[data-type="languages"][data-id="283692853"].ls-sw-closed > .active:afte
     }
   }
 }
-
+.card.tab.fp-item{
+  .tab-header{
+    background-color: darken($white, 5%);
+    text-transform: initial;
+    font-size:1.133rem;
+    font-weight:500;
+  }
+  .tab-body{
+    background-color: darken($white, 2%);
+    .tab-content{
+      p{
+        font-size:0.90rem;
+      }
+    }
+  }
+}
 {%- if settings.custom_style != blank -%}
 /*================ _custom_styles ================*/
 {{ settings.custom_style }}

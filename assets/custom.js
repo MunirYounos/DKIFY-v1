@@ -1,7 +1,5 @@
 (function(a){
-	$('#youtube-video').hide();
-	$('.youtube-cover-image, .youtube-button').on('click', function () {
-		$('#youtube-video').show();
+	$('.youtube-cover-image, .youtube-button').on('click', function (e) {
 		$('.youtube-cover-image , .youtube-button').hide();
 	});
 	// scroll smothing for readmore button

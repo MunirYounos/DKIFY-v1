@@ -1,0 +1,12 @@
+{
+	"sections": {
+		"main": {
+			"type": "video-background",
+			"settings": {}
+		}
+	},
+	"order": [
+		"main"
+	]
+
+}

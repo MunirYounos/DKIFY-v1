@@ -1,5 +1,9 @@
 {
   "current": {
+    "checkout_logo_image": "shopify:\/\/shop_images\/Anodyne_black_medium_6728745e-a674-486e-8077-9faaf5a75715.png",
+    "checkout_logo_size": "medium",
+    "checkout_accent_color": "#398e82",
+    "checkout_button_color": "#398e82",
     "sticky_header": false,
     "sticky_announcement_bar": true,
     "hero_header": false,
@@ -53,7 +57,7 @@
     "color_overlay": "#252525",
     "color_transparent_nav_text": "#f7f7f7",
     "opacity_overlay": 16,
-    "favicon": "shopify:\/\/shop_images\/fav.png",
+    "favicon": "shopify:\/\/shop_images\/Favicon.png",
     "social_facebook_link": "https:\/\/www.facebook.com\/anodyne.dk",
     "social_instagram_link": "https:\/\/www.instagram.com\/anodyne.dk",
     "header_family": "poppins_n4",
@@ -156,10 +160,6 @@
     "dbtfy_wish_list_remove_text": "Fjern fra ønskeliste",
     "dbtfy_wish_list_empty_text": "Tøm ønskeliste",
     "dbtfy_wish_list_share_label": "Del ønskeliste",
-    "checkout_logo_image": "shopify:\/\/shop_images\/Anodyne_black_medium_6728745e-a674-486e-8077-9faaf5a75715.png",
-    "checkout_logo_size": "medium",
-    "checkout_accent_color": "#398e82",
-    "checkout_button_color": "#398e82",
     "custom_inventory_quantity": true,
     "sections": {
       "dbtfy-upsell-popup": {
@@ -291,8 +291,8 @@
           "announcement-0": {
             "type": "message",
             "settings": {
-              "announcement_text": "<p>🇩🇰 Vi fejrer <strong>7-års fødselsdag<\/strong> med masser af gode tilbud 🇩🇰<\/p>",
-              "announcement_link": ""
+              "announcement_text": "<p>Vi fejrer <strong>7-års fødselsdag<\/strong> med masser af tilbud 🇩🇰<\/p>",
+              "announcement_link": "https:\/\/www.anodyne.dk\/collections\/alle-produkter"
             }
           }
         },
@@ -305,7 +305,7 @@
           "email": true,
           "phone": true,
           "left_message": "",
-          "right_message": "<p><a href=\"\/pages\/contact\" target=\"_blank\" title=\"Contact\">Kontakt<\/a><\/p>",
+          "right_message": "<p><a href=\"\/pages\/kontakt\" target=\"_blank\" title=\"\/pages\/kontakt\">Kontakt<\/a><\/p>",
           "announcement_autoplayspeed": 5
         }
       },
@@ -321,8 +321,8 @@
           "default_logo_svg": "",
           "inverted_logo_svg": "",
           "mobile_logo_svg": "",
-          "logo_width": 132,
-          "logo_mobile_width": 100
+          "logo_width": 150,
+          "logo_mobile_width": 150
         }
       },
       "dbtfy-instagram-feed": {
@@ -413,7 +413,7 @@
               "column_width": 1,
               "title": "Kategorier",
               "subtitle": "",
-              "footer_link_list": "main-menu"
+              "footer_link_list": "footer-categories"
             }
           },
           "0bf661af-2d67-4ed7-9f1e-750e2c09c74e": {
@@ -445,9 +445,9 @@
               "column_width": 1,
               "title": "Socials",
               "subtitle": "",
-              "facebook_link": "https:\/\/www.facebook.com\/anodyne.nl\/",
+              "facebook_link": "https:\/\/www.facebook.com\/anodyne.dk",
               "youtube_link": "https:\/\/www.youtube.com\/channel\/UCFLDlWEPVUrvsuNjVt6sXJg",
-              "insta_link": "https:\/\/www.instagram.com\/anodyne.nl\/"
+              "insta_link": "https:\/\/www.instagram.com\/anodyne.dk"
             }
           }
         },
@@ -884,7 +884,7 @@
           "mobile_grid": "2",
           "show_view_all": true,
           "button_label": "Se flere produkter",
-          "button_link": "shopify:\/\/collections",
+          "button_link": "shopify:\/\/collections\/alle-produkter",
           "button_style": "btn--primary",
           "slider_related_products": false,
           "arrows": false,
@@ -954,8 +954,7 @@
             "type": "video",
             "settings": {
               "video_cover_image": "shopify:\/\/shop_images\/Thumbnail_Anodyne-min-min.jpg",
-              "video_url": "https:\/\/www.youtube.com\/watch?v=FELJYnKpb4w",
-              "video_url_fr": "https:\/\/www.youtube.com\/watch?v=r3VOvBQz3TE",
+              "video_url": "https:\/\/www.youtube.com\/watch?v=c3tAK7gGKbo",
               "animated_button": true
             }
           }
@@ -1156,6 +1155,398 @@
           "title": "",
           "subtitle": "Tilmeld dig vores nyhedsbrev og modtag løbende e-mails med nye produkter,  aktuelle tilbud og konkurrencer.",
           "section_style": "section-default"
+        }
+      },
+      "dbtfy-faq-page": {
+        "type": "dbtfy-faq-page",
+        "blocks": {
+          "21170241-e223-4c47-bc79-e2ee2878272e": {
+            "type": "category_block",
+            "settings": {
+              "dbtfy_faq_category": "PRODUKTER",
+              "dbtfy_faq_icons": "support"
+            }
+          },
+          "98f5a103-7050-4f71-9ceb-d51064a0571c": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Hvad er holdningskorrigerende tøj fra Anodyne®, og hvordan fungerer det?",
+              "text": "<p>Holdningskorrigerende tøj fra Anodyne® er designet til at stimulere specifikke muskelgrupper og forbedre kropsholdningen. Anodyne Posture Shirt™ og Anodyne BH bidrager til skabelsen af en konstant strøm af information, der løber frem og tilbage mellem 20.000 til 80.000 nervereceptorer i huden. Resultatet er, at musklerne stimuleres af hjernen til at blive aktive, så du selv forbedrer din holdning ved at styrke dine muskler. For at maksimere effekten anbefaler vi, at du så vidt muligt også er fysisk aktiv.<\/p>"
+            }
+          },
+          "51d055bd-7606-4a10-8020-661e7baaf994": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Hvad er forskellen mellem Anodyne holdningskorrigerende tøj og vores konkurrenter?",
+              "text": "<p>Anodyne® er eksklusiv europæisk distributør af holdningskorrigerende tøj med teknologi udviklet af amerikanske AlignMed, verdens eneste producent af holdningskorrigerende tøj registreret hos FDA, USA's føderale fødevare- og lægemiddelmyndighed. AlignMed har udviklet og benytter teknologien NeuroBands i deres produkter.<br\/><\/p><p>Det holdningskorrigerende tøj du finder hos Anodyne er MDR\/CE-mærket og registreret som medicinsk udstyr. Dette sikrer, at EU-lovgivningen for medicinsk udstyr og kravene til miljø, sundhed og sikkerhed er overholdt. MDR\/CE-mærket er således din garanti for, at vores produkter lever op til de krav, der stilles for medicinsk udstyr.<\/p><p>Når man ønsker at sammenligne holdningskorrigerende tøj med konkurrenternes produkter, er det centralt at kigge efter disse registreringer. Hvis de ikke har dem, er der normalt ingen dokumenteret effekt af tøjet. Kun en slags holdningskorrigerende tøj er registreret som medicinsk udstyr og findes på <a href=\"https:\/\/hmi-basen.dk\/r4x.asp?linktype=isosup&linkinfo=06030701&sup=58256\" target=\"_blank\" title=\"https:\/\/hmi-basen.dk\/r4x.asp?linktype=isosup&linkinfo=06030701&sup=58256\">listen over godkendte hjælpemidler i Danmark<\/a>; det er produkterne fra Anodyne® - så vær særligt opmærksom, når du handler på nettet.<\/p>"
+            }
+          },
+          "b3cb421f-11d4-472c-95a9-a2a96bd8c1b4": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Hvad er forskellen mellem Anodyne Posture Shirt™ og Anodyne BH?",
+              "text": "<p>Generelt kan du forvente at føle mest støtte fra Anodyne Posture Shirt™, fordi den består af flest NeuroBands - en unik og patenteret teknologi, der indgår i Anodynes holdningskorrigerende tøj. Mange kvinder vil dog også opleve, at de med Anodyne BH får nok støtte til, at de kan opnå den holdningsbevidsthed, der er nødvendig for at forbedre holdningen.<br\/><\/p><p>Hvis du er i tvivl, kan du altid prøve begge produkter og drage fordel af vores 30-dages prøveperiode, der giver dig mulighed for at returnere ethvert produkt, du ikke ønsker at beholde.<\/p>"
+            }
+          },
+          "fff8ad10-293f-4a80-9dfd-49bae841f95b": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Hvordan ser jeg forbedring i min holdning?",
+              "text": "<p>Når du har den rigtige størrelse, vil du inden for kort tid føle og se en forskel i din kropsholdning, når du bærer en Posture Shirt™ eller en Anodyne BH. Din krop har brug for tid til at øge bevidstheden om at indtage en bedre kropsholdning. Når du bærer din Posture Shirt™ aktiverer du kontinuerligt dine muskler, så effekten også ses, når du på sigt ikke bærer din Posture Shirt™.<br\/><\/p><p>Ved at bære holdningskorrigerende tøj under dine normale hverdagsaktiviteter - såsom at gå, arbejde, træne og løbe - styrkes muskelhukommelsen. De bevægelser, du oftest udfører på en normal dag, har den største indflydelse på, hvor hurtigt muskelhukommelsen ændres. Afhængigt af hvordan og hvor ofte du bruger din Posture Shirt™ eller Anodyne BH, vil du bemærke de fysiske ændringer optimalt efter at have båret den i cirka 60-90 dage. Men hvis produktet fungerer for dig, vil du vide det inden for din 30-dages prøveperiode.<\/p>"
+            }
+          },
+          "93093c45-1166-4eb5-99da-f580e03c0459": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Vil jeg opleve færre smerter og\/eller vil det forbedre min kropsholdning?",
+              "text": "<p>Der er stor sandsynlighed for, at du vil føle færre rygsmerter, skuldersmerter og nakkesmerter ved at anvende holdningskorrigerende tøj fra Anodyne. Langt de fleste mennesker, der bruger vores Posture Shirt™ eller Anodyne BH vil forbedre deres holdning. Hvorvidt dette også gælder for dig, kan vi ikke garantere. Derfor giver vi dig 30 dage til at prøve det selv.<br\/><\/p><p>For at øge dine chancer for en succesrig oplevelse anbefaler vi, at du giver produktet en chance. Hvis du f.eks. har haft rygsmerter gennem mange år, skal du ikke forvente, at disse forsvinder efter at have båret din Posture Shirt™ i nogle timer. Udnyt din 30-dages prøveperiode og forpligt dig til den. Bær gerne din Posture Shirt hver dag den første uge, start med 1-2 timer og øg herefter brugen til 2-4 timer. Efter den første uge anbefaler vi, at du bærer den i 8-10 timer 3-4 gange om ugen. Hvordan har du det så efter 4 uger? Du vil højst sandsynligt føle en reduktion af din smerte og en forbedring af din holdning. Hvis ikke, er du velkommen til at returnere dit produkt mod fuld refusion.<\/p><p>Tøv ikke med at tage kontakt til vores kundeservice. Vores mål er, at du bliver fuldt ud tilfreds med vores produkt og service.<\/p>"
+            }
+          },
+          "537d2df8-4438-411b-94f8-22a1c0f58067": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Hvor længe holder mit Anodyne® produkt?",
+              "text": "<p>Levetiden på dit Anodyne® produkt afhænger af, hvordan du plejer det, og hvor ofte og hvor længe du bærer det. Som alt andet tøj, viser dette tøj også tegn på slid, afhængigt af hvor ofte du bærer det.<br\/><\/p><p>Det er vigtigt, at du følger plejevejledningen. Vi anbefaler håndvask, men det kan også vaskes i maskine, dog ikke over 30 grader. Brug ikke skyllemiddel, da det kan ødelægge den antimikrobielle behandling, der medvirker til at gøre t-shirten svedtransporterende. Brug ikke tørretumbler.<\/p><p>Hvis du passer på produktet i henhold til plejeinstruktionerne, vil produktet uden problemer kunne holde mellem 6 måneder og 2 år, alt efter hvor ofte du bruger det.<\/p>"
+            }
+          },
+          "c564418c-9354-4e58-a39a-0eb8c44ea728": {
+            "type": "category_block",
+            "settings": {
+              "dbtfy_faq_category": "Størrelsesguide",
+              "dbtfy_faq_icons": "support"
+            }
+          },
+          "7661c859-d1d1-46cb-971f-821b1ccccf03": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Hvilken størrelse skal jeg vælge?",
+              "text": "<p>At have den rigtige størrelse er afgørende for at opleve fordelene ved vores Posture Shirt™ og Anodyne BH. Se venligst størrelsesguiderne for at være sikker. Produktet er designet til at skulle slutte sig tæt til kroppen - særligt ved skuldrene. Ligger du og balancerer imellem to størrelser, skal du ofte vælge den mindste. Oftest skal man én til to størrelser ned. Hvis du er i tvivl, så tøv ikke med at kontakte os – vi hjælper gerne med at vurdere hvilken størrelse, du skal vælge.<\/p>"
+            }
+          },
+          "160931be-08d2-42b1-9b3f-04f4c35f2bf9": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Hvordan kan jeg se, om jeg har den rigtige størrelse?",
+              "text": "<p>For at opnå den rigtige effekt af Anodyne Posture Shirt™ skal den sidde tæt til din krop. Den bør sidde stramt, men ikke være ukomfortabel. For at afgøre, om du har den rigtige størrelse, kan du se på de fem NeuroBands der er inkorporeret i tøjet; de må ikke sidde løs.<br\/><br\/>Hvis din t-shirt sidder for løst, anbefaler vi dig at ombytte den til en størrelse mindre. Tøv ikke med at tage kontakt til os, hvis du er i tvivl om størrelsen - vi hjælper gerne med at vurdere hvilken størrelse, du skal vælge.<\/p>"
+            }
+          },
+          "bfe856a3-ef15-4b4b-873f-92b652251152": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Min Posture Shirt™ \/ Anodyne BH er (meget) stram, er den for lille?",
+              "text": "<p>Anodyne holdningskorrigerende tøj fra skal sidde tæt til kroppen for at have den ønskede effekt. Men det skal ikke føles ubehageligt. Hvis du ikke har mulighed for at bevæge dig frit, når du har din Posture Shirt™ eller Anodyne BH på er den muligvis for lille. Det bedste er at kontakte vores kundeservice, så vi kan hjælpe dig med at finde din rigtige størrelse. Hvis du kan tage et brystmål inden du ringer, har vi nemmere ved at vejlede dig. Du kan også sende et foto bagfra, der viser dig iført din Posture Shirt eller Anodyne BH, så vi kan se, hvordan produktet sidder på dig.<\/p>"
+            }
+          },
+          "a585ce43-5f0e-4e75-8428-2bf1d3baabf5": {
+            "type": "category_block",
+            "settings": {
+              "dbtfy_faq_category": "Brug",
+              "dbtfy_faq_icons": "support"
+            }
+          },
+          "e839b793-e06a-421a-b77e-53033c156439": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Hvordan tager jeg min Posture Shirt™ af og på?",
+              "text": "<p>At tage en stramtsiddende Posture Shirt™ af og på er anderledes end at tage en almindelig løstsiddende t-shirt af og på. Derfor har vi lavet en video der viser, hvordan man bedst tager din Posture Shirt™ af og på. Den finder du ved at <a href=\"https:\/\/youtu.be\/ukx1x-0QDK8 \" target=\"_blank\" title=\"https:\/\/youtu.be\/ukx1x-0QDK8 \">klikke her<\/a><br\/><br\/>Tip: Hvis du planlægger at bære din Posture Shirt™ under træning, anbefaler vi modellen med lynlås, da det kan være vanskeligt at tage t-shirten af, hvis du sveder. Hvis du foretrækker at anvende den almindelige Posture Shirt™ til træning er det nemmest at få den af ved at rulle den så højt op, som du kan og derefter trække trøjen over hovedet med én hånd.<\/p>"
+            }
+          },
+          "83b8055a-b308-46f8-8672-8f83bd45791f": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Hvornår bør jeg bruge mit holdningskorrigerende tøj fra Anodyne®?",
+              "text": "<p>Når som helst! Når du træner, handler ind, går tur, rejser, gør rent, arbejder eller ved andre aktiviteter. Til folk med fysiske problematikker, kan trøjen give mere fokus på kropsholdningen under aktiviteter og dermed hjælpe til at aflaste det udsatte område.<br\/><\/p><p>Vi anbefaler, at du starter langsomt op - begynd evt. med at bære din Posture Shirt™ i 1-2 timer om dagen den første uge. Prøv så vidt muligt at bruge det på tidspunkter, hvor du har mest brug for støtte - hvad end det er, når du sidder stille eller er aktiv. Efter en uge kan du bære din Posture Shirt™ i 8-10 timer alt afhængig af, hvor længe den føles behagelig. Tip! Bær dit holdningskorrigerende tøj under sportsaktiviteter, hvis du ofte har en dårlig holdning under dine øvelser.<\/p>"
+            }
+          },
+          "3306bdee-e3a8-4724-bae1-6283c801630b": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Er der nogen, der ikke bør benytte produkterne?",
+              "text": "<p>Vi er stolte af at vores Posture Shirt™ er MDR\/CE-mærket som medicinsk udstyr. Det betyder, at vores produkter lever op til de krav, der stilles for medicinsk udstyr. På den måde er du som kunde garanteret, at EU-lovgivningen for medicinsk udstyr og kravene til miljø, sundhed og sikkerhed er overholdt.<br\/><\/p><p>Folk med svære sygdomstilstande eller fysiologiske begrænsninger bør konsultere en fysioterapeut inden brug af tøjet. Er man ligeledes nyligt opereret, bør man snakke med en læge eller fysioterapeut om, hvorvidt det er for tidligt at begynde og arbejde med kropsholdningen. Vi anbefaler heller ikke, at børn og unge under 17 år bruger produkterne. Hvis din specialist ikke kender til vores produkt, er han\/hun mere end velkommen til at kontakte os for at lære mere.<\/p><p>I tilfælde af mobilitetsproblemer omkring skuldrene anbefaler vi at vælge Posture Shirt™ med lynlås, fordi den er noget lettere at få af og på.<\/p>"
+            }
+          },
+          "9ce299d6-a528-47b4-8f65-725d158f776b": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Hvor lang tid ad gangen bør jeg bruge tøjet?",
+              "text": "<p>Der er ikke et absolut svar på dette spørgsmål. Det hele afhænger af dit udgangspunkt. Er du allerede meget aktiv, har du for nylig gennemgået en operation osv.?<br\/><\/p><p>Generelt anbefaler vi, at du bruger din Posture Shirt™ i op til to timer dagligt den første uge. Herefter kan du gradvist øge brugen. Hvis du oplever træthed inden for de første par timer, så tag den af og prøv igen dagen efter. Mærk efter, og tag det i det tempo, der fungerer bedst for dig. For nogle fungerer det godt at starte med en halv time, mens andre kan bære det i to timer fra dag ét. Eftersom du aktiverer ellers inaktive muskler, kan du opleve ømhed den første uge. Men tænk på det, som noget godt - det betyder blot, at dine muskler fungerer. Denne gradvise tilvænning tillader en glidende og blid overgang til at vedligeholde en optimal kropsholdning i længere og længere tid ad gangen.<br\/><\/p><p>Når du begynder at bruge din Posture Shirt™ i længere perioder ad gangen, bygger du hurtigt muskelhukommelse op, hvilket betyder, at du gradvist justerer din kropsholdning - selv når du ikke har din Posture Shirt™ på. Når du oplever dette, kan du reducere brugen af din Posture Shirt™ til 3-4 gange om ugen.<\/p><p>Nedenfor har vi lavet en plan for den typiske indledende brug af din Posture Shirt™:<\/p><p><strong>Uge 1:<\/strong><\/p><p>Dag 1-3: Bær den i 1-2 timer (hvis du ikke føler nogen ømhed efter dag 1, kan du fordoble den tid, du har den på).<\/p><p>Dag 4-7: Bær den i 2 timer dagligt (hvis du ikke føler nogen ømhed, kan du fordoble den tid, du har den på) .<\/p><p>Dag 8 og fremefter: Bær den gerne i 8-10 timer om dagen, 3-4 gange om ugen. Hvis du føler dig øm og træt i dine muskler, kan du reducere timerne og langsomt bygge op igen.<\/p><p>Hvis du er i tvivl om, hvad der er bedst for dig, så tøv ikke med at kontakte os - vi vil med glæde rådgive dig.<\/p>"
+            }
+          },
+          "24c9069e-5591-42a4-b0b1-1ba393faa10a": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Hvordan passer jeg bedst på mine Anodyne®-produkter?",
+              "text": "<p>Posture Shirt™, AlignMe InterActive Bra samt leggings må maskinvaskes ved maksimalt 30 grader, men for at opnå længst mulig levetid på produkterne, anbefaler vi, at du håndvasker dem. Brug ALDRIG skyllemiddel, da dette ødelægger den behandling, der er med til at gøre produkterne svedtransporterende. Brug ALDRIG tørretumbler, da det ødelægger tøjet. SpinalQ Pro og MyLign Pro må kun vaskes i hånden og lufttørres. Produkterne tørrer heldigvis hurtigt, når de hænger frit natten over.<\/p>"
+            }
+          },
+          "535bddc1-f4fb-45da-8f9c-4d7b3d9a375f": {
+            "type": "category_block",
+            "settings": {
+              "dbtfy_faq_category": "Levering",
+              "dbtfy_faq_icons": "support"
+            }
+          },
+          "ccfa0081-2993-4cad-986e-299ad2711d18": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Jeg har endnu ikke modtaget min pakke, hvad skal jeg gøre?",
+              "text": "<p>Hvis der er gået tre arbejdsdage siden du modtog bekræftelsen på, at din ordre er sendt, og du stadig ikke har modtaget den, bedes du kontakte os, så vi kan tracke din pakke. I mange tilfælde ligger din pakke klar på det lokale posthus, men du er muligvis ikke blevet informeret herom. I tilfælde af, at din pakke ikke er til at finde i fragtfirmaets system, sender vi naturligvis din ordre på ny med det samme.<\/p>"
+            }
+          },
+          "e0aad449-d74c-445d-98ee-e08f97e98fa3": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Hvor lang tid tager levering?",
+              "text": "<p>Vi sigter mod at sende samme dag, hvis du bestiller inden kl. 14 på hverdage. I meget travle perioder sender vi muligvis først den følgende hverdag. Vores normale leveringstid fra bestilling til levering er 1-3 hverdage (man-fre). Bemærk, at vi ikke sender i weekender.<\/p>"
+            }
+          },
+          "de205e96-066f-4c7f-a04c-351b8dc03979": {
+            "type": "category_block",
+            "settings": {
+              "dbtfy_faq_category": "Bestilling & Betaling",
+              "dbtfy_faq_icons": "support"
+            }
+          },
+          "3809a5e7-7c91-41f7-912f-ae2ee8f7b5cd": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Hvilke betalingsmuligheder tilbyder I?",
+              "text": "<p>Du kan betale med kreditkort, ViaBill, Mobilepay, Klarna og PayPal. Det er desværre ikke muligt at betale via telefonopkald eller med check.<\/p>"
+            }
+          },
+          "c8ab5243-02cf-41ef-9c2c-eeb2eb967467": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Hvad er Klarna, og hvordan fungerer en betaling via denne mulighed?",
+              "text": "<p>Med Klarna kan du betale for din ordre 30 dage efter levering. Dette betyder, at du kan have produktet i hånden, inden du tager en beslutning om, hvorvidt du vil købe det.<br\/><\/p><p>Du modtager en påmindelse to dage før din betaling forfalder, og du modtager også e-mail-påmindelser, så det er vigtigt, at du indtaster dit telefonnummer og din e-mail korrekt.<\/p><p><\/p>"
+            }
+          },
+          "f42ad615-c53e-4120-b521-7297d2d23cb0": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Kan jeg ændre min ordre?",
+              "text": "<p>Hvis din ordre endnu ikke er afsendt, kan vi sagtens lave ændringer for dig. Kontakt os hurtigst muligt på telefon 5389 0017 eller send en mail til info@anodyne.dk, så ser vi, om din pakke stadig er hos os.<\/p>"
+            }
+          },
+          "27452e2c-2dd6-4e78-9f00-9ef214e95f51": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Jeg har lagt en ordre. Kan jeg annullere den?",
+              "text": "<p>Hvis din ordre endnu ikke er sendt, kan du kontakte vores kundeservice, så vi kan annullere din ordre. Hvis din pakke allerede er sendt, kan du returnere den. Så snart vi får pakken retur, behandler vi refusionen.<\/p>"
+            }
+          },
+          "a8e91025-c107-42fd-97f6-bdeb9dc84ad2": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Jeg har modtaget det forkerte produkt. Hvad skal jeg gøre?",
+              "text": "<p>Hos Anodyne pakker vi hundredetusindevis af produkter om året. I forbindelse hermed kan der desværre ske fejl, som resulterer i, at du modtager det forkerte produkt. Det er vi naturligvis meget ked af. Hvis du er en af de uheldige som dette er sket for, skal du bruge den forudbetalte returlabel i din pakke og returnere produktet sammen med returformularen, hvor du angiver, at du har modtaget det forkerte produkt. Vi prioriterer at få det rigtige produkt sendt til dig i en fart.<\/p>"
+            }
+          },
+          "a4fb568f-5eb5-47fd-9de0-caef948745df": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Hvor lang er garantien på Anodyne® produkter?",
+              "text": "<p>Du har 24 måneders reklamationsret. Hvis produktet er defekt, bytter vi det, så længe du har fulgt plejeinstruktionerne. Skulle dit produkt mod forventning have en fabrikationsfejl, tager vi naturligvis den defekte vare tilbage og refunderer det indbetalte beløb eller bytter produktet til et nyt. Hvis du er en af de få, der er uheldige at sidde med et defekt produkt, så kontakt os hurtigst muligt, så vi kan sende dig et nyt produkt, som du kan få glæde af. Vi ønsker, at du skal være fuldt ud tilfreds med dit køb.<\/p>"
+            }
+          },
+          "1165499a-02b2-4234-87d6-cbca09f9a06e": {
+            "type": "category_block",
+            "settings": {
+              "dbtfy_faq_category": "Ombytning & Retur",
+              "dbtfy_faq_icons": "support"
+            }
+          },
+          "01d1a4d8-9f8d-4c48-af64-d9c7f12a1efb": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Hvad betyder jeres 30-dages prøveperiode?",
+              "text": "<p>Hos Anodyne® er det vores mål, at du skal være 100% tilfreds. Det indebærer blandt andet, at du har en 30-dages prøveperiode. Det betyder, at du inden for 30 dage frit kan teste og afprøve dit produkt, og finde ud af, om det lever op til dine forventninger. Brug tøjet i din hverdag, på arbejde, til sport eller i andre sammenhænge og lad dette afgøre, om du er tilfreds med dit produkt. Du må gerne vaske tøjet med parfumeri vaskemiddel i denne periode.<br\/><\/p><p>Skulle du mod forventning ikke være tilfreds, anvender du blot den medsendte gratis returlabel. Produktet skal leveres tilbage til Anodyne® i original emballage, i god stand, uden stærk lugt af f.eks. parfume eller røg og med alle vaske- og produktmærker intakte. Herefter vil du modtage fuld refusion. Hvis der er brugt skyllemiddel eller tørretumbler, kan vi afvise at refundere det betalte beløb, da produktet herved bliver ødelagt.<\/p>"
+            }
+          },
+          "22d4bc2c-7c72-4162-89bc-0662744a5aeb": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Kan jeg ombytte mit\/mine bestilte produkt(er)?",
+              "text": "<p>Ja, hvis du stadig er inden for din 30-dages prøveperiode. Udfyld returformularen med dit navn, ordrenummer og den størrelse, du vil ombytte til. Så snart vi modtager din pakke, behandler vi din ombytning og sender et nyt produkt afsted til dig. Når du har modtaget dit nye produkt, starter en ny 30-dages prøveperiode.<br\/><\/p><p>Hvis du er i tvivl om din størrelse, så tøv ikke med at kontakte vores kundeservice, så vi kan hjælpe dig med at vælge den rigtige størrelse.<\/p>"
+            }
+          },
+          "5ccc6c42-e193-4781-b245-1a612fe8b76d": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Kan jeg returnere det\/de produkt(er), jeg har bestilt?",
+              "text": "<p>Ja, du har 30 dages fuld returret med refusion af hele beløbet. Udfyld og vedlæg den medsendte returformular med navn og ordrenummer og tilføj, at du ønsker at returnere produktet\/produkterne mod refusion. Herefter kan du sende pakken retur med den medsendte forudbetalte returlabel.<\/p>"
+            }
+          },
+          "94547239-64d8-49d3-9ca9-0f9588c84671": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Koster det mig noget, når jeg ønsker at ombytte inden for 30 dage?",
+              "text": "<p>Du kan nemt og gratis sende dit produkt retur ved at udfylde den medsendte gratis returlabel og returformular. Hvis du ønsker at ombytte til en anden størrelse eller farve kræves der ingen betaling. Vi ombytter blot og sender dig et nyt produkt. Hvis du bytter til et billigere produkt, opretter vi en refusion for forskellen. Hvis du ønsker at bytte dit produkt til et dyrere produkt, skal du returnere dit produkt mod en fuld refusion og herefter lægge en ny ordre med det ønskede produkt på vores hjemmeside.<\/p>"
+            }
+          },
+          "7f15f122-e418-4f58-8ea3-f4b218761da0": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Hvordan returnerer jeg min ordre?",
+              "text": "<p>Udfyld den medsendte returformular med dit navn, ordrenummer og oplysninger om, at du vil returnere produktet mod en refusion, eller at du vil bytte produktet for en anden størrelse eller et andet produkt. Brug venligst den medsendte og forudbetalte returlabel. Så snart vi modtager din pakke, behandler vi den og sørger for, at din anmodning bliver imødekommet. <\/p>"
+            }
+          },
+          "0e28a17a-8e36-491c-8c64-2c5098b9d3c4": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Betaler jeg for ombytning eller returnering af et produkt?",
+              "text": "<p>Nej, i din ordre finder du en forudbetalt returlabel (sørg for at beholder den i din 30-dages prøveperiode, da vi ikke kan sende dig en ny label). Anbring din label på den originale emballage, som du har modtaget din ordre i. Sørg for at udfylde og medsende returformularen med dit navn, ordrenummer og grunden til returnering (refusion eller bytte), og vi sørger for, at din anmodning bliver imødekommet.<\/p>"
+            }
+          },
+          "5e725c8e-afa6-4af3-a42f-6ca06c20eea2": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Mit nyligt modtagne produkt er beskadiget eller ødelagt. Hvad skal jeg gøre?",
+              "text": "<p>Hos Anodyne gør vi altid vores bedste for at sikre, at alle produkter leveres i god stand. En fabriksfejl kan dog altid ske. Hvis du modtager et beskadiget eller ødelagt produkt, skal du kontakte kundeservice hurtigst muligt - så sørger vi for, at du får et nyt produkt.<\/p>"
+            }
+          },
+          "426b28df-ebbd-4803-bddd-a84c6c77234e": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Jeg har returneret min vare. Hvornår får jeg mine penge tilbage?",
+              "text": "<p>Normalt modtager vi din returpakke inden for 3-5 arbejdsdage. Vi bestræber os på at behandle din refusion samme dag. Hvis du har betalt med PayPal, får du pengene tilbage til din PayPal-konto inden for få minutter efter modtagelse af vores e-mail, der bekræfter refusionen.<\/p><p>Hvis du har købt ved hjælp af et kreditkort eller betalingskort, tager det typisk 2-5 dage, før pengene er tilbage på din bankkonto.<\/p><p>Hvis du har betalt for din ordre med ved hjælp af Klarna, tilbagebetales refusionen til det samme kort inden for 14 dage efter, at Anodyne har annulleret ordren.<\/p>"
+            }
+          },
+          "511b7f8d-9aa7-43a3-b67d-b6d1ff8a9e2f": {
+            "type": "text_block",
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Jeg fik mit produkt som en gave. Kan jeg få købsbeløbet tilbagebetalt til min egen konto?",
+              "text": "<p>Vi kan desværre ikke tilbagebetale penge til en anden konto end til den, hvor pengene oprindeligt blev trukket. Hvis produktet ikke er noget for dig, og du ikke ønsker at involvere den person, der gav dig produktet som en gave, kan du i stedet vælge at ombytte produktet til en anden vare. Anvend blot den medsendte forudbetalte returlabel og returformular.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "21170241-e223-4c47-bc79-e2ee2878272e",
+          "98f5a103-7050-4f71-9ceb-d51064a0571c",
+          "51d055bd-7606-4a10-8020-661e7baaf994",
+          "b3cb421f-11d4-472c-95a9-a2a96bd8c1b4",
+          "fff8ad10-293f-4a80-9dfd-49bae841f95b",
+          "93093c45-1166-4eb5-99da-f580e03c0459",
+          "537d2df8-4438-411b-94f8-22a1c0f58067",
+          "c564418c-9354-4e58-a39a-0eb8c44ea728",
+          "7661c859-d1d1-46cb-971f-821b1ccccf03",
+          "160931be-08d2-42b1-9b3f-04f4c35f2bf9",
+          "bfe856a3-ef15-4b4b-873f-92b652251152",
+          "a585ce43-5f0e-4e75-8428-2bf1d3baabf5",
+          "e839b793-e06a-421a-b77e-53033c156439",
+          "83b8055a-b308-46f8-8672-8f83bd45791f",
+          "3306bdee-e3a8-4724-bae1-6283c801630b",
+          "9ce299d6-a528-47b4-8f65-725d158f776b",
+          "24c9069e-5591-42a4-b0b1-1ba393faa10a",
+          "535bddc1-f4fb-45da-8f9c-4d7b3d9a375f",
+          "ccfa0081-2993-4cad-986e-299ad2711d18",
+          "e0aad449-d74c-445d-98ee-e08f97e98fa3",
+          "de205e96-066f-4c7f-a04c-351b8dc03979",
+          "3809a5e7-7c91-41f7-912f-ae2ee8f7b5cd",
+          "c8ab5243-02cf-41ef-9c2c-eeb2eb967467",
+          "f42ad615-c53e-4120-b521-7297d2d23cb0",
+          "27452e2c-2dd6-4e78-9f00-9ef214e95f51",
+          "a8e91025-c107-42fd-97f6-bdeb9dc84ad2",
+          "a4fb568f-5eb5-47fd-9de0-caef948745df",
+          "1165499a-02b2-4234-87d6-cbca09f9a06e",
+          "01d1a4d8-9f8d-4c48-af64-d9c7f12a1efb",
+          "22d4bc2c-7c72-4162-89bc-0662744a5aeb",
+          "5ccc6c42-e193-4781-b245-1a612fe8b76d",
+          "94547239-64d8-49d3-9ca9-0f9588c84671",
+          "7f15f122-e418-4f58-8ea3-f4b218761da0",
+          "0e28a17a-8e36-491c-8c64-2c5098b9d3c4",
+          "5e725c8e-afa6-4af3-a42f-6ca06c20eea2",
+          "426b28df-ebbd-4803-bddd-a84c6c77234e",
+          "511b7f8d-9aa7-43a3-b67d-b6d1ff8a9e2f"
+        ],
+        "settings": {
+          "show_on_desktop": true,
+          "show_on_mobile": true,
+          "dbtfy_faq_searchbox": true,
+          "dbtfy_faq_search_placeholder": "Søg efter spørgsmål",
+          "dbtfy_faq_bannerbox": true,
+          "dbtfy_faq_banner_icon": "live_help",
+          "dbtfy_faq_banner_text": "Fandt du ikke svar på dit spørgsmål?",
+          "dbtfy_faq_banner_subtitle": "Så husk at vores kundeservice sidder klar til at hjælpe dig både før, under og efter dit køb.",
+          "dbtfy_faq_btn": "Kontakt os",
+          "dbtfy_faq_link": "shopify:\/\/pages\/kontakt"
+        }
+      },
+      "map": {
+        "type": "map",
+        "settings": {
+          "show_on_desktop": false,
+          "show_on_mobile": false,
+          "hide_section": false,
+          "heading": "Our store",
+          "address": "<p>123 Fake St.<br\/>Toronto, Canada<\/p><p>Mon - Fri, 10am - 9pm<br\/>Saturday, 11am - 9pm<br\/>Sunday, 11am - 5pm<\/p>",
+          "map_address": "490 Rue De La Gauchetière O, Montréal",
+          "button_text": "Get directions",
+          "map_icon": "location_on",
+          "api_key": "",
+          "image_position": "center center"
         }
       }
     },
