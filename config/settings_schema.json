@@ -1594,6 +1594,18 @@
     ]
   },
   {
+    "name": "Landing Page Blocks",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "landing_page_blocks",
+        "label": "Landing page blocks",
+        "info": "Add draggable sections to both custom and product pages. [Learn more](https:\/\/help.debutify.com\/en\/articles\/5379763-how-to-use-page-builder-add-on-in-debutify-3-0-shopify-theme)",
+        "default": false
+      }
+    ]
+  },
+  {
     "name": "✅ Debutify Add-ons (54)",
     "settings": [
       {
@@ -1824,13 +1836,6 @@
         "label": "Order tracking",
         "info": "Let your customer track their orders directly from within your store. [Learn more](https:\/\/help.debutify.com\/en\/articles\/5057483-how-to-use-order-tracking-in-debutify-3-0)",
         "default": true
-      },
-      {
-        "type": "checkbox",
-        "id": "dbtfy_page_builder",
-        "label": "Page builder",
-        "info": "Add draggable sections to both custom and product pages. [Learn more](https:\/\/help.debutify.com\/en\/articles\/5379763-how-to-use-page-builder-add-on-in-debutify-3-0-shopify-theme)",
-        "default": false
       },
       {
         "type": "checkbox",
