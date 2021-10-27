@@ -3364,7 +3364,9 @@ button {
   line-height: 1;
   display: inline-block;
   position: relative;
-
+  &.badge__2{
+      display: none;
+  }
   & > .tooltip-wrapper {
     position: initial;
   }
@@ -4962,7 +4964,9 @@ cite {
   flex-basis: 0;
   -ms-flex-positive: 1;
   flex-grow: 1;
-
+  &.xtra-padding{
+    padding-left:$gutter-sm;
+  }
   @include screen($small) {
     padding-left: $gutter-sm;
     width: 100%;
@@ -5015,6 +5019,7 @@ cite {
     cursor: pointer;
     .media-wrapper{
       padding-top: 100px !important;
+      background-color: $white;
 
       .bg__white-img{
         max-width: 100px;
@@ -5023,6 +5028,36 @@ cite {
       }
     }
     .bg__white-textholder{
+      padding: $gutter-sm;
+      .rte{
+        p{
+          color: $cTextGray;
+          font-size:.95rem;
+          line-height:1.4;
+        }
+      }
+      .btn--small{
+        @include button($colorDarkGray, $colorButtonText);
+      }
+    }
+
+    &:hover {
+      transform: translateY(-8px);
+      @include shadow($shadow-xs);
+      @include transition($transitions);
+      .btn--primary{
+        background-color: $colorDarkGray;
+      }
+    }
+  }
+}
+.bg__HTML{
+  .bg__HTML-contentholder{
+    padding: $gutter-sm;
+    background-color: $white;
+    border: $bordersLight;
+    cursor: pointer;
+    .bg__HTML-textholder{
       padding: $gutter-sm;
       .rte{
         p{
@@ -5688,6 +5723,14 @@ cite {
     }
   }
   .nav-container-menu{
+    .site-nav__item{
+      &.site-nav--active{
+        .site-nav__link{
+          color: darken($cPrimary, 5%);
+          font-weight:600;
+        }
+      }
+    }
     .site-nav__item:nth-of-type(1){
       .site-nav__link{
         &::before{
@@ -6583,6 +6626,11 @@ background-color: $colorAccent;
     .image {
       border-radius: 0;
     }
+    .no-repeat{
+      background-repeat: no-repeat;
+      background-size: cover;
+    
+    }
   }
 }
 
@@ -6990,6 +7038,10 @@ background-color: $colorAccent;
 .product-single__meta--wrapper {
   margin-top: $gutter;
   @include align-self(flex-start);
+  @include screenUp($postSmall){
+    margin-top: 0;
+    padding-left: $gutter;
+  }
 }
 
 // Title
@@ -9988,7 +10040,7 @@ selector[data-type="languages"][data-id="283692853"].ls-sw-closed > .active:afte
     font-weight:700;
     font-family: inherit;
     font-size:0.95rem;
-    color: $cTextGray;
+    color: $cPrimary;
     code {
       img{
         width:18px;
@@ -10036,16 +10088,16 @@ selector[data-type="languages"][data-id="283692853"].ls-sw-closed > .active:afte
   }
   .image-content{
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     width: 90%;
     text-align: center;
-    transform: translate(-50%, -60%);
+    transform: translate(-50%, -50%);
     z-index: 2;
     @include screenUp($postSmall){
-      top: 50%;
+      top: 40%;
       width: 60%;
-      transform: translate(-50%, -50%);
+      transform: translate(-50%, -60%);
     }
     .image-title{
       font-size: clamp($cH1, 5vw, $cHeroSize); 

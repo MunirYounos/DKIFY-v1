@@ -1,4 +1,4 @@
-<div id="section-{{ section.id }}" class="{% unless section.settings.show_on_desktop %} medium--hide large--hide{% endunless %} {% unless section.settings.show_on_mobile %} small--hide{% endunless %} {{ section.settings.section_style }}" data-section-id="{{ section.id }}" data-section-type="featured-columns-section">
+<div id="section-{{ section.id }}" class="{% unless section.settings.show_on_desktop %} medium--hide large--hide{% endunless %} {% unless section.settings.show_on_mobile %} small--hide{% endunless %} {{ section.settings.section_style }}" data-section-id="{{ section.id }}" data-section-type="featured-HTML-section">
   <div class="box">
     <div class="wrapper">
 
@@ -26,20 +26,18 @@
 
           <!-- Blocks -->
           {%- for block in section.blocks -%}
-            <div class="grid__item  {{ column_width }}  bg__white" {{ block.shopify_attributes }}>
-              <div class="bg__white-contentholder">
+            <div class="grid__item  {{ column_width }}  bg__HTML" {{ block.shopify_attributes }}>
+              <div class="bg__HTML-contentholder">
               {%- if block.settings.image != blank -%}
                 <div class="media-wrapper spacer-bottom" style="padding-top:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100}}%;">
-                  <img class="media lazyload bg__white-img"
+                  <img class="media lazyload bg__HTML-img"
                   {%- render 'lazysizes', img: block.settings.image, img_type: 'responsive' -%}
                   alt="{{ block.settings.image.alt }}">
                 </div>
-              {%- elsif block.settings.icon != blank -%}
-                <span class="{{settings.icon}} icon-xl text-secondary" aria-hidden="true">{{block.settings.icon}}</span>
               {%- else -%}
                 {{ 'image' | placeholder_svg_tag: 'placeholder-svg spacer-bottom' }}
               {%- endif -%}
-              <div class="bg__white-textholder">
+              <div class="bg__HTML-textholder">
               <h2 class="h3">{{ block.settings.title }}</h2>
               <div class="rte">{{ block.settings.text }}</div>
               {%- unless block.settings.button_label == blank -%}
@@ -62,8 +60,8 @@
 
 {% schema %}
   {
-    "name": "Text columns with images",
-    "class": "featured-columns-section",
+    "name": "Text columns with HTML",
+    "class": "featured-HTML-section",
     "max_blocks": 4,
     "settings": [
       {
@@ -132,7 +130,7 @@
 	  ],
 	  "blocks" : [
 	    {
-        "type": "text_block",
+        "type": "HTML_block",
         "name": "Column",
         "settings": [
 		      {
@@ -142,18 +140,12 @@
           },
           {
             "type": "text",
-            "id": "icon",
-            "label": "Icon",
-            "info": "[View all available icons](https:\/\/material.io\/resources\/icons)"
-          },
-          {
-            "type": "text",
             "id": "title",
             "label":"Heading",
             "default": "Add a title or tagline"
           },
           {
-            "type": "richtext",
+            "type": "html",
             "id": "text",
             "label": "Text",
             "default":"<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.</p>"
@@ -193,17 +185,17 @@
     ],
 	  "presets": [
       {
-        "name":  "Text columns with images",
+        "name":  "Text columns with HTML",
         "category": "Image and text",
 		    "blocks": [
           {
-            "type": "text_block"
+            "type": "HTML_block"
           },
           {
-            "type": "text_block"
+            "type": "HTML_block"
           },
           {
-            "type": "text_block"
+            "type": "HTML_block"
           }
         ]
       }

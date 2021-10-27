@@ -7,7 +7,7 @@
       <div class="image-link">
         {%- if section.settings.image != blank -%}
           <div class="media-wrapper featured-responsive" style="padding-top:{{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100}}%;">
-            <img class="media lazyload"
+            <img class="media no-repeat lazyload"
             {%- render 'lazysizes', img: section.settings.image, img_type: 'background' -%}
             alt="{{ section.settings.image.alt }}">
             <div class="image-content">
@@ -66,7 +66,7 @@
       {
         "type": "image_picker",
         "id": "image",
-        "label": "Image.."
+        "label": "Image Dimensions: 1920X1080px or adjust hieght"
       },
       {
         "type": "select",
