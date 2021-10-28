@@ -1,12 +1,12 @@
 {
+	"name": "Temporary Templage",
 	"sections": {
 		"main": {
-			"type": "video-background",
+			"type": "featured-image",
 			"settings": {}
 		}
 	},
 	"order": [
 		"main"
 	]
-
 }

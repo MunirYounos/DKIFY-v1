@@ -1,7 +1,6 @@
 <div id="section-{{ section.id }}" class="{% unless section.settings.show_on_desktop %} medium--hide large--hide{% endunless %} {% unless section.settings.show_on_mobile %} small--hide{% endunless %} {{ section.settings.section_style }}" data-section-id="{{ section.id }}" data-section-type="featured-HTML-section">
-  <div class="box">
+  <div class="box box-small">
     <div class="wrapper">
-
       {%- unless section.settings.title == blank and section.settings.subtitle == blank -%}
         <div class="grid">
           <div class="grid__item large--eight-twelfths push--large--two-twelfths ">
@@ -16,16 +15,15 @@
            </div>
         </div>
       {%- endunless -%}
-
+    </div>
+  </div>
       {%- if section.blocks.size > 0 -%}
-        <div class="grid grid-spacer {{ section.settings.text_align }}">
-          {%- capture column_width -%}
-            {%- render 'block-width' -%}
-          {%- endcapture -%}
-
           <!-- Blocks -->
 					{%- for block in section.blocks -%}
+          {%- assign wrapper_size = block.settings.wrapper_size -%}
           <!-- Custom HTML -->
+   <div class="box box-small">
+          <div class="wrapper{{wrapper_size}}">
                 <div class="grid grid-spacer">
 												{%- for i in (1..10) -%}
 													{%- assign html_area = 'html_area_' | append: forloop.index -%}
@@ -98,13 +96,13 @@
 											</div>
 					{%- endfor -%}
         </div>
+      </div>
       {%- else -%}
         {%- render 'no-blocks' -%}
       {%- endif -%}
 
-    </div>
-  </div>
-</div>
+ </div>
+
 
 
 {% schema %}
@@ -155,26 +153,6 @@
 					"label": "Border top"
 				}
 			]
-		},
-		{
-			"type": "select",
-			"id": "text_align",
-			"label": "Text align",
-			"default": "text-center",
-			"options": [
-				{
-					"value": "",
-					"label": "Left"
-				},
-				{
-					"value": "text-center",
-					"label": "Center"
-				},
-				{
-					"value": "text-right",
-					"label": "Right"
-				}
-			]
 		}
 	],
   "blocks" : [
@@ -182,6 +160,26 @@
       "type": "HTML_column",
       "name": "Custom HTML",
       "settings": [
+        {
+          "type": "select",
+          "id": "wrapper_size",
+          "label": "Wrapper size",
+          "default": "",
+          "options": [
+            {
+              "value": "",
+              "label": "Default"
+            },
+            {
+              "value": "-fluid",
+              "label": "Fluid"
+            },
+            {
+              "value": "-full",
+              "label": "Full"
+            }
+          ]
+        },
         {
           "type": "header",
           "content": "HTML 1"

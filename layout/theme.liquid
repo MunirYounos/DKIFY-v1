@@ -8,14 +8,9 @@
     <meta name="theme-color" content="{{ settings.color_body_bg }}">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
-    <meta name="author" content="Debutify">
-    {%- if template == 'page' -%}
-    {%- if page.handle  == 'privacybeleid' or page.handle == 'verzending-en-levering' or page.handle == 'Verkoopvoorwaarden' -%}
-       <meta name="robots" content="noindex" />
-    {%- endif -%}
-    {%- endif -%}
-    {%- if template contains 'search' -%}
-       <meta name="robots" content="noindex" />
+    <meta name="author" content="Anodyne">
+    {%- if handle contains 'search' or handle contains 'privacy-policy' or handle contains 'terms-of-service' or handle contains 'refund-policy' -%}
+    <meta name="robots" content="noindex" />
     {%- endif -%}
     <!-- Preconnect external resources -->
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>

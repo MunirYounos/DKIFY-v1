@@ -1,0 +1,12 @@
+{
+	"name": "Hvem er vi Templage",
+	"sections": {
+		"main": {
+			"type": "featured-image",
+			"settings": {}
+		}
+	},
+	"order": [
+		"main"
+	]
+}
