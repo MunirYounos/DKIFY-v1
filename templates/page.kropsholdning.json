@@ -1,12 +1,262 @@
 {
-	"name": "Temporary Templage",
-	"sections": {
-		"main": {
-			"type": "featured-image",
-			"settings": {}
-		}
-	},
-	"order": [
-		"main"
-	]
+  "sections": {
+    "main": {
+      "type": "featured-image",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/Kropsholdning_hero3.jpg",
+        "section_style": "section-blank",
+        "image_title": "Hvordan forbedrer jeg min kropsholdning?",
+        "image_subtitle": "",
+        "image_btntext": "",
+        "image_link": "",
+        "show_on_image_scrolldown": true
+      }
+    },
+    "1635768531cb520ba5": {
+      "type": "mission",
+      "blocks": {
+        "1635768531cb520ba5-0": {
+          "type": "html",
+          "settings": {
+            "mission_title": "<div style=\"padding-top:30px\"><h2 class=\"h1\">Fordele ved god kropsholdning<\/h2><\/div>",
+            "mission_description": "<div style=\"padding-left:20px;padding-right:20px\">\n<p>De fleste af os ved, at det er vigtigt at have en god kropsholdning, uanset om vi sidder, står eller bevæger os. Men hvorfor egentligt? Der er mange grunde til, at man bør gå op i sin kropsholdning, men her har vi fremhævet de seks vigtigste fysiske og psykiske fordele ved en sund og rank kropsholdning.<\/p>\n<\/div>",
+            "column_width": 12,
+            "column_width_mobile": 12,
+            "text_alignment": "text-center",
+            "btn_text": "",
+            "btn_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1635768531cb520ba5-0"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "padding_section": true,
+        "section_style": "section-blank",
+        "wrapper_size": ""
+      }
+    },
+    "16357615190b1aea37": {
+      "type": "HTML-columns",
+      "blocks": {
+        "16357615190b1aea37-0": {
+          "type": "HTML_column",
+          "settings": {
+            "wrapper_size": "",
+            "html_area_1": "<div style=\"padding-left:40px;padding-right:40px\">\n<img src=\"https:\/\/i.ibb.co\/TPGrXrV\/Ease.png\" alt=\"Ease\" style=\"max-width:50px;width:100%\"><h2>Lindrer smerter\n<\/h2>\n<p>Kan lindre spændinger og smerter i ryg, skuldre og nakke.<\/p>\n<\/div>",
+            "column_width_1": 4,
+            "column_width_mobile_1": 12,
+            "text_alignment_1": "text-center",
+            "html_area_2": "<div style=\"padding-left:40px;padding-right:40px\">\n<img src=\"https:\/\/i.ibb.co\/t8q4kDW\/Prevents.png\" alt=\"Ease\" border=\"0\" style=\"max-width:50px;width:100%\"><h2>Forebygger<\/h2>\n<p>Hjælper med at forhindre, at du får problemer med smerter i fremtiden.<\/p>\n<\/div>",
+            "column_width_2": 4,
+            "column_width_mobile_2": 12,
+            "text_alignment_2": "text-center",
+            "html_area_3": "<div style=\"padding-left:40px;padding-right:40px\">\n<img src=\"https:\/\/i.ibb.co\/BCR1Fg3\/Alleviate.png\" alt=\"Ease\" border=\"0\" style=\"max-width:50px;width:100%\"><h2>Aflaster<\/h2>\n<p>Aflaster udsatte muskelgrupper og sikrer, at din krop holder mange år endnu.<\/p>\n<\/div>",
+            "column_width_3": 4,
+            "column_width_mobile_3": 12,
+            "text_alignment_3": "text-center",
+            "html_area_4": "<div style=\"padding-left:40px;padding-right:40px\">\n<img src=\"https:\/\/i.ibb.co\/bLg6Mnn\/Smile.png\" alt=\"Ease\" border=\"0\" style=\"max-width:50px;width:100%\"><h2>Løfter humøret<\/h2>\n<p>En sund kropsholdning giver bedre humør og mere energi i hverdagen.<\/p>\n<\/div>",
+            "column_width_4": 4,
+            "column_width_mobile_4": 12,
+            "text_alignment_4": "text-center",
+            "html_area_5": "<div style=\"padding-left:40px;padding-right:40px\">\n<img src=\"https:\/\/i.ibb.co\/KV56kZB\/Radiance.png\" alt=\"Ease\" border=\"0\" style=\"max-width:50px;width:100%\"><h2>Forbedrer udstråling<\/h2>\n<p>En god kropsholdning forbedrer vores udstråling og efterlader et godt indtryk.<\/p>\n<\/div>",
+            "column_width_5": 4,
+            "column_width_mobile_5": 12,
+            "text_alignment_5": "text-center",
+            "html_area_6": "<div style=\"padding-left:40px;padding-right:40px\">\n<img src=\"https:\/\/i.ibb.co\/BsTXCGL\/Confidence.png\" alt=\"Ease\" border=\"0\" style=\"max-width:50px;width:100%\"><h2>Øger selvtillid <\/h2>\n<p>En sund og rank kropsholdning giver mere overskud og gør os mere selvsikre.<\/p>\n<\/div>",
+            "column_width_6": 4,
+            "column_width_mobile_6": 12,
+            "text_alignment_6": "text-center",
+            "html_area_7": "",
+            "column_width_7": 4,
+            "column_width_mobile_7": 12,
+            "text_alignment_7": "text-center",
+            "html_area_8": "",
+            "column_width_8": 4,
+            "column_width_mobile_8": 12,
+            "text_alignment_8": "text-center",
+            "html_area_9": "",
+            "column_width_9": 4,
+            "column_width_mobile_9": 12,
+            "text_alignment_9": "text-center",
+            "html_area_10": "",
+            "column_width_10": 4,
+            "column_width_mobile_10": 12,
+            "text_alignment_10": "text-center"
+          }
+        }
+      },
+      "block_order": [
+        "16357615190b1aea37-0"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "",
+        "subtitle": "",
+        "section_style": "section-blank"
+      }
+    },
+    "16357631254fec40e6": {
+      "type": "featured-html-columns",
+      "blocks": {
+        "16357631254fec40e6-0": {
+          "type": "HTML_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Traening.jpg",
+            "title": "Træning og styrkeøvelser",
+            "text": "<p>Spændte og svage muskler er ofte årsagen til en dårlig kropsholdning, da de ikke kan holde overkroppen på plads. \n<br>\nDerfor er udstrækningsøvelser og styrketræning en god måde at forbedre kropsholdningen på.  \nHar du brug for nogle nemme hverdagsøvelser, har vi i samarbejde med kiropraktoren Michael lavet en video med effektive øvelser, som kun tager fem minutter at lave.<\/p>",
+            "button_style": "btn-outline-primary",
+            "button_label": "Se video",
+            "button_link": "shopify:\/\/pages\/ovelser-til-lindring-af-spaendinger"
+          }
+        },
+        "16357631254fec40e6-1": {
+          "type": "HTML_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_woman_and_man_0003.jpg",
+            "title": "Holdningskorrigerende tøj",
+            "text": "<p>Mange oplever, at det er svært at huske på den gode kropsholdning i hverdagen, hvilket har gjort holdningskorrigerende tøj til et meget populært hjælpemiddel. Vores mest solgte produkt er vores Posture Shirt™, som ved hjælp at et let træk på skuldrende, minder dig om at rette dig op, når skuldrene falder forover. Posture Shirtens fleksibilitet gør den effektiv og behagelig at have på både når man er stillesiddende eller aktiv.<\/p>",
+            "button_style": "btn--primary",
+            "button_label": "Se udvalg",
+            "button_link": "shopify:\/\/collections\/posture-shirt"
+          }
+        },
+        "16357631254fec40e6-2": {
+          "type": "HTML_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mand_i_sofa_med_skulderstotte.jpg",
+            "title": "Øvrige holdningskorrigerende produkter",
+            "text": "<p>Foruden vores Posture Shirt™ forhandler vi også en række andre typer af holdningskorrigerende produkter, såsom skulderstøtter, lændebælter samt ryg- og siddepuder.\nDisse produkter er primært velegnet til brug i siddende og stående situationer, hvor kroppens bevægelser er begrænsede - eksempelvis ved skrivebordet eller under madlavning.\n<\/p>",
+            "button_style": "btn--primary",
+            "button_label": "Se udvalg",
+            "button_link": "shopify:\/\/collections\/rygstoette"
+          }
+        }
+      },
+      "block_order": [
+        "16357631254fec40e6-0",
+        "16357631254fec40e6-1",
+        "16357631254fec40e6-2"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "Hvordan forbedrer man sin kropsholdning?",
+        "subtitle": "",
+        "section_style": "section-default",
+        "text_align": ""
+      }
+    },
+    "16357641478e5f8336": {
+      "type": "featured-accordions",
+      "disabled": true,
+      "blocks": {
+        "16357641478e5f8336-0": {
+          "type": "Accordion",
+          "settings": {
+            "accordion_title": "Fysisk aktivitet",
+            "accordion__inner-title": "",
+            "accordion__description": "Trætte og svage muskler er ofte den store fjende til en god kropsholdning, da de får overkroppen til at falde sammen. Det kræver både styrke og vedholdenhed at opnå en god kropsholdning, og det er derfor naturligt, at styrketræning og andre former for motion kan forbedre holdningen. Træning styrker kroppens muskler gradvist, og derved får man på sigt nemmere ved at holde kroppen rank, fordi musklerne ikke bliver trætte så hurtigt. Det kan også være en fordel at kombinere sine styrkeøvelser med afspændingsøvelser, idet de både løsner op for spændinger og samtidig aktiverer muskulaturen. Det giver en god kropsbevidsthed og bidrager også til at forbedre kropsholdningen. Vi har samlet 5 afspændingsøvelser i en video, som du kan lave på under 5 minutter. Videoen er lavet i samarbejde med kiropraktor Michael Justad, som instruerer øvelserne.",
+            "accordion__buttontext": "Se video",
+            "accordion__LinkUrl": "shopify:\/\/pages\/ovelser-til-lindring-af-spaendinger"
+          }
+        },
+        "16357641478e5f8336-1": {
+          "type": "Accordion",
+          "settings": {
+            "accordion_title": "Holdningskorrigerende tøj",
+            "accordion__inner-title": "",
+            "accordion__description": "Det kan være svært at huske på den gode kropsholdning i hverdagen – både med og uden træning. Som supplement til en aktiv livsstil kan holdningskorrigerende tøj anbefales til at fremme den gode kropsholdning, som kroppen gradvist vænner sig til. Vores mest populære produkt er vores Posture Shirt™, den originale holdningskorrigerende t-shirt på markedet. Posture Shirt™ er designet med inspiration fra kinesiotape og består af en særlig kombination af materialer, der spejler muskulaturens sammentrækkende og eftergivende egenskaber. Disse egenskaber fremmer den rette kropsholdning uden at gå på kompromis med komfort og bevægelsesfrihed. Posture Shirt™ er ideel til både arbejde og fritid, hvad enten du er stillesiddende eller aktiv, og giver dig et optimalt udgangspunkt for at forbedre kropsholdningen. Med 30 dages fuld returret har du mulighed for at prøve Posture Shirt™ på egen krop og mærke, om den virker for dig.",
+            "accordion__buttontext": "Button text",
+            "accordion__LinkUrl": ""
+          }
+        },
+        "6ee6df97-f27e-4f69-afbc-b932a5ff97b9": {
+          "type": "Accordion",
+          "settings": {
+            "accordion_title": "Øvrige",
+            "accordion__inner-title": "",
+            "accordion__description": "Foruden vores Posture Shirt™ forhandler vi også en række andre typer af holdningskorrigerende produkter, såsom skulderstøtter, lændebælte, rygpuder og holdningsveste. Disse produkter taler til forskellige behov og yder forskellig støtte til kroppen, men produkterne har alle det til fælles, at de fremmer en sund kropsholdning. Sammenlignet med holdningskorrigerende tøj er disse produkter primært velegnet til brug i siddende og stående situationer, eksempelvis ved et skrivebord eller under madlavning, hvor kroppens bevægelser er lidt mere begrænsede. Se vores udvalg og find produktet til netop dit behov – vores 30 dages fuld returret gælder på alle produkter.",
+            "accordion__buttontext": "Button text",
+            "accordion__LinkUrl": ""
+          }
+        }
+      },
+      "block_order": [
+        "16357641478e5f8336-0",
+        "16357641478e5f8336-1",
+        "6ee6df97-f27e-4f69-afbc-b932a5ff97b9"
+      ],
+      "settings": {
+        "title": "Gode råd til forbedring af kropsholdningen",
+        "section_style": "section-blank"
+      }
+    },
+    "163576830859681535": {
+      "type": "featured-products",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "Mest solgte",
+        "subtitle": "",
+        "section_style": "section-blank",
+        "home_featured_products": "alle-produkter",
+        "rows": "2",
+        "desktop_grid": "4",
+        "mobile_grid": "2",
+        "show_view_all": false,
+        "button_label": "View all",
+        "button_link": "",
+        "button_style": "btn-outline-primary",
+        "slider_related_products": true,
+        "arrows": true,
+        "dots": true,
+        "autoplay": false,
+        "autoplayspeed": 5
+      }
+    },
+    "1635845246bfb7fed4": {
+      "type": "mission",
+      "blocks": {
+        "1635845246bfb7fed4-0": {
+          "type": "html",
+          "settings": {
+            "mission_title": "Our Missin",
+            "mission_description": "<h2>Custom HTML!<\/h2><p>This section can be used to code your own custom layout.<\/p>",
+            "column_width": 12,
+            "column_width_mobile": 12,
+            "text_alignment": "text-center",
+            "btn_text": "sdfsd",
+            "btn_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1635845246bfb7fed4-0"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "padding_section": true,
+        "section_style": "section-blank",
+        "wrapper_size": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1635768531cb520ba5",
+    "16357615190b1aea37",
+    "16357631254fec40e6",
+    "16357641478e5f8336",
+    "163576830859681535",
+    "1635845246bfb7fed4"
+  ]
 }

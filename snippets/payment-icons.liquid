@@ -5,6 +5,7 @@
 		{%- for type in shop.enabled_payment_types -%}
 		<li>{{ type | payment_type_svg_tag: class: 'payment-icon' }}</li>
 		{%- endfor -%}
+        <li class="any_logo"><img class="payment-icon" style="border-radius:3px;border: 1px solid #ececec;" src="{{ 'Anyday_black38b.png' | asset_url }}"/></li>
 		{%- for icon in (1..4) -%}
 			{%- capture icon_id -%}payment_icon_{{ forloop.index }}{%- endcapture -%}
 			{%- if settings[icon_id] != blank -%}

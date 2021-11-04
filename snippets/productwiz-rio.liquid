@@ -55,7 +55,7 @@ function insertRioOptionsTitleStyle(style) {
   }
 
   const styleElem = document.createElement('style');
-  styleElem.innerText = `.rio-product-option-title{${str}}`;
+  styleElem.textContent = `.rio-product-option-title{${str}}`;
   document.head.appendChild(styleElem);
 }
 
@@ -366,14 +366,18 @@ __productWizRio.config = {
     "dark": true,
     "magnify": false,
     "thumbnails": {
-      "orientation": "bottom",
-      "multiRow": false,
-      "thumbnailsPerRow": 5,
-      "navigation": true
+      "orientation": "left",
+      "multiRow": true,
+      "thumbnailsPerRow": 1,
+      "container": 0.18,
+      "navigation": true,
+      "verticalOverflow": true
     },
     "lightBox": true,
     "lightBoxZoom": 2
-  }
+  },
+  "lightBoxBackgroundColor": "rgb(0, 0, 0)",
+  "thumbnailSelectionColor": "rgb(0, 0, 0)"
 };
 }
 
@@ -406,7 +410,7 @@ const variantImages = addedNode => {
       __productWizRio.finishedInjection = true;
     }
 
-    if (addedNode.id === 'section-product-template') {
+    if (typeof addedNode.matches === 'function' && addedNode.matches('[data-section-type="product-template"]')) {
       addedNode.setAttribute('data-stacked-layout', 'false');
     }
 

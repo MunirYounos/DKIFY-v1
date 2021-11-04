@@ -1,9 +1,5 @@
 {
   "current": {
-    "checkout_logo_image": "shopify:\/\/shop_images\/Anodyne_black_medium_6728745e-a674-486e-8077-9faaf5a75715.png",
-    "checkout_logo_size": "medium",
-    "checkout_accent_color": "#398e82",
-    "checkout_button_color": "#398e82",
     "sticky_header": false,
     "sticky_announcement_bar": true,
     "hero_header": false,
@@ -83,6 +79,7 @@
     "dbtfy_inventory_quantity": false,
     "dbtfy_live_view": false,
     "dbtfy_mega_menu": true,
+    "dbtfy_order_feedback": false,
     "dbtfy_order_tracking": false,
     "dbtfy_product_tabs": true,
     "dbtfy_quantity_breaks": false,
@@ -119,6 +116,7 @@
     "dbtfy_cookie_box_button_label": "Acceptér cookies",
     "dbtfy_inactive_tab_message_text_first": "👕 up to 50% off",
     "dbtfy_inactive_tab_message_text_second": "👕 Anodyne discounts",
+    "dbtfy_infinite_scroll_loading_text": "Indlæs flere",
     "dbtfy_inventory_quantity_threshold": 20,
     "dbtfy_menu_bar_link_list": "main-menu",
     "dbtfy_menu_bar_desktop": false,
@@ -155,11 +153,16 @@
     "dbtfy_social_discount_reward_button": "Brug rabatkode",
     "dbtfy_social_discount_reward_code": "20GWS15",
     "dbtfy_social_discount_reward_amount": "10",
+    "dbtfy_trust_badge_image": "shopify:\/\/shop_images\/Payment_denmark.png",
     "dbtfy_trust_badge_text": "Nem, hurtig og sikker betaling",
     "dbtfy_wish_list_add_text": "Føj til ønskeliste",
     "dbtfy_wish_list_remove_text": "Fjern fra ønskeliste",
     "dbtfy_wish_list_empty_text": "Tøm ønskeliste",
     "dbtfy_wish_list_share_label": "Del ønskeliste",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Anodyne_black_medium_6728745e-a674-486e-8077-9faaf5a75715.png",
+    "checkout_logo_size": "medium",
+    "checkout_accent_color": "#398e82",
+    "checkout_button_color": "#398e82",
     "custom_inventory_quantity": true,
     "sections": {
       "dbtfy-upsell-popup": {
@@ -281,8 +284,8 @@
           "phone": true,
           "show_social_medias": true,
           "title": "Menu",
-          "drawer_top_link_list": "main-menu",
-          "drawer_bottom_link_list": ""
+          "drawer_top_link_list": "mobile-menu",
+          "drawer_bottom_link_list": "customer-service-mobil-menu"
         }
       },
       "announcement": {
@@ -291,8 +294,8 @@
           "announcement-0": {
             "type": "message",
             "settings": {
-              "announcement_text": "<p>Vi fejrer <strong>7-års fødselsdag<\/strong> med masser af tilbud 🇩🇰<\/p>",
-              "announcement_link": "https:\/\/www.anodyne.dk\/collections\/alle-produkter"
+              "announcement_text": "<p>Altid <strong>100% gratis<\/strong> returnering og ombytning<\/p>",
+              "announcement_link": "https:\/\/www.anodyne.dk\/collections\/"
             }
           }
         },
@@ -434,7 +437,7 @@
               "logo_width": 150,
               "title": "Kontakt os",
               "subtitle": "",
-              "text": "<p>Anodyne.dk<\/p><p>Man-tor: 10:00 - 16:00<br\/>Fredag: 10:00 - 15:00<\/p>",
+              "text": "<p>Anodyne.dk<\/p><p><strong>Man-fre: <\/strong>08:00 - 22:00<br\/><strong>Lør-søn: <\/strong>09:00 - 15:00<\/p>",
               "email": true,
               "phone": true
             }
@@ -683,7 +686,7 @@
           "image_position": "center center",
           "video_title": "Posture Shirt™",
           "text_size": "medium",
-          "text_description": "<p>Få en bedre kropsholdning i hverdagen og reducér dine smerter og spændinger<\/p>",
+          "text_description": "<p>Få en bedre holdning og reducér smerter og spændinger<\/p>",
           "text_description_size": "medium",
           "button_label": "Læs mere",
           "button_link": "shopify:\/\/collections\/posture-shirt",
@@ -914,7 +917,7 @@
               "image": "shopify:\/\/shop_images\/Smile2_200px.png",
               "icon": "",
               "title": "Holdningskorrigerende tøj med 100% tilfredshedsgaranti",
-              "text": "<p>Hos Anodyne® tilbyder vi altid gratis fragt til en pakkeshop i hele landet, 100% tilfredshedsgaranti, 30 dages fuld returret og gratis retur og ombytning. Det betyder, at du inden for 30 dage frit kan teste og afprøve dit produkt, og finde ud af om det lever op til dine forventninger. Vi vedlægger en gratis returlabel i alle forsendelser, så det er let og enkelt at returnere eller bytte hos os. Det er vores mål, at DU skal være 100% tilfreds - ligesom det har været vores mål for de flere end 100.000 andre danskere, som allerede har købt et originalt Anodyne® produkt i løbet af de sidste 7 år. <\/p>",
+              "text": "<p>Hos Anodyne® tilbyder vi altid gratis fragt til en pakkeshop i hele landet, 100% tilfredshedsgaranti, 30 dages fuld returret og gratis retur og ombytning. Det betyder, at du inden for 30 dage frit kan teste og afprøve dit produkt, og finde ud af om det lever op til dine forventninger. Vi vedlægger en gratis returlabel i alle forsendelser, så det er let og enkelt at returnere eller bytte hos os. Det er vores mål, at du skal være 100% tilfreds - ligesom det har været vores mål for de flere end 100.000 andre danskere, som allerede har købt et originalt Anodyne® produkt i løbet af de sidste 7 år. <\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "button_link": ""
@@ -926,7 +929,7 @@
               "image": "shopify:\/\/shop_images\/Kinesio2_copy_200px.png",
               "icon": "",
               "title": "Fra kinesiotape til holdningskorrigerende tøj",
-              "text": "<p>Hos Anodyne® forhandler vi den originale holdningskorrigerende Posture Shirt™. T-shirtens design benytter den unikke og patenterede NeuroBand™-teknologi, der er baseret på dybdegående videnskabelig forskning i menneskelig fysiologi og designet til at spejle muskulaturens sammentrækkende og eftergivende egenskaber for at fremme en bedre kropsholdning. Teknologien er inspireret af kinesiotape – en behandlingsform der ofte anvendes af danske fysioterapeuter og kiropraktorer til at behandle smerter og spændinger i nakke, skuldre og ryg. Kinesiotaping bruges også hyppigt af professionelle atleter til at stimulere specifikke muskelgrupper og forbedre kropsholdningen.<\/p><p><\/p><p><\/p>",
+              "text": "<p>Hos Anodyne® forhandler vi den originale <a href=\"\/collections\/posture-shirt\" title=\"Posture Shirt™\"><span style=\"text-decoration:underline\">holdningskorrigerende Posture Shirt™<\/span><\/a>. T-shirtens design benytter den unikke og patenterede NeuroBand™-teknologi, der er baseret på dybdegående videnskabelig forskning i menneskelig fysiologi og designet til at spejle muskulaturens sammentrækkende og eftergivende egenskaber for at fremme en bedre kropsholdning. Teknologien er inspireret af kinesiotape – en behandlingsform der ofte anvendes af danske fysioterapeuter og kiropraktorer til at behandle smerter og spændinger i nakke, skuldre og ryg. Kinesiotaping bruges også hyppigt af professionelle atleter til at stimulere specifikke muskelgrupper og forbedre kropsholdningen.<\/p><p><\/p><p><\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "button_link": ""
@@ -978,7 +981,7 @@
             "type": "Accordion",
             "settings": {
               "accordion_title": "Patenteret NeuroBand™-teknologi i Anodyne® holdningskorrigerende tøj",
-              "accordion__inner-title": "NeuroBand™-teknologi",
+              "accordion__inner-title": "",
               "accordion__description": "Anodyne® holdningskorrigerende tøj til kvinder og mænd er fremstillet af en unik sammensætning af spandex, polyester og nylon, som giver slidstærke og åndbare produkter, der bevarer elasticitet ved brug og gør tøjet behageligt at have på. Designet benytter den patenterede NeuroBand™-teknologi, der er inspireret af kinesiotape, og baseret på forskning i menneskets fysiologi. Tøjet er designet til at spejle muskulaturens sammentrækkende og eftergivende egenskaber og dermed fremme den rette kropsholdning.",
               "accordion__buttontext": "Shop",
               "accordion__LinkUrl": "shopify:\/\/collections\/posture-shirt"
@@ -988,7 +991,7 @@
             "type": "Accordion",
             "settings": {
               "accordion_title": "Holdningskorrigerende tøj til dit behov",
-              "accordion__inner-title": "Til dit behov",
+              "accordion__inner-title": "",
               "accordion__description": "Holdningskorrigerende tøj fra Anodyne® kan anvendes af alle. Vi forhandler holdningskorrigerende t-shirts, BH’er og veste, der alle er udviklet til at hjælpe med at aktivere muskulaturen og blodcirkulationen, og derved minde kroppen om at indtage en mere optimal holdning. Anodyne® holdningskorrigerende t-shirts og BH’er kan anvendes når som helst - når du træner, handler ind, går tur, gør rent eller ved andre aktiviteter. For at få mest ud af Anodyne® holdningskorrigerende tøj, anbefaler vi, at du læser den medsendte brugsvejledning grundigt, så du har de helt rette forudsætninger for at nå den optimale effekt af vores produkter.",
               "accordion__buttontext": "Shop",
               "accordion__LinkUrl": "shopify:\/\/collections\/alle-produkter"
@@ -998,7 +1001,7 @@
             "type": "Accordion",
             "settings": {
               "accordion_title": "Også til dig med skader",
-              "accordion__inner-title": "Skader",
+              "accordion__inner-title": "",
               "accordion__description": "Døjer du med en skade, eller har du eks. en diskusprolaps, scoliose, gigt eller lignende, kan du med fordel anvende holdningskorrigerende tøj, men er du endnu ikke udredt, anbefaler vi, at du konsulterer en fagprofessionel. I nogle tilfælde vil Anodyne® holdningskorrigerende veste (MyLign og SpinalQ Pro) være at foretrække, da de har den kraftigste støttefunktion. Det er desuden vigtigt, at du vælger holdningskorrigerende tøj i den rigtige størrelse, da du ellers ikke opnår den optimale effekt. Husk derfor at tjekke størrelsesguiden omhyggeligt. Du er også velkommen til at kontakte vores kundeservice, der gerne hjælper med at svare på spørgsmål om vores produkter, samt at finde din rette størrelse.",
               "accordion__buttontext": "Shop",
               "accordion__LinkUrl": ""
@@ -1113,7 +1116,7 @@
             "settings": {
               "card__icon": "shopify:\/\/shop_images\/Smile2_200px.png",
               "title": "Danskernes foretrukne",
-              "text": "<p>Flere end 100.000 danskere har allerede handlet hos Anodyne.dk i de seneste 7 år. Vi er danskernes foretrukne valg, når det kommer til holdningskorrigerende tøj og ergomomisk tilbehør! Det er vi helt vildt stolte af 😀<\/p>",
+              "text": "<p>Flere end 100.000 danskere har allerede handlet hos Anodyne.dk i de seneste 7 år. Vi er danskernes foretrukne valg, når det kommer til holdningskorrigerende tøj og ergomomisk tilbehør, hvilket vi er meget stolte af!<\/p>",
               "card__alignement": "center",
               "text_alignment": "text-center",
               "type_row": "",
@@ -1163,7 +1166,7 @@
           "21170241-e223-4c47-bc79-e2ee2878272e": {
             "type": "category_block",
             "settings": {
-              "dbtfy_faq_category": "PRODUKTER",
+              "dbtfy_faq_category": "Produkter",
               "dbtfy_faq_icons": "support"
             }
           },

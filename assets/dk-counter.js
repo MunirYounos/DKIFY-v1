@@ -1,4 +1,4 @@
-//be counter
+//DK  counter definition 
 let domTopIdnl = document.getElementById('dk___js-counter');
 if (domTopIdnl !== null) {
 	weekDayNames(domTopIdnl);
@@ -12,7 +12,7 @@ function weekDayNames(Id1) {
 	//switcher
 	switch (weekday) {
 		case 'Fri':
-			calculateDeliveryTimeFriday(Id1, d, 14);
+			calculateDeliveryTimeFriday(Id1, d, 15);
 			break;
 		case 'Sat':
 			calculateDeliveryTimeSaturday(Id1)
@@ -21,7 +21,7 @@ function weekDayNames(Id1) {
 			calculateDeliveryTimeEveryDay(Id1, d, 0);
 			break;
 		default:
-			calculateDeliveryTimeEveryDay(Id1, d, 14);
+			calculateDeliveryTimeEveryDay(Id1, d, 15);
 	}
 }
 function calculateDeliveryTimeEveryDay(someId, currentDate, setTime) {
@@ -106,12 +106,12 @@ function calculateDeliveryTimeFriday(someId, currentDate, setTime) {
 			setTimeout(tick, 1000);
 		} else if (now > startDateOfToday) {
 
-			someId.innerHTML = `<div class="timer__wrapper"><div class="timer__text">Gratis fragt ved k&oslash;b over 399 kr.  | Gratis retur og ombytning</div></div>`;
+			someId.innerHTML = `<div class="timer__wrapper"><div class="timer__text"> Gratis levering til pakkeshop </div></div>`;
     
 		}
 	}
 	tick();
 }
 function calculateDeliveryTimeSaturday(someId) {
-    someId.innerHTML = `<div class="timer__wrapper"><div class="timer__text">Gratis fragt ved k&oslash;b over 399 kr.  | Gratis retur og ombytning</div></div>`;
+    someId.innerHTML = `<div class="timer__wrapper"><div class="timer__text"> Gratis levering til pakkeshop </div></div>`;
 }

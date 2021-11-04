@@ -6,10 +6,10 @@
           <div class="grid__item large--eight-twelfths push--large--two-twelfths ">
             <div class="section-header">
               {%- unless section.settings.title == blank -%}
-                <h2 class="section-header__title">{{ section.settings.title | escape }}</h2>
+                <div class="section-header__title">{{ section.settings.title}}</div>
               {%- endunless -%}
               {%- unless section.settings.subtitle == blank -%}
-                <p class="section-header__subtitle">{{ section.settings.subtitle | escape }}</p>
+                <div class="section-header__subtitle">{{ section.settings.subtitle}}</div>
               {%- endunless -%}
             </div>
            </div>
@@ -25,75 +25,75 @@
    <div class="box box-small">
           <div class="wrapper{{wrapper_size}}">
                 <div class="grid grid-spacer">
-												{%- for i in (1..10) -%}
-													{%- assign html_area = 'html_area_' | append: forloop.index -%}
-													{%- assign column_width = 'column_width_' | append: forloop.index -%}
-													{%- assign column_width_mobile = 'column_width_mobile_' | append: forloop.index -%}
-													{%- assign alignment = 'text_alignment_' | append: forloop.index -%}
+                  {%- for i in (1..10) -%}
+                  {%- assign html_area = 'html_area_' | append: forloop.index -%}
+                  {%- assign column_width = 'column_width_' | append: forloop.index -%}
+                  {%- assign column_width_mobile = 'column_width_mobile_' | append: forloop.index -%}
+                  {%- assign alignment = 'text_alignment_' | append: forloop.index -%}
 
-													{%- case block.settings[column_width] -%}
-														{%- when 1 -%}
-															{%- assign block_width = 'large--one-twelfth medium--one-twelfth' -%}
-														{%- when 2 -%}
-															{%- assign block_width = 'large--two-twelfths medium--two-twelfths' -%}
-														{%- when 3 -%}
-															{%- assign block_width = 'large--three-twelfths medium--three-twelfths' -%}
-														{%- when 4 -%}
-															{%- assign block_width = 'large--four-twelfths medium--four-twelfths' -%}
-														{%- when 5 -%}
-															{%- assign block_width = 'large--five-twelfths medium--five-twelfths' -%}
-														{%- when 6 -%}
-															{%- assign block_width = 'large--six-twelfths medium--six-twelfths' -%}
-														{%- when 7 -%}
-															{%- assign block_width = 'large--seven-twelfths medium--seven-twelfths' -%}
-														{%- when 8 -%}
-															{%- assign block_width = 'large--eight-twelfths medium--eight-twelfths' -%}
-														{%- when 9 -%}
-															{%- assign block_width = 'large--nine-twelfths medium--nine-twelfths' -%}
-														{%- when 10 -%}
-															{%- assign block_width = 'large--ten-twelfths medium--ten-twelfths' -%}
-														{%- when 11 -%}
-															{%- assign block_width = 'large--eleven-twelfths medium--eleven-twelfths' -%}
-														{%- when 12 -%}
-															{%- assign block_width = 'large--twelfth-twelfths medium--twelfth-twelfths' -%}
-													{%- endcase -%}
+                  {%- case block.settings[column_width] -%}
+                  {%- when 1 -%}
+                  {%- assign block_width = 'large--one-twelfth medium--one-twelfth' -%}
+                  {%- when 2 -%}
+                  {%- assign block_width = 'large--two-twelfths medium--two-twelfths' -%}
+                  {%- when 3 -%}
+                  {%- assign block_width = 'large--three-twelfths medium--three-twelfths' -%}
+                  {%- when 4 -%}
+                  {%- assign block_width = 'large--four-twelfths medium--four-twelfths' -%}
+                  {%- when 5 -%}
+                  {%- assign block_width = 'large--five-twelfths medium--five-twelfths' -%}
+                  {%- when 6 -%}
+                  {%- assign block_width = 'large--six-twelfths medium--six-twelfths' -%}
+                  {%- when 7 -%}
+                  {%- assign block_width = 'large--seven-twelfths medium--seven-twelfths' -%}
+                  {%- when 8 -%}
+                  {%- assign block_width = 'large--eight-twelfths medium--eight-twelfths' -%}
+                  {%- when 9 -%}
+                  {%- assign block_width = 'large--nine-twelfths medium--nine-twelfths' -%}
+                  {%- when 10 -%}
+                  {%- assign block_width = 'large--ten-twelfths medium--ten-twelfths' -%}
+                  {%- when 11 -%}
+                  {%- assign block_width = 'large--eleven-twelfths medium--eleven-twelfths' -%}
+                  {%- when 12 -%}
+                  {%- assign block_width = 'large--twelfth-twelfths medium--twelfth-twelfths' -%}
+                  {%- endcase -%}
 
-													{%- case block.settings[column_width_mobile] -%}
-														{%- when 1 -%}
-															{%- assign block_width_mobile = 'small--one-twelfth' -%}
-														{%- when 2 -%}
-															{%- assign block_width_mobile = 'small--two-twelfths' -%}
-														{%- when 3 -%}
-															{%- assign block_width_mobile = 'small--three-twelfths' -%}
-														{%- when 4 -%}
-															{%- assign block_width_mobile = 'small--four-twelfths' -%}
-														{%- when 5 -%}
-															{%- assign block_width_mobile = 'small--five-twelfths' -%}
-														{%- when 6 -%}
-															{%- assign block_width_mobile = 'small--six-twelfths' -%}
-														{%- when 7 -%}
-															{%- assign block_width_mobile = 'small--seven-twelfths' -%}
-														{%- when 8 -%}
-															{%- assign block_width_mobile = 'small--eight-twelfths' -%}
-														{%- when 9 -%}
-															{%- assign block_width_mobile = 'small--nine-twelfths' -%}
-														{%- when 10 -%}
-															{%- assign block_width_mobile = 'small--ten-twelfths' -%}
-														{%- when 11 -%}
-															{%- assign block_width_mobile = 'small--eleven-twelfths' -%}
-														{%- when 12 -%}
-															{%- assign block_width_mobile = 'small--twelfth-twelfths' -%}
-													{%- endcase -%}
+                  {%- case block.settings[column_width_mobile] -%}
+                  {%- when 1 -%}
+                  {%- assign block_width_mobile = 'small--one-twelfth' -%}
+                  {%- when 2 -%}
+                  {%- assign block_width_mobile = 'small--two-twelfths' -%}
+                  {%- when 3 -%}
+                  {%- assign block_width_mobile = 'small--three-twelfths' -%}
+                  {%- when 4 -%}
+                  {%- assign block_width_mobile = 'small--four-twelfths' -%}
+                  {%- when 5 -%}
+                  {%- assign block_width_mobile = 'small--five-twelfths' -%}
+                  {%- when 6 -%}
+                  {%- assign block_width_mobile = 'small--six-twelfths' -%}
+                  {%- when 7 -%}
+                  {%- assign block_width_mobile = 'small--seven-twelfths' -%}
+                  {%- when 8 -%}
+                  {%- assign block_width_mobile = 'small--eight-twelfths' -%}
+                  {%- when 9 -%}
+                  {%- assign block_width_mobile = 'small--nine-twelfths' -%}
+                  {%- when 10 -%}
+                  {%- assign block_width_mobile = 'small--ten-twelfths' -%}
+                  {%- when 11 -%}
+                  {%- assign block_width_mobile = 'small--eleven-twelfths' -%}
+                  {%- when 12 -%}
+                  {%- assign block_width_mobile = 'small--twelfth-twelfths' -%}
+                  {%- endcase -%}
 
-													{%- if block.settings[html_area] != blank -%}
-														<div class="grid__item html-block {{ block_width }} {{ block_width_mobile }}">
-															<div class="html-block__content {{ block.settings[alignment] }}">
-																{{ block.settings[html_area] }}
-															</div>
-														</div>
-													{%- endif -%}
-												{%- endfor -%}
-											</div>
+                  {%- if block.settings[html_area] != blank -%}
+                  <div class="grid__item html-block {{ block_width }} {{ block_width_mobile }}">
+                    <div class="html-block__content {{ block.settings[alignment] }}">
+                      {{ block.settings[html_area] }}
+                    </div>
+                  </div>
+                  {%- endif -%}
+                  {%- endfor -%}
+            </div>
 					{%- endfor -%}
         </div>
       </div>
@@ -102,9 +102,6 @@
       {%- endif -%}
 
  </div>
-
-
-
 {% schema %}
 {
 	"name": "HTML Columns",
@@ -124,13 +121,13 @@
 			"default": true
 		},
 		{
-			"type": "text",
+			"type": "html",
 			"id": "title",
 			"label": "Heading",
 			"default": "Featured columns"
 		},
 		{
-			"type": "text",
+			"type": "html",
 			"id": "subtitle",
 			"label": "Subheading"
 		},

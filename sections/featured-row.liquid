@@ -3,7 +3,7 @@
     <div class="wrapper">
 
       <div class="grid grid-spacer align-center">
-        <div class="grid__item xtra-padding large--six-twelfths medium--six-twelfths featured-row-{{ section.settings.image_alignement }}">
+        <div class="grid__item large--six-twelfths medium--six-twelfths featured-row-{{ section.settings.image_alignement }}">
           {%- if section.settings.image != blank -%}
             <div class="media-wrapper" style="padding-top:{{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100}}%;">
               <img class="media lazyload"
@@ -15,7 +15,7 @@
           {%- endif -%}
         </div>
 
-        <div class="grid__item xtra-padding  large--six-twelfths medium--six-twelfths {{ section.settings.text_alignment }}">
+        <div class="grid__item img-with-text large--six-twelfths medium--six-twelfths {{ section.settings.text_alignment }}">
           {%- unless section.settings.title == blank -%}
             <h2 class="section-header__title">{{ section.settings.title | escape }}</h2>
           {%- endunless -%}

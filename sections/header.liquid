@@ -31,7 +31,7 @@
         <div class="grid__item {% if nav_type == 'center' %}large--flex-fill{% else %}large--flex-auto{% endif %} medium--flex-auto small--flex-auto nav-containers nav-container-logo">
           <div class="inner-nav-containers">
             {%- if request.page_type == 'index' -%}
-            <h1 class="site-header__logo flex" itemscope itemtype="http://schema.org/Organization">
+            <h2 class="site-header__logo flex" itemscope itemtype="http://schema.org/Organization">
             {%- else -%}
             <div class="site-header__logo flex" itemscope itemtype="http://schema.org/Organization">
             {%- endif -%}
@@ -128,7 +128,7 @@
               </a>
 
             {%- if request.page_type == 'index' -%}
-            </h1>
+            </h2>
             {%- else -%}
             </div>
             {%- endif -%}

@@ -11,7 +11,7 @@
     <meta name="author" content="Anodyne">
     {%- if handle contains 'search' or handle contains 'privacy-policy' or handle contains 'terms-of-service' or handle contains 'refund-policy' -%}
     <meta name="robots" content="noindex" />
-    {%- endif -%}
+ 	{%- endif -%}
     <!-- Preconnect external resources -->
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
     <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
@@ -238,6 +238,8 @@
 
     <!-- JS -->
     {{ "jquery-2.2.3.min.js" | asset_url | script_tag }}
+    
+    <script src="https://my.anyday.io/webshopPriceTag/anyday-price-tag-da-es2015.js" type="module" async></script>
 
     <script src="{{ 'theme.min.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>

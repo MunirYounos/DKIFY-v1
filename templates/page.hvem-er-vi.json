@@ -1,12 +1,46 @@
 {
-	"name": "Hvem er vi Templage",
-	"sections": {
-		"main": {
-			"type": "featured-image",
-			"settings": {}
-		}
-	},
-	"order": [
-		"main"
-	]
+  "sections": {
+    "main": {
+      "type": "featured-image",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "full_width": true,
+        "section_style": "section-blank",
+        "image_title": "",
+        "image_subtitle": "",
+        "image_btntext": "",
+        "image_link": "",
+        "show_on_image_scrolldown": false
+      }
+    },
+    "1636027351fe143cef": {
+      "type": "featured-colleagues",
+      "blocks": {
+        "1636027351fe143cef-0": {
+          "type": "featured_colleagues",
+          "settings": {
+            "colleague_image": "shopify:\/\/shop_images\/DSC08148-min.jpg",
+            "colleague_desc": "<h2>John Day<\/h2><p>Web Developer<\/p>",
+            "text_alignment": "text-left"
+          }
+        }
+      },
+      "block_order": [
+        "1636027351fe143cef-0"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "Meet our team",
+        "subtitle": "",
+        "section_style": "section-blank",
+        "wrapper_size": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1636027351fe143cef"
+  ]
 }
