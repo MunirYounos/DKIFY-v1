@@ -125,6 +125,7 @@
     "dbtfy_newsletter_popup_title": "Spar 10% EKSTRA på dit køb",
     "dbtfy_newsletter_popup_text": "<p>Tilmeld dig vores nyhedsbrev og få en <strong>10% RABATKODE <\/strong>til dit næste køb.<\/p><p> <\/p>",
     "dbtfy_newsletter_popup_close": "Nej tak",
+    "dbtfy_newsletter_popup_exit_intent": false,
     "dbtfy_newsletter_popup_title_success": "Tak for din tilmelding!",
     "dbtfy_newsletter_popup_text_success": "<p>Kopiér koden og indsæt den i rabatkodefeltet i indkøbskurven, ﻿så fratrækkes rabatten automatisk.<\/p>",
     "dbtfy_newsletter_popup_reward_button": "Brug rabatkode",

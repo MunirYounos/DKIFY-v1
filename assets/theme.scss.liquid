@@ -3919,7 +3919,7 @@ table {
   max-width: 100%;
   background-color: $colorDefault;
   &.featured-responsive{
-    min-height: 500px;
+    min-height: 350px;
   }
   iframe {
     height: 100%;
@@ -6926,11 +6926,11 @@ background-color: $colorAccent;
 
 }
 /*================ _Password ================*/
-.password-main {
-  min-height: 100vh;
-  @include display-flexbox;
-  @include flex-direction(column);
-}
+// .password-main {
+//   min-height: 100vh;
+//   @include display-flexbox;
+//   @include flex-direction(column);
+// }
 
 // Header
 .password-page__header {
@@ -6939,14 +6939,86 @@ background-color: $colorAccent;
 }
 
 // Content
-.password-content {
-  @include display-flexbox;
-  @include align-items(center);
-  @include flex(auto);
-}
+// .password-content {
+//   @include display-flexbox;
+//   @include align-items(center);
+//   @include flex(auto);
+// }
 
 .password-page__content {
+  position: relative;
   width: 100%;
+  &.background-dark{
+    background-color: rgba($black, 0.5);
+  }
+  .password-background{
+    background-color: transparent;
+    color:$white;
+    .bfbg{
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      z-index: -1;
+      min-height:500px;
+    }
+    .counter_wrapper{
+      margin-bottom:$gutter;
+      .counter{
+          @include display-flexbox;
+          @include align-items(center);
+          @include justify-content(space-between);
+          @include flex(auto);
+          .counter-number{
+            font-size: clamp(1rem, 6vw, 4rem);
+            font-weight:800;
+            width: 90px;
+            height:90px;
+            line-height:1.2;
+            border-radius: 50%;
+            background-color: rgba($white, 0.1);
+            @include display-flexbox;
+            @include align-items(center);
+            @include justify-content(center);
+            @include flex-direction(column);
+            @include screenUp($postSmall){
+              font-size: clamp(3rem, 5vw, 6rem);
+              font-weight:800;
+              width: 150px;
+              height:150px;
+            }
+            .timer-text{
+              font-size:1rem;
+              font-weight:300;
+            }
+          }
+      }
+      .counter__date{
+        display: none;
+      }
+      p{
+        font-size: clamp(2rem, 5vw, 5em);
+      }
+    }
+    .page-title-wrapper{
+      padding:1rem;
+      .page-title{
+        text-transform:uppercase;
+        color: $white;
+        font-size: clamp(3rem, 12vw, 6rem);
+        font-weight:800;
+        span:first-child {
+          color: $cAccent;
+        }
+      }
+    }
+    .password-page__signup-form{
+      .rte{
+        p{
+          font-size:1.6rem;
+        }
+      }
+    }
+  }
 }
 
 // Footer
@@ -10182,19 +10254,40 @@ selector[data-type="languages"][data-id="283692853"].ls-sw-closed > .active:afte
       .colleague_desc{
         h2{
           position: relative;
-          color: $cPrimary;
-          font-size: 1.25rem;
-          &::after{
-            content: '';
-            position: absolute;
-            bottom: -4px;
-            left:0;
-            height: 1px;
-            width:40%;
-            box-shadow:0 1px 0 1px rgba($cPrimary, 0.5);
-            background-color: $cPrimary;
+            color: $cPrimary;
+            font-size: 1.25rem;
+            &::after{
+              content: '';
+              position: absolute;
+              bottom: -6px;
+              height: 2px;
+              width:40%;
+              background-color: $cPrimary;
+            }
+        }
+        &.text-left{
+        	h2{
+            &::after{
+              left:0;
+            }
           }
         }
+        &.text-center{
+        	h2{
+            &::after{
+              left:50%;
+              transform: translateX(-50%);
+            }
+          }
+        }
+        &.text-right{
+        	h2{
+            &::after{
+             right:0;
+            }
+          }
+        }
+        &.text
         p{
           color: lighten($colorLightGray, 10%);
           font-size: 0.85rem;

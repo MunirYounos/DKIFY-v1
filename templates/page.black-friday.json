@@ -1,16 +1,122 @@
 {
   "sections": {
-    "main": {
-      "type": "video-background",
-      "settings": {}
-    },
-    "featured-image": {
+    "1636381411dd34ba20": {
       "type": "featured-image",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/balloner-bg-1920x400px.jpg",
+        "section_style": "section-blank",
+        "image_title": "Black Days",
+        "image_subtitle": "<p>Glæd dig... Vi starter allerede lørdag d. 20. november 2021<\/p>",
+        "image_btntext": "",
+        "image_link": "",
+        "show_on_image_scrolldown": false
+      }
+    },
+    "1636380925dc6e53b3": {
+      "type": "mission",
+      "disabled": true,
+      "blocks": {
+        "1636380925dc6e53b3-0": {
+          "type": "html",
+          "settings": {
+            "mission_title": "BLACK DAYS",
+            "mission_description": "<h3 style=\"margin-bottom:100px\">Psst... Vi starter allerede lørdag d. 20. november 2021<\/h3>",
+            "column_width": 12,
+            "column_width_mobile": 12,
+            "text_alignment": "text-center",
+            "btn_text": "",
+            "btn_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1636380925dc6e53b3-0"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "padding_section": true,
+        "section_style": "section-blank",
+        "wrapper_size": ""
+      }
+    },
+    "16363808771d00ec10": {
+      "type": "mission",
+      "blocks": {
+        "16363808771d00ec10-0": {
+          "type": "html",
+          "settings": {
+            "mission_title": "Spin lykkehjulet og vind præmier du kan indløse nu",
+            "mission_description": "<p>Prøv lykken i vores lykkehjul og få op til 500 kr. i rabat på dit næste køb. Rabatterne kan indløses allerede nu og til og med d. 30. november.<\/p>\n\n\n<script id=\"_ss_12015\">\/\/ <![CDATA[\n(function(w,d,s,l,r,a,m){\n    if(d.getElementById(r))return;\n    w[r]=w[r]||{};a=d.createElement(s),m=d.getElementsByTagName(s)[0];\n    a.async=1;a.src=l;a.id=r;m.parentNode.insertBefore(a,m);\n})(window,document,'script','https:\/\/cdn.scratcher.io\/embed\/12015.js','Scratcher_12015');\nScratcher_12015.options = {\n    slug: 'black-friday-anodyne',\n    width: '100%',\n    height: 1100,\n};\n\/\/ ]]><\/script>\n\n<h3>\n<br>Du får eksklusiv adgang til Black Days<\/h3>\n\n<p style=\"margin-bottom:100px\">Ved deltagelse tilmelder du dig vores nyhedsbrev, hvor du vil modtage eksklusive tilbud, og samtidig får du adgang til vores Black Days udsalg før alle andre. <br><br>Vi skyder Black Days i gang allerede <strong>lørdag d. 20. november 2021<\/strong> med rabat på alle varer og besparelser på op til 80%<\/p>",
+            "column_width": 12,
+            "column_width_mobile": 12,
+            "text_alignment": "text-center",
+            "btn_text": "",
+            "btn_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "16363808771d00ec10-0"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "padding_section": true,
+        "section_style": "section-blank",
+        "wrapper_size": ""
+      }
+    },
+    "1636381402a35bc0f4": {
+      "type": "featured-row",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "image": "shopify:\/\/shop_images\/Black-days-400x300.jpg",
+        "section_style": "section-default",
+        "text_size": "large",
+        "image_alignement": "left",
+        "text_alignment": "",
+        "title": "Black Days hos Anodyne",
+        "text": "<p>Vi kører med store besparelser, hvor du kan <strong>spare helt op til 80%<\/strong> allerede <strong>fra lørdag d. 20. november 2021.<\/strong><\/p>\n<p>I anledningen af Black Friday finder du hos Anodyne<span>®<\/span> besparelser på hele webshoppen. Og der er mange penge at spare!<\/p>\n<p> <\/p>\n<h3>Selvfølgelig stadig 100% tilfredshedsgaranti + gratis levering og returnering<\/h3>\n\n\n<p>Det bedste af det hele? Hos os slipper du for trængsel og lange køer til prøverummene. Prøv dine køb derhjemme i ro og mag. Hos Anodyne® tilbyder vi nemlig altid 100% tilfredshedsgaranti, fuld returret og gratis levering og returnering. Vi vedlægger en gratis returlabel i alle forsendelser, så det er let og enkelt at returnere pakker til os. Det er vores mål, at du bliver 100% tilfreds.<\/p>",
+        "button_style": "btn--primary",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "16363642118602c0a0": {
+      "type": "featured-products",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "Se vores udvalg",
+        "subtitle": "",
+        "section_style": "section-blank",
+        "home_featured_products": "alle-produkter",
+        "rows": "3",
+        "desktop_grid": "4",
+        "mobile_grid": "2",
+        "show_view_all": false,
+        "button_label": "View all",
+        "button_link": "",
+        "button_style": "btn-outline-primary",
+        "slider_related_products": true,
+        "arrows": true,
+        "dots": true,
+        "autoplay": false,
+        "autoplayspeed": 5
+      }
     }
   },
   "order": [
-    "main",
-    "featured-image"
+    "1636381411dd34ba20",
+    "1636380925dc6e53b3",
+    "16363808771d00ec10",
+    "1636381402a35bc0f4",
+    "16363642118602c0a0"
   ]
 }

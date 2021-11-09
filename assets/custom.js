@@ -103,3 +103,7 @@ const removeActiveHomeTabItemClass = () => {
     homeTabItem.classList.remove('active')
   })
 }
+
+const dateId = document.getElementById('counter');
+let eventDate = dateId.getAttribute('data-date');
+console.log('the date'+  eventDate);
