@@ -43,67 +43,6 @@
         "wrapper_size": ""
       }
     },
-    "16357615190b1aea37": {
-      "type": "HTML-columns",
-      "blocks": {
-        "16357615190b1aea37-0": {
-          "type": "HTML_column",
-          "settings": {
-            "wrapper_size": "",
-            "html_area_1": "<div style=\"padding-left:40px;padding-right:40px\">\n<img src=\"https:\/\/i.ibb.co\/TPGrXrV\/Ease.png\" alt=\"Ease\" style=\"max-width:50px;width:100%\"><h2>Lindrer smerter\n<\/h2>\n<p>Kan lindre spændinger og smerter i ryg, skuldre og nakke.<\/p>\n<\/div>",
-            "column_width_1": 4,
-            "column_width_mobile_1": 12,
-            "text_alignment_1": "text-center",
-            "html_area_2": "<div style=\"padding-left:40px;padding-right:40px\">\n<img src=\"https:\/\/i.ibb.co\/t8q4kDW\/Prevents.png\" alt=\"Ease\" border=\"0\" style=\"max-width:50px;width:100%\"><h2>Forebygger<\/h2>\n<p>Hjælper med at forhindre, at du får problemer med smerter i fremtiden.<\/p>\n<\/div>",
-            "column_width_2": 4,
-            "column_width_mobile_2": 12,
-            "text_alignment_2": "text-center",
-            "html_area_3": "<div style=\"padding-left:40px;padding-right:40px\">\n<img src=\"https:\/\/i.ibb.co\/BCR1Fg3\/Alleviate.png\" alt=\"Ease\" border=\"0\" style=\"max-width:50px;width:100%\"><h2>Aflaster<\/h2>\n<p>Aflaster udsatte muskelgrupper og sikrer, at din krop holder mange år endnu.<\/p>\n<\/div>",
-            "column_width_3": 4,
-            "column_width_mobile_3": 12,
-            "text_alignment_3": "text-center",
-            "html_area_4": "<div style=\"padding-left:40px;padding-right:40px\">\n<img src=\"https:\/\/i.ibb.co\/bLg6Mnn\/Smile.png\" alt=\"Ease\" border=\"0\" style=\"max-width:50px;width:100%\"><h2>Løfter humøret<\/h2>\n<p>En sund kropsholdning giver bedre humør og mere energi i hverdagen.<\/p>\n<\/div>",
-            "column_width_4": 4,
-            "column_width_mobile_4": 12,
-            "text_alignment_4": "text-center",
-            "html_area_5": "<div style=\"padding-left:40px;padding-right:40px\">\n<img src=\"https:\/\/i.ibb.co\/KV56kZB\/Radiance.png\" alt=\"Ease\" border=\"0\" style=\"max-width:50px;width:100%\"><h2>Forbedrer udstråling<\/h2>\n<p>En god kropsholdning forbedrer vores udstråling og efterlader et godt indtryk.<\/p>\n<\/div>",
-            "column_width_5": 4,
-            "column_width_mobile_5": 12,
-            "text_alignment_5": "text-center",
-            "html_area_6": "<div style=\"padding-left:40px;padding-right:40px\">\n<img src=\"https:\/\/i.ibb.co\/BsTXCGL\/Confidence.png\" alt=\"Ease\" border=\"0\" style=\"max-width:50px;width:100%\"><h2>Øger selvtillid <\/h2>\n<p>En sund og rank kropsholdning giver mere overskud og gør os mere selvsikre.<\/p>\n<\/div>",
-            "column_width_6": 4,
-            "column_width_mobile_6": 12,
-            "text_alignment_6": "text-center",
-            "html_area_7": "",
-            "column_width_7": 4,
-            "column_width_mobile_7": 12,
-            "text_alignment_7": "text-center",
-            "html_area_8": "",
-            "column_width_8": 4,
-            "column_width_mobile_8": 12,
-            "text_alignment_8": "text-center",
-            "html_area_9": "",
-            "column_width_9": 4,
-            "column_width_mobile_9": 12,
-            "text_alignment_9": "text-center",
-            "html_area_10": "",
-            "column_width_10": 4,
-            "column_width_mobile_10": 12,
-            "text_alignment_10": "text-center"
-          }
-        }
-      },
-      "block_order": [
-        "16357615190b1aea37-0"
-      ],
-      "settings": {
-        "show_on_desktop": true,
-        "show_on_mobile": true,
-        "title": "",
-        "subtitle": "",
-        "section_style": "section-blank"
-      }
-    },
     "16357631254fec40e6": {
       "type": "featured-html-columns",
       "blocks": {
@@ -200,6 +139,121 @@
         "section_style": "section-blank"
       }
     },
+    "163671324894c3c82e": {
+      "type": "featured-icons-columns",
+      "blocks": {
+        "163671324894c3c82e-2": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/contacts.jpg",
+            "icon": "",
+            "title": "Begyndelse",
+            "text": "<p>Virksomheden startede med en t-shirt, der forbedrede direktørens liv. Nu arbejder vi for også at hjælpe andre mennesker.<\/p>",
+            "button_style": "btn--primary",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "163671324894c3c82e-1": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/contacts.jpg",
+            "icon": "",
+            "title": "Formål",
+            "text": "<p>Vi eksisterer for at forbedre kropsholdning, lindre smerter og øge livskvaliteten for vores kunder.<\/p>",
+            "button_style": "btn--primary",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "163671324894c3c82e-0": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled-2.gif",
+            "icon": "",
+            "title": "Ambition",
+            "text": "<p>Vi arbejder for at være den foretrukne leverandør af produkter, der effektivt forbedrer kropsholdning.<\/p>",
+            "button_style": "btn--primary",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "163671324894c3c82e-2",
+        "163671324894c3c82e-1",
+        "163671324894c3c82e-0"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "Om Anodyne",
+        "subtitle": "",
+        "section_style": "section-blank",
+        "text_align": "text-center"
+      }
+    },
+    "16357615190b1aea37": {
+      "type": "HTML-columns",
+      "blocks": {
+        "16357615190b1aea37-0": {
+          "type": "HTML_column",
+          "settings": {
+            "wrapper_size": "",
+            "html_area_1": "<div style=\"padding-left:35px;padding-right:35px\">\n<img src=\"https:\/\/i.ibb.co\/TPGrXrV\/Ease.png\" alt=\"Ease\" style=\"max-width:50px;width:100%\"><h2>Bevar integriteten<\/h2>\n<p>Vi er respektfulde og ærlige overfor vores kunder.<\/p>\n<\/div>",
+            "column_width_1": 3,
+            "column_width_mobile_1": 12,
+            "text_alignment_1": "text-center",
+            "html_area_2": "<div style=\"padding-left:35px;padding-right:35px\">\n<img src=\"https:\/\/i.ibb.co\/t8q4kDW\/Prevents.png\" alt=\"Ease\" border=\"0\" style=\"max-width:50px;width:100%\"><h2>Kvaliteten i fokus<\/h2>\n<p>Vores produkter virker og holder i mange år<\/p>\n<\/div>",
+            "column_width_2": 3,
+            "column_width_mobile_2": 12,
+            "text_alignment_2": "text-center",
+            "html_area_3": "<div style=\"padding-left:35px;padding-right:35px\">\n<img src=\"https:\/\/i.ibb.co\/BCR1Fg3\/Alleviate.png\" alt=\"Ease\" border=\"0\" style=\"max-width:50px;width:100%\"><h2>Gør det enkelt<\/h2>\n<p>Vi gør det nemt at finde det helt rigtige produkt.<\/p>\n<\/div>",
+            "column_width_3": 3,
+            "column_width_mobile_3": 12,
+            "text_alignment_3": "text-center",
+            "html_area_4": "<div style=\"padding-left:35px;padding-right:35px\">\n<img src=\"https:\/\/i.ibb.co\/bLg6Mnn\/Smile.png\" alt=\"Ease\" border=\"0\" style=\"max-width:50px;width:100%\"><h2>Lyt til kunden<\/h2>\n<p>Vi holder fingeren på pulsen og lytter til vores kunders feedback.<\/p>\n<\/div>",
+            "column_width_4": 3,
+            "column_width_mobile_4": 12,
+            "text_alignment_4": "text-center",
+            "html_area_5": "",
+            "column_width_5": 3,
+            "column_width_mobile_5": 12,
+            "text_alignment_5": "text-center",
+            "html_area_6": "",
+            "column_width_6": 3,
+            "column_width_mobile_6": 12,
+            "text_alignment_6": "text-center",
+            "html_area_7": "",
+            "column_width_7": 4,
+            "column_width_mobile_7": 12,
+            "text_alignment_7": "text-center",
+            "html_area_8": "",
+            "column_width_8": 4,
+            "column_width_mobile_8": 12,
+            "text_alignment_8": "text-center",
+            "html_area_9": "",
+            "column_width_9": 4,
+            "column_width_mobile_9": 12,
+            "text_alignment_9": "text-center",
+            "html_area_10": "",
+            "column_width_10": 4,
+            "column_width_mobile_10": 12,
+            "text_alignment_10": "text-center"
+          }
+        }
+      },
+      "block_order": [
+        "16357615190b1aea37-0"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "<h2 class=\"h1\">Vores værdier<\/h2>",
+        "subtitle": "",
+        "section_style": "section-blank"
+      }
+    },
     "163576830859681535": {
       "type": "featured-products",
       "settings": {
@@ -227,9 +281,10 @@
   "order": [
     "main",
     "1635768531cb520ba5",
-    "16357615190b1aea37",
     "16357631254fec40e6",
     "16357641478e5f8336",
+    "163671324894c3c82e",
+    "16357615190b1aea37",
     "163576830859681535"
   ]
 }

@@ -6,7 +6,7 @@
     <div class="{%- if full_width -%}wrapper-full{%- else -%}wrapper{%- endif -%}">
       <div class="image-link">
         {%- if section.settings.image != blank -%}
-          <div class="media-wrapper featured-responsive" style="padding-top:{{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100}}%;">
+          <div class="media-wrapper featured-responsive" style="padding-top:{{ 1 | divided_by: section.settings.image.aspect_ratio | times: 80}}%; min-height: {{ section.settings.wrapper__height}}px; ">
             <img class="media no-repeat lazyload"
             {%- render 'lazysizes', img: section.settings.image, img_type: 'background' -%}
             alt="{{ section.settings.image.alt }}">
@@ -89,7 +89,16 @@
         ]
       },
       {
-        "type": "text",
+        "type": "range",
+        "id": "wrapper__height",
+        "min": 360,
+        "max": 600,
+        "step": 5,
+        "label": "wrapper height",
+        "default": 500
+      },
+      {
+        "type": "richtext",
         "id": "image_title",
         "label": "Image Title..."
       },
