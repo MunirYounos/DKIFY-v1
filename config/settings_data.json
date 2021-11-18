@@ -1046,7 +1046,9 @@
           "tag_selector": "button",
           "rows": "4",
           "desktop_grid": "4",
-          "mobile_grid": "2"
+          "mobile_grid": "2",
+          "collection_banner": "shopify:\/\/shop_images\/Black_days_banner_7e3eb176-2227-47e4-8ad0-e17f5d1690fe.jpg",
+          "collection_banner_mobile": "shopify:\/\/shop_images\/Black_days_mobile.jpg"
         }
       },
       "dbtfy-collection-filters": {
@@ -1069,6 +1071,8 @@
           "product_title_large": false,
           "show_product_tags": false,
           "show_sharing_icons": true,
+          "product_banner": "shopify:\/\/shop_images\/Black_days_banner_7e3eb176-2227-47e4-8ad0-e17f5d1690fe.jpg",
+          "product_banner_mobile": "shopify:\/\/shop_images\/Black_days_mobile.jpg",
           "show_product_collections": false,
           "enable_image_zoom": true,
           "enable_video_looping": true,
@@ -1571,12 +1575,12 @@
         "settings": {
           "title": "Black",
           "title_second": "Days",
-          "background_style": "background-dark",
+          "background_style": "background-blank",
           "image": "shopify:\/\/shop_images\/fbbg.jpg",
           "counter__date": "Nov 19, 2021 23:59:59",
           "counter__end_text": "<p>The Count down is over from customizer!<\/p>",
           "newsletter_enable": true,
-          "newsletter_form_heading": "<p>Indtast din E-mail adresse og få tidlig adgang til de gode tilbud + 10% ekstra rabat<\/p>",
+          "newsletter_form_heading": "<p>Vi har lukket siden ned, mens vi forbereder <strong>DE BEDSTE TILBUD NOGENSINDE med op til 80% rabat! <\/strong><\/p><p>Indtast din E-mail adresse og få adgang 24 timer før alle andre <strong>+ 10% ekstra rabat<\/strong><\/p>",
           "newsletter_placeholder": "Email addresse",
           "newsletter_button_text": "Giv mig besked",
           "show_share_buttons": true
@@ -1594,13 +1598,13 @@
           "show_on_desktop": true,
           "show_on_mobile": true,
           "full_width": true,
-          "image": "shopify:\/\/shop_images\/bfbaloons-height-800px.jpg",
+          "image": "shopify:\/\/shop_images\/bf.jpg",
           "section_style": "section-blank",
-          "wrapper__height": 540,
-          "image_title": "<p>BLACK <strong>DAYS<\/strong> 2021<\/p>",
-          "image_subtitle": "<p><strong>Spar op til -80%<\/strong><br\/>Vi starter den 20. november...<\/p>",
-          "image_btntext": "LÆS MERE",
-          "image_link": "shopify:\/\/pages\/black-friday",
+          "wrapper__height": 535,
+          "image_title": "<p><strong>Velkommen til <\/strong><\/p><p>BLACK <strong>DAYS<\/strong><\/p>",
+          "image_subtitle": "<p>Vi har rabat på <strong>alle<\/strong> produkter<\/p><p><strong>Spar op til -80%<\/strong><\/p>",
+          "image_btntext": "SE ALLE TILBUD",
+          "image_link": "shopify:\/\/collections\/alle-produkter",
           "show_on_image_scrolldown": true
         }
       }

@@ -23,7 +23,7 @@
       "login_form_password_placeholder": "Din adgangskode",
       "login_form_submit": "Tilgå",
       "signup_form_email_label": "E-mail",
-      "signup_form_success": "Vi sender en e-mail til dig, lige inden vi åbner.",
+      "signup_form_success": "Hold øje med din indbakke fredag d. 19\/11, hvor vi sender dig adgangskoden",
       "admin_link_html": "Ejer du butikken? <a href=\"\/admin\" class=\"text-link\">Log ind her<\/a>",
       "password_link": "Brug adgangskode for at få adgang",
       "powered_by_shopify_html": "Denne butik vil blive drevet af {{ shopify }}",
@@ -46,8 +46,10 @@
         "share_on_whatsapp": "Del på Whatsapp",
         "share_on_linkedin": "Del på LinkedIn",
         "share_on_reddit": "Del på Reddit",
-        "share_on_messnger": "Del på Messenger"
-      }
+        "share_on_messnger": "Del på Messenger",
+        "share_on_messenger": ""
+      },
+      "share_on_messenger": ""
     },
     "newsletter_form": {
       "newsletter_email": "Tilmeld dig vores adresseliste",
@@ -87,6 +89,20 @@
     },
     "locales": {
       "locale": "Anbefalet til dig"
+    },
+    "months": {
+      "january": "",
+      "february": "",
+      "march": "",
+      "april": "",
+      "may": "",
+      "june": "",
+      "july": "",
+      "august": "",
+      "september": "",
+      "october": "",
+      "november": "",
+      "december": ""
     }
   },
   "blogs": {

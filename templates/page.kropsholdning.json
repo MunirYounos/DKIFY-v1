@@ -1,28 +1,12 @@
 {
   "sections": {
-    "main": {
-      "type": "featured-image",
-      "settings": {
-        "show_on_desktop": true,
-        "show_on_mobile": true,
-        "full_width": true,
-        "image": "shopify:\/\/shop_images\/Kropsholdning_hero3.jpg",
-        "section_style": "section-blank",
-        "wrapper__height": 395,
-        "image_title": "<p><strong>Posture Shirt eller <br\/>skulderstøtte?<\/strong><\/p>",
-        "image_subtitle": "",
-        "image_btntext": "",
-        "image_link": "",
-        "show_on_image_scrolldown": false
-      }
-    },
     "1635768531cb520ba5": {
       "type": "mission",
       "blocks": {
         "1635768531cb520ba5-0": {
           "type": "html",
           "settings": {
-            "mission_title": "<div style=\"padding-top:30px\"><h2 class=\"h1\">Fordele ved god kropsholdning<\/h2><\/div>",
+            "mission_title": "<div style=\"padding-top:30px\"><h1>Fordele ved god kropsholdning<\/h1><\/div>",
             "mission_description": "<div style=\"padding-left:20px;padding-right:20px\">\n<p>De fleste af os ved, at det er vigtigt at have en god kropsholdning, uanset om vi sidder, står eller bevæger os. Men hvorfor egentligt? Der er mange grunde til, at man bør gå op i sin kropsholdning, men her har vi fremhævet de seks vigtigste fysiske og psykiske fordele ved en sund og rank kropsholdning.<\/p>\n<\/div>",
             "column_width": 12,
             "column_width_mobile": 12,
@@ -225,7 +209,6 @@
     }
   },
   "order": [
-    "main",
     "1635768531cb520ba5",
     "16357615190b1aea37",
     "16357631254fec40e6",

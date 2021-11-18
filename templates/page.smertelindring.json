@@ -1,21 +1,5 @@
 {
   "sections": {
-    "main": {
-      "type": "featured-image",
-      "settings": {
-        "show_on_desktop": true,
-        "show_on_mobile": true,
-        "full_width": true,
-        "image": "shopify:\/\/shop_images\/Smertelindring_hero_0d6583a6-b4ab-40eb-96e9-83c7250414e2.jpg",
-        "section_style": "section-blank",
-        "wrapper__height": 360,
-        "image_title": "<p><strong>Posture Shirt eller <br\/>skulderstøtte?<\/strong><\/p>",
-        "image_subtitle": "",
-        "image_btntext": "",
-        "image_link": "",
-        "show_on_image_scrolldown": true
-      }
-    },
     "16357751921072ce6a": {
       "type": "mission",
       "blocks": {
@@ -23,7 +7,7 @@
           "type": "html",
           "settings": {
             "mission_title": "<div style=\"padding-top:30px;\">Smertelindring og forbedring af kropsholdning<\/div>",
-            "mission_description": "<div style=\"padding-left:20px;padding-right:20px\">Døjer du med smerter i ryg, skuldre, nakke eller hovedpine? \nPå denne side kan du læse mere om, hvordan god kropsholdning kan bidrage til smertelindring og løsne op for muskelspændinger.<\/div>",
+            "mission_description": "<div style=\"padding-left:20px;padding-right:20px\">Døjer du med smerter i ryg, skuldre, nakke eller hovedpine? Her kan du læse mere om, hvordan en god kropsholdning kan hjælpe dig.\n<\/div>",
             "column_width": 12,
             "column_width_mobile": 12,
             "text_alignment": "text-center",
@@ -50,15 +34,15 @@
           "type": "HTML_column",
           "settings": {
             "wrapper_size": "",
-            "html_area_1": "<div style=\"padding-left:40px;padding-right:40px\">\n<img src=\"https:\/\/i.ibb.co\/TPGrXrV\/Ease.png\" alt=\"Ease\" style=\"max-width:50px;width:100%\"><h2>Lindrer smerter\n<\/h2>\n<p>Kan lindre spændinger og smerter i ryg, skuldre og nakke.<\/p>\n<\/div>",
+            "html_area_1": "<div style=\"padding-left:35px;padding-right:35px\">\n<img src=\"https:\/\/i.ibb.co\/TPGrXrV\/Ease.png\" alt=\"Ease\" style=\"max-width:50px;width:100%\"><h2>Lindrer smerter\n<\/h2>\n<p>En sund kropsholdning kan lindre spændinger og smerter i ryg, skuldre og nakke.<\/p>\n<\/div>",
             "column_width_1": 4,
             "column_width_mobile_1": 12,
             "text_alignment_1": "text-center",
-            "html_area_2": "<div style=\"padding-left:40px;padding-right:40px\">\n<img src=\"https:\/\/i.ibb.co\/t8q4kDW\/Prevents.png\" alt=\"Ease\" border=\"0\" style=\"max-width:50px;width:100%\"><h2>Forebygger<\/h2>\n<p>Hjælper med at forhindre, at du får problemer med smerter i fremtiden.<\/p>\n<\/div>",
+            "html_area_2": "<div style=\"padding-left:35px;padding-right:35px\">\n<img src=\"https:\/\/i.ibb.co\/t8q4kDW\/Prevents.png\" alt=\"Ease\" border=\"0\" style=\"max-width:50px;width:100%\"><h2>Forebygger<\/h2>\n<p>Hjælper med at forhindre, at du får problemer med smerter i fremtiden.<\/p>\n<\/div>",
             "column_width_2": 4,
             "column_width_mobile_2": 12,
             "text_alignment_2": "text-center",
-            "html_area_3": "<div style=\"padding-left:40px;padding-right:40px\">\n<img src=\"https:\/\/i.ibb.co\/BCR1Fg3\/Alleviate.png\" alt=\"Ease\" border=\"0\" style=\"max-width:50px;width:100%\"><h2>Aflaster<\/h2>\n<p>Aflaster udsatte muskelgrupper og sikrer, at din krop holder mange år endnu.<\/p>\n<\/div>",
+            "html_area_3": "<div style=\"padding-left:35px;padding-right:35px\">\n<img src=\"https:\/\/i.ibb.co\/BCR1Fg3\/Alleviate.png\" alt=\"Ease\" border=\"0\" style=\"max-width:50px;width:100%\"><h2>Aflaster<\/h2>\n<p>Aflaster udsatte muskelgrupper og sikrer, at din krop holder mange år endnu.<\/p>\n<\/div>",
             "column_width_3": 4,
             "column_width_mobile_3": 12,
             "text_alignment_3": "text-center",
@@ -99,7 +83,7 @@
       "settings": {
         "show_on_desktop": true,
         "show_on_mobile": true,
-        "title": "<h2 style=\"margin-top:45px;margin-bottom:-50px\">God kropsholdning og smertelindring<\/h2>",
+        "title": "",
         "subtitle": "",
         "section_style": "section-blank"
       }
@@ -110,7 +94,7 @@
         "16358413676827deec-0": {
           "type": "html",
           "settings": {
-            "mission_title": "<div style=\"margin-top:30px\">Smertelindring med holdningskorrigerende tøj<\/div>",
+            "mission_title": "<div style=\"margin-top:30px\"><h2>Smertelindring med holdningskorrigerende tøj<\/h2><\/div>",
             "mission_description": "<div style=\"margin-bottom:20px\"><p>Vi gør meget ud af at kunne dokumentere effekten af vores produkter og har fået lavet en uvildig undersøgelse, som indsamlede svar fra 1.039 af vores kunder. Undersøgelsen konkluderer, at vores Posture Shirt™ har en positiv indvirkning på kropsholdningen og kan bruges som et supplerende hjælpemiddel til smertelindring i hoved, nakke, skuldre og ryg.<\/p><\/div>",
             "column_width": 12,
             "column_width_mobile": 12,
@@ -441,7 +425,6 @@
     }
   },
   "order": [
-    "main",
     "16357751921072ce6a",
     "163577518155d0cfa9",
     "16358413676827deec",

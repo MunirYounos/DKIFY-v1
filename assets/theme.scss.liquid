@@ -2737,9 +2737,12 @@ color: $colorDarkGray;
 
 // Success message
 .form-success {
-  color: $colorSuccess;
-  border-color: $colorSuccess;
+  color: $white;
+  border-color:$cPrimary;
   text-align: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+  background: $cPrimary;
 
   .newsletter-section & {
     margin-bottom: 0;
@@ -5505,6 +5508,35 @@ cite {
 }
 
 /*================ _Collection_grid ================*/
+.product-single,
+.collection-section{
+  .collection__banner{
+    margin-top: $gutter;
+    max-height: 60px;
+    overflow: hidden;
+    @include screenUp($postSmall){
+      margin-left: -($gutter - 8);
+      margin-bottom: -$gutter;
+    }
+    .collection__banner-img{
+      display: none;
+      @include screenUp($postSmall){
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+
+    }
+    .collection__banner-img-mobil{
+      display: block;
+      width: 100%;
+      height: auto;
+      @include screenUp($postSmall){
+        display: none;
+      }
+    }
+  }
+}
 .collection_grid-item {
   @include display-flexbox();
   @include align-items(center);

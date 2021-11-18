@@ -1,19 +1,64 @@
 {
   "sections": {
-    "main": {
-      "type": "featured-image",
+    "16371463083c195029": {
+      "type": "HTML-columns",
+      "blocks": {
+        "1637146308aef33c77-0": {
+          "type": "HTML_column",
+          "settings": {
+            "wrapper_size": "",
+            "html_area_1": "",
+            "column_width_1": 12,
+            "column_width_mobile_1": 12,
+            "text_alignment_1": "text-center",
+            "html_area_2": "",
+            "column_width_2": 4,
+            "column_width_mobile_2": 12,
+            "text_alignment_2": "text-center",
+            "html_area_3": "",
+            "column_width_3": 4,
+            "column_width_mobile_3": 12,
+            "text_alignment_3": "text-center",
+            "html_area_4": "",
+            "column_width_4": 4,
+            "column_width_mobile_4": 12,
+            "text_alignment_4": "text-center",
+            "html_area_5": "",
+            "column_width_5": 4,
+            "column_width_mobile_5": 12,
+            "text_alignment_5": "text-center",
+            "html_area_6": "",
+            "column_width_6": 4,
+            "column_width_mobile_6": 12,
+            "text_alignment_6": "text-center",
+            "html_area_7": "",
+            "column_width_7": 4,
+            "column_width_mobile_7": 12,
+            "text_alignment_7": "text-center",
+            "html_area_8": "",
+            "column_width_8": 4,
+            "column_width_mobile_8": 12,
+            "text_alignment_8": "text-center",
+            "html_area_9": "",
+            "column_width_9": 4,
+            "column_width_mobile_9": 12,
+            "text_alignment_9": "text-center",
+            "html_area_10": "",
+            "column_width_10": 4,
+            "column_width_mobile_10": 12,
+            "text_alignment_10": "text-center"
+          }
+        }
+      },
+      "block_order": [
+        "1637146308aef33c77-0"
+      ],
       "settings": {
         "show_on_desktop": true,
         "show_on_mobile": true,
-        "full_width": true,
-        "image": "shopify:\/\/shop_images\/PSB101.jpg",
-        "section_style": "section-blank",
-        "wrapper__height": 360,
-        "image_title": "<p><strong>Posture Shirt eller <br\/>skulderstøtte?<\/strong><\/p>",
-        "image_subtitle": "<p>Læs mere om forskelle og ligheder mellem de to produkter her.<\/p>",
-        "image_btntext": "",
-        "image_link": "",
-        "show_on_image_scrolldown": false
+        "title": "<br><h1>Posture Shirt eller Skulderstøtte?<\/h1>",
+        "subtitle": "Læs mere om forskelle og ligheder mellem de to produkter her.",
+        "section_style": "section-blank"
       }
     },
     "16358542128541f953": {
@@ -52,7 +97,7 @@
     }
   },
   "order": [
-    "main",
+    "16371463083c195029",
     "16358542128541f953",
     "16358545190198e666"
   ]
