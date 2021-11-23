@@ -1,5 +1,5 @@
 <div id="section-{{ section.id }}" class="{% unless section.settings.show_on_desktop %} medium--hide large--hide{% endunless %} {{ section.settings.section_style }}{% unless section.settings.show_on_mobile %} small--hide{% endunless %}" data-section-id="{{ section.id }}" data-section-type="custom-html-section">
-  <div class="box-mission landing-mission-{{ section.id }}">
+  <div class="box-mission landing-mission-{{ section.id }}" style="margin-bottom:{{ section.settings.margin__bottom}}px;">
     <div class="wrapper{{ section.settings.wrapper_size }}">
       {%- if section.blocks.size > 0 -%}
         <div class="grid grid-spacer mission__grid">
@@ -107,11 +107,14 @@
         "label": "Show on mobile",
         "default": true
       },
-	    {
-        "type": "checkbox",
-        "id": "padding_section",
-        "label": "Add padding",
-		    "default": true
+      {
+        "type": "range",
+        "id": "margin__bottom",
+        "min": -30,
+        "max": 90,
+        "step": 2,
+        "label": "Add margin bottom",
+        "default": 0
       },
       {
         "type": "select",

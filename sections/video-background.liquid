@@ -33,7 +33,7 @@
 			<div class="hero-fixed-width__content">
 				<div class="page-width text-center">
 					{%- if section.settings.video_title != blank -%}
-						<h2 class="h1 mega-title{% if section.settings.text_size == 'large' %} mega-title--large{% endif %}">{{ section.settings.video_title | escape }}</h2>
+						<h2 class="h1 mega-title{% if section.settings.text_size == 'large' %} mega-title--large{% endif %}">{{ section.settings.video_title }}</h2>
 					{%- endif -%}
 					{%- if section.settings.text_description != blank -%}
 						<div class="rte-setting mega-subtitle{% if section.settings.text_description_size == 'large' %} mega-subtitle--large{% endif %}">{{ section.settings.text_description }}</div>
@@ -677,7 +677,7 @@
       ]
     },
     {
-      "type": "text",
+      "type": "html",
       "id": "video_title",
       "label": {
         "cs": "Nadpis",

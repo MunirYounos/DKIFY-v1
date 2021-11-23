@@ -1,5 +1,21 @@
 {
   "sections": {
+    "1637330665f57781eb": {
+      "type": "featured-image",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/test.jpg",
+        "section_style": "section-blank",
+        "wrapper__height": 360,
+        "image_title": "<p><strong>God kropsholdning<\/strong><\/p>",
+        "image_subtitle": "",
+        "image_btntext": "",
+        "image_link": "",
+        "show_on_image_scrolldown": false
+      }
+    },
     "1635768531cb520ba5": {
       "type": "mission",
       "blocks": {
@@ -209,6 +225,7 @@
     }
   },
   "order": [
+    "1637330665f57781eb",
     "1635768531cb520ba5",
     "16357615190b1aea37",
     "16357631254fec40e6",

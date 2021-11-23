@@ -1,12 +1,28 @@
 {
   "sections": {
+    "1637325960a723ac8f": {
+      "type": "featured-image",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/Smertelindring_hero_0d6583a6-b4ab-40eb-96e9-83c7250414e2.jpg",
+        "section_style": "section-blank",
+        "wrapper__height": 360,
+        "image_title": "<p><strong>Smertelindring og god kropsholdning<\/strong><\/p>",
+        "image_subtitle": "",
+        "image_btntext": "",
+        "image_link": "",
+        "show_on_image_scrolldown": false
+      }
+    },
     "16357751921072ce6a": {
       "type": "mission",
       "blocks": {
         "16357751921072ce6a-0": {
           "type": "html",
           "settings": {
-            "mission_title": "<div style=\"padding-top:30px;\">Smertelindring og forbedring af kropsholdning<\/div>",
+            "mission_title": "<div style=\"padding-top:30px;\"><h1>Sund kropsholdning og lindring af smerter<\/h1><\/div>",
             "mission_description": "<div style=\"padding-left:20px;padding-right:20px\">Døjer du med smerter i ryg, skuldre, nakke eller hovedpine? Her kan du læse mere om, hvordan en god kropsholdning kan hjælpe dig.\n<\/div>",
             "column_width": 12,
             "column_width_mobile": 12,
@@ -42,7 +58,7 @@
             "column_width_2": 4,
             "column_width_mobile_2": 12,
             "text_alignment_2": "text-center",
-            "html_area_3": "<div style=\"padding-left:35px;padding-right:35px\">\n<img src=\"https:\/\/i.ibb.co\/BCR1Fg3\/Alleviate.png\" alt=\"Ease\" border=\"0\" style=\"max-width:50px;width:100%\"><h2>Aflaster<\/h2>\n<p>Aflaster udsatte muskelgrupper og sikrer, at din krop holder mange år endnu.<\/p>\n<\/div>",
+            "html_area_3": "<div style=\"padding-left:35px;padding-right:35px\">\n<img src=\"https:\/\/i.ibb.co\/BCR1Fg3\/Alleviate.png\" alt=\"Ease\" border=\"0\" style=\"max-width:50px;width:100%\"><h2>Aflaster<\/h2>\n<p>Aflaster udsatte muskelgrupper og løsner op for spændinger i skuldre, nakke og lænd.<\/p>\n<\/div>",
             "column_width_3": 4,
             "column_width_mobile_3": 12,
             "text_alignment_3": "text-center",
@@ -95,7 +111,7 @@
           "type": "html",
           "settings": {
             "mission_title": "<div style=\"margin-top:30px\"><h2>Smertelindring med holdningskorrigerende tøj<\/h2><\/div>",
-            "mission_description": "<div style=\"margin-bottom:20px\"><p>Vi gør meget ud af at kunne dokumentere effekten af vores produkter og har fået lavet en uvildig undersøgelse, som indsamlede svar fra 1.039 af vores kunder. Undersøgelsen konkluderer, at vores Posture Shirt™ har en positiv indvirkning på kropsholdningen og kan bruges som et supplerende hjælpemiddel til smertelindring i hoved, nakke, skuldre og ryg.<\/p><\/div>",
+            "mission_description": "<div style=\"margin-bottom:60px\"><p>Vi gør meget ud af at kunne dokumentere effekten af vores produkter. Derfor har vi fået udarbejdet en uvildig undersøgelse, som indsamlede svar fra 1.039 af vores kunder. Undersøgelsen konkluderer, at vores Posture Shirt™ har en positiv indvirkning på kropsholdningen og kan bruges som et supplerende hjælpemiddel til smertelindring i hoved, nakke, skuldre og ryg.<\/p><\/div>",
             "column_width": 12,
             "column_width_mobile": 12,
             "text_alignment": "text-center",
@@ -122,8 +138,8 @@
           "type": "HTML_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Shoulders_99166cdc-641c-48eb-b2c1-a0274ad8c3c1.jpg",
-            "title": "Smerter i øvre ryg",
-            "text": "<p>73% oplever, at hyppigheden af deres ryg- og skuldersmerter er blevet mindre.<\/p>",
+            "title": "",
+            "text": "<p>73% oplever, at hyppigheden af deres <strong>ryg- og skuldersmerter er blevet mindre<\/strong>.<\/p>",
             "button_style": "btn--primary",
             "button_label": "",
             "button_link": ""
@@ -133,8 +149,8 @@
           "type": "HTML_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Neck.jpg",
-            "title": "Nakkesmerter",
-            "text": "<p>70% oplever, at hyppigheden af deres nakkesmerter er blevet mindre.<\/p>",
+            "title": "",
+            "text": "70% oplever, at hyppigheden af deres <strong>nakkesmerter er blevet mindre<\/strong>.",
             "button_style": "btn--primary",
             "button_label": "",
             "button_link": ""
@@ -144,8 +160,8 @@
           "type": "HTML_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Lumbar.jpg",
-            "title": "Lændesmerter",
-            "text": "<p>65% oplever, at intensiteten af deres smerter i lænden er blevet reduceret.<\/p>",
+            "title": "",
+            "text": "<p>65% oplever, at intensiteten af deres <strong>smerter i lænden er blevet reduceret<\/strong>.<\/p>",
             "button_style": "btn--primary",
             "button_label": "",
             "button_link": ""
@@ -155,8 +171,8 @@
           "type": "HTML_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Headache.jpg",
-            "title": "Hovedpine",
-            "text": "<p>77% føler, at intensiteten af deres hovedpine er blevet reduceret.<\/p>",
+            "title": "",
+            "text": "<p>77% føler, at intensiteten af deres <strong>hovedpine er blevet reduceret<\/strong>.<\/p>",
             "button_style": "btn--primary",
             "button_label": "",
             "button_link": ""
@@ -246,7 +262,7 @@
           "type": "HTML_column",
           "settings": {
             "wrapper_size": "",
-            "html_area_1": "<div style=\"margin-top:-40px; margin-bottom:0px\">\n<h2>Vi er medicinsk registrerede<\/h2>\n<img src=\"https:\/\/i.ibb.co\/qBzL8qF\/Medical-registration.png\">\n<p>Anodyne® er den eneste forhandler af holdningskorrigerende tøj i Europa, hvis produkter er både FDA-registreret og CE-mærket som medicinsk udstyr.\n<br>Det betyder, at vores produkter overholder en række stramme krav til miljø, sikkerhed, kvalitet og ydeevne.\n<br>\nDenne registrering gælder både for vores Posture Shirt™, SpinalQ Pro, og MyLign Pro.\n<\/p>\n<\/div>\n<a class=\"btn btn--small btn-outline-primary\" href=\"https:\/\/www.anodyne.dk\/pages\/test-af-holdningstoj\">Se udvalg<\/a>",
+            "html_area_1": "<div style=\"margin-top:-40px; margin-bottom:0px\">\n<h2>Vi er medicinsk registrerede<\/h2>\n<img src=\"https:\/\/i.ibb.co\/qBzL8qF\/Medical-registration.png\">\n<p>Anodyne® er den eneste forhandler af holdningskorrigerende tøj i Europa, hvis produkter er både FDA-registreret og CE-mærket som medicinsk udstyr.\n<br>Det betyder, at vores produkter overholder en række stramme krav til miljø, sikkerhed, kvalitet og ydeevne.\n<br>\nDenne registrering gælder både for vores Posture Shirt™, SpinalQ Pro, og MyLign Pro.\n<\/p>\n<\/div>\n<a class=\"btn btn--small btn-outline\" href=\"https:\/\/www.anodyne.dk\/pages\/test-af-holdningstoj\">Se udvalg<\/a>",
             "column_width_1": 12,
             "column_width_mobile_1": 12,
             "text_alignment_1": "text-center",
@@ -425,6 +441,7 @@
     }
   },
   "order": [
+    "1637325960a723ac8f",
     "16357751921072ce6a",
     "163577518155d0cfa9",
     "16358413676827deec",

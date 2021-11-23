@@ -239,6 +239,19 @@
       },
       "dbtfy-cart-upsell": {
         "type": "dbtfy-cart-upsell",
+        "blocks": {
+          "eda47616-f2ab-4615-8281-7b159e2ca931": {
+            "type": "cart-upsell",
+            "settings": {
+              "dbtfy_cart_general_upsell_title": "NYHED! Tilkøb en flot gaveæske",
+              "dbtfy_cart_general_upsell_product_offer": "30x21x7cm",
+              "dbtfy_cart_general_upsell_btn_title": "Tilføj"
+            }
+          }
+        },
+        "block_order": [
+          "eda47616-f2ab-4615-8281-7b159e2ca931"
+        ],
         "settings": {
           "dbtfy_cart_upsell_button_style": "btn--primary"
         }
@@ -297,10 +310,10 @@
           "announcement-0": {
             "type": "message",
             "settings": {
-              "announcement_text": "<p>Vi tæller ned til <strong>Black Days<\/strong><\/p>",
-              "announcement_counter": "Nov 20, 2021 00:00:00",
+              "announcement_text": "<p><strong>Black Days <\/strong>- Lige nu op til 80% rabat<\/p>",
+              "announcement_counter": "Nov 21, 2021 16:00:00",
               "announcemen_link": "",
-              "announcement_end_text": "<p><strong>Black Days:<\/strong> Op til -80%<\/p>"
+              "announcement_end_text": "<p><strong>Black Days <\/strong>- Lige nu op til 80% rabat<\/p>"
             }
           }
         },
@@ -682,20 +695,19 @@
       },
       "16300631015589eb65": {
         "type": "video-background",
-        "disabled": true,
         "settings": {
           "page_width": "full_width",
           "height": "medium",
-          "newvideo_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0596\/7842\/5237\/files\/anodyne_cover_video.mp4?v=1631866527",
-          "show_overlay": false,
-          "image": "shopify:\/\/shop_images\/fvcover_c36e8f58-30ed-47e2-b8b8-73c7a393db73.png",
+          "newvideo_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0596\/7842\/5237\/files\/Cover.mp4?v=1637326801",
+          "show_overlay": true,
+          "image": "shopify:\/\/shop_images\/Skaermbillede_2021-11-18_kl._14.03.24.png",
           "image_position": "center center",
-          "video_title": "BLACK DAYS",
+          "video_title": "<span class=\"first\">BLACK<\/span> DAYS",
           "text_size": "medium",
-          "text_description": "<p><strong>Spar op til -80%<\/strong><br\/>Vi starter den 20. november...<\/p>",
+          "text_description": "<p>Vi har rabat på <strong>alle<\/strong> produkter<br\/><strong>Spar op til -80%<\/strong><\/p>",
           "text_description_size": "medium",
-          "button_label": "Læs mere",
-          "button_link": "shopify:\/\/pages\/black-friday",
+          "button_label": "SE ALLE TILBUD",
+          "button_link": "shopify:\/\/collections\/alle-produkter",
           "show_scrolldown": true
         }
       },
@@ -1580,7 +1592,7 @@
           "counter__date": "Nov 19, 2021 23:59:59",
           "counter__end_text": "<p>The Count down is over from customizer!<\/p>",
           "newsletter_enable": true,
-          "newsletter_form_heading": "<p>Vi har lukket siden ned, mens vi forbereder <strong>DE BEDSTE TILBUD NOGENSINDE med op til 80% rabat! <\/strong><\/p><p>Indtast din E-mail adresse og få adgang 24 timer før alle andre <strong>+ 10% ekstra rabat<\/strong><\/p>",
+          "newsletter_form_heading": "<p>Vi har lukket siden ned, mens vi forbereder <strong>BLACK DAYS<br\/>med op til 80% rabat<\/strong>! <\/p><p>Men du kan allerede nu få eksklusiv adgang til <strong>ALLE tilbud<\/strong> før alle andre! Indtast din e-mail nedenfor og modtag din adgangskode til at låse siden op allerede NU!<\/p>",
           "newsletter_placeholder": "Email addresse",
           "newsletter_button_text": "Giv mig besked",
           "show_share_buttons": true
@@ -1594,6 +1606,7 @@
       },
       "1636700831d29b8f51": {
         "type": "featured-image",
+        "disabled": true,
         "settings": {
           "show_on_desktop": true,
           "show_on_mobile": true,
@@ -1610,8 +1623,8 @@
       }
     },
     "content_for_index": [
-      "1636700831d29b8f51",
       "16300631015589eb65",
+      "1636700831d29b8f51",
       "1630063768bdfa2f5f",
       "1630070175c6ebb320",
       "163032369225153039",

@@ -5024,7 +5024,6 @@ cite {
     padding: $gutter-sm;
     background-color: $white;
     border: $bordersLight;
-    cursor: pointer;
     .media-wrapper{
       padding-top: 100px !important;
       background-color: $white;
@@ -5044,12 +5043,6 @@ cite {
           line-height:1.4;
         }
       }
-    }
-
-    &:hover {
-      transform: translateY(-8px);
-      @include shadow($shadow-xs);
-      @include transition($transitions);
     }
   }
 }
@@ -7903,11 +7896,13 @@ body {
   .cu-product-name {
     margin-bottom: 0;
     margin-left: $spacer-sm;
+    display:none;
   }
 
   .cu-product-wrapper {
     @include display-flexbox();
     line-height: 0;
+    flex-wrap: wrap;
   }
 
   .cu-image-wrapper {
@@ -7918,12 +7913,13 @@ body {
 
   .cu-product-select {
     margin-right: $spacer-sm;
-    width: 120px;
+    width: 220px;
     @include flex(auto);
   }
 
   .cu-product-button {
     max-width: 140px;
+    margin-top:$gutter-xs;
   }
 }
 {%- endif -%}
@@ -10090,7 +10086,7 @@ selector[data-type="languages"][data-id="283692853"].ls-sw-closed > .active:afte
   right: 0;
   bottom: 0;
   z-index: 0;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 .videoblock .hero-fixed-width__content {
   position: absolute;
@@ -10108,7 +10104,10 @@ selector[data-type="languages"][data-id="283692853"].ls-sw-closed > .active:afte
   text-transform: uppercase;
   color:  $white;
   font-size: clamp($cH1, 5vw, $cHeroSize); 
-  font-weight: 500;
+  font-weight: 700;
+  .first{
+    color: $cAccent;
+  }
 }
 .videoblock .hero-fixed-width__content .mega-subtitle {
   p {
@@ -10304,14 +10303,14 @@ selector[data-type="languages"][data-id="283692853"].ls-sw-closed > .active:afte
 .featured-colleagues-section{
   .colleague-grid{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns:repeat(auto-fit, minmax(33%, 1fr));
     grid-template-rows:auto;
     grid-gap: $gutter-xs;
     @include screenUp($postSmall){
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
     }
     @include screenUp($postMedium){
-      grid-template-columns: repeat(6, 1fr);
+      grid-template-columns: repeat(auto-fit, minmax(16%, 1fr));
     }
     .colleague-single{
       .colleague_desc{
@@ -10354,8 +10353,11 @@ selector[data-type="languages"][data-id="283692853"].ls-sw-closed > .active:afte
         p{
           color: lighten($colorLightGray, 10%);
           font-size: 0.85rem;
+ 
         }
-        
+        p{
+          word-break: break-word;
+        }
       }
     }
   }

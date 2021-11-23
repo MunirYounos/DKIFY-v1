@@ -57,7 +57,7 @@
         "show_on_desktop": true,
         "show_on_mobile": true,
         "title": "<br><h1>Posture Shirt eller Skulderstøtte?<\/h1>",
-        "subtitle": "Læs mere om forskelle og ligheder mellem de to produkter her.",
+        "subtitle": "<div style=\"margin-bottom:-60px\">Læs mere om forskelle og ligheder mellem de to produkter her.<\/div>",
         "section_style": "section-blank"
       }
     },
@@ -74,7 +74,7 @@
         "title": "Hvorfor vælge en Posture Shirt™?",
         "text": "<p>Vælg en Posture Shirt™, hvis du ønsker et produkt med høj komfort, som giver støtte hele dagen.<\/p><p>• Forbedrer kropsholdningen<br>• Øger kropsholdningsbevidstheden<br>• Aktiverer muskulaturen<br>• Giver fri bevægelighed<br>• Dokumenteret effekt på lindring af smerter og spændinger<br>• Medicinsk registreret (klasse 1)<\/p><p><br>Kan bruges <strong>hele dagen<\/strong> (ved gradvis tilvænning):<\/p><p>• Siddende<br>• Stående<br>• Ved fysisk aktivitet <\/p><p><\/p>",
         "button_style": "btn--primary",
-        "button_label": "Se Posture Shirts™",
+        "button_label": "Se Posture Shirts",
         "button_link": "shopify:\/\/collections\/posture-shirt"
       }
     },
