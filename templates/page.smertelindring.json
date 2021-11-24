@@ -16,33 +16,6 @@
         "show_on_image_scrolldown": false
       }
     },
-    "16357751921072ce6a": {
-      "type": "mission",
-      "blocks": {
-        "16357751921072ce6a-0": {
-          "type": "html",
-          "settings": {
-            "mission_title": "<div style=\"padding-top:30px;\"><h1>Sund kropsholdning og lindring af smerter<\/h1><\/div>",
-            "mission_description": "<div style=\"padding-left:20px;padding-right:20px\">Døjer du med smerter i ryg, skuldre, nakke eller hovedpine? Her kan du læse mere om, hvordan en god kropsholdning kan hjælpe dig.\n<\/div>",
-            "column_width": 12,
-            "column_width_mobile": 12,
-            "text_alignment": "text-center",
-            "btn_text": "",
-            "btn_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "16357751921072ce6a-0"
-      ],
-      "settings": {
-        "show_on_desktop": true,
-        "show_on_mobile": true,
-        "padding_section": true,
-        "section_style": "section-blank",
-        "wrapper_size": ""
-      }
-    },
     "163577518155d0cfa9": {
       "type": "HTML-columns",
       "blocks": {
@@ -50,15 +23,15 @@
           "type": "HTML_column",
           "settings": {
             "wrapper_size": "",
-            "html_area_1": "<div style=\"padding-left:35px;padding-right:35px\">\n<img src=\"https:\/\/i.ibb.co\/TPGrXrV\/Ease.png\" alt=\"Ease\" style=\"max-width:50px;width:100%\"><h2>Lindrer smerter\n<\/h2>\n<p>En sund kropsholdning kan lindre spændinger og smerter i ryg, skuldre og nakke.<\/p>\n<\/div>",
+            "html_area_1": "<div style=\"padding-left:35px;padding-right:35px;margin-top:-15px\">\n<img src=\"https:\/\/i.ibb.co\/TPGrXrV\/Ease.png\" alt=\"Ease\" style=\"max-width:50px;width:100%\"><h2>Lindrer smerter\n<\/h2>\n<p>En sund kropsholdning kan lindre spændinger og smerter i ryg, skuldre og nakke.<\/p>\n<\/div>",
             "column_width_1": 4,
             "column_width_mobile_1": 12,
             "text_alignment_1": "text-center",
-            "html_area_2": "<div style=\"padding-left:35px;padding-right:35px\">\n<img src=\"https:\/\/i.ibb.co\/t8q4kDW\/Prevents.png\" alt=\"Ease\" border=\"0\" style=\"max-width:50px;width:100%\"><h2>Forebygger<\/h2>\n<p>Hjælper med at forhindre, at du får problemer med smerter i fremtiden.<\/p>\n<\/div>",
+            "html_area_2": "<div style=\"padding-left:35px;padding-right:35px;margin-top:-15px\">\n<img src=\"https:\/\/i.ibb.co\/t8q4kDW\/Prevents.png\" alt=\"Ease\" border=\"0\" style=\"max-width:50px;width:100%\"><h2>Forebygger<\/h2>\n<p>Hjælper med at forhindre, at du får problemer med smerter i fremtiden.<\/p>\n<\/div>",
             "column_width_2": 4,
             "column_width_mobile_2": 12,
             "text_alignment_2": "text-center",
-            "html_area_3": "<div style=\"padding-left:35px;padding-right:35px\">\n<img src=\"https:\/\/i.ibb.co\/BCR1Fg3\/Alleviate.png\" alt=\"Ease\" border=\"0\" style=\"max-width:50px;width:100%\"><h2>Aflaster<\/h2>\n<p>Aflaster udsatte muskelgrupper og løsner op for spændinger i skuldre, nakke og lænd.<\/p>\n<\/div>",
+            "html_area_3": "<div style=\"padding-left:35px;padding-right:35px;margin-top:-15px\">\n<img src=\"https:\/\/i.ibb.co\/BCR1Fg3\/Alleviate.png\" alt=\"Ease\" border=\"0\" style=\"max-width:50px;width:100%\"><h2>Aflaster<\/h2>\n<p>Aflaster udsatte muskelgrupper og løsner op for spændinger i skuldre, nakke og lænd.<\/p>\n<\/div>",
             "column_width_3": 4,
             "column_width_mobile_3": 12,
             "text_alignment_3": "text-center",
@@ -99,9 +72,9 @@
       "settings": {
         "show_on_desktop": true,
         "show_on_mobile": true,
-        "title": "",
+        "title": "<div style=\"margin-bottom:-50px\"><\/div>",
         "subtitle": "",
-        "section_style": "section-blank"
+        "section_style": "section-default"
       }
     },
     "16358413676827deec": {
@@ -110,8 +83,8 @@
         "16358413676827deec-0": {
           "type": "html",
           "settings": {
-            "mission_title": "<div style=\"margin-top:30px\"><h2>Smertelindring med holdningskorrigerende tøj<\/h2><\/div>",
-            "mission_description": "<div style=\"margin-bottom:60px\"><p>Vi gør meget ud af at kunne dokumentere effekten af vores produkter. Derfor har vi fået udarbejdet en uvildig undersøgelse, som indsamlede svar fra 1.039 af vores kunder. Undersøgelsen konkluderer, at vores Posture Shirt™ har en positiv indvirkning på kropsholdningen og kan bruges som et supplerende hjælpemiddel til smertelindring i hoved, nakke, skuldre og ryg.<\/p><\/div>",
+            "mission_title": "<div style=\"margin-top:0px\"><h2>Smertelindring med holdningskorrigerende tøj<\/h2><\/div>",
+            "mission_description": "<div style=\"margin-bottom:0px\"><p>Vi gør meget ud af at kunne dokumentere effekten af vores produkter. Derfor har vi fået udarbejdet en uvildig undersøgelse, som indsamlede svar fra 1.039 af vores kunder. Undersøgelsen konkluderer, at vores Posture Shirt™ har en positiv indvirkning på kropsholdningen og kan bruges som et supplerende hjælpemiddel til smertelindring i hoved, nakke, skuldre og ryg.<\/p><\/div>",
             "column_width": 12,
             "column_width_mobile": 12,
             "text_alignment": "text-center",
@@ -126,7 +99,7 @@
       "settings": {
         "show_on_desktop": true,
         "show_on_mobile": true,
-        "padding_section": true,
+        "margin__bottom": 30,
         "section_style": "section-blank",
         "wrapper_size": ""
       }
@@ -344,7 +317,7 @@
         "image_alignement": "right",
         "text_alignment": "",
         "title": "Smertelindring er en del af vores DNA",
-        "text": "<p>Anodyne betyder nemlig ”smertestillende” på engelsk. Anodyne® blev grundlagt, fordi direktøren, Kenneth, selv døjede med smerter i mange år. Efter utallige fysioterapeutiske behandlinger og lang tids søgen fandt han en holdningskorrigerende t-shirt fra USA, som hjalp ham med at rette op på sin kropsholdning. Effekten var for ham ikke til at tage fejl af, og han vidste med det samme, at denne t-shirt bare måtte deles med andre, som også døjer med smerter. Derfor grundlagde han sammen med sin kone, Mia, Anodyne® i 2015 og begyndte at forhandle den såkaldte Posture Shirt™ i Europa. Sidenhen er sortimentet blevet udvidet, og vi tilbyder nu en lang række produkter, der kan forbedre kropsholdningen og hjælpe til smertelindring.  <\/p>",
+        "text": "<p>Anodyne betyder ”smertestillende” på engelsk. Anodyne® blev grundlagt, fordi direktøren, Kenneth, selv døjede med smerter i mange år. Efter utallige fysioterapeutiske behandlinger og lang tids søgen fandt han en holdningskorrigerende t-shirt fra USA, som hjalp ham med at rette op på sin kropsholdning. Effekten var for ham ikke til at tage fejl af, og han vidste med det samme, at denne t-shirt bare måtte deles med andre, som også døjer med smerter. Derfor grundlagde han sammen med sin kone, Mia, Anodyne® i 2014 og begyndte at forhandle den såkaldte Posture Shirt™ i Europa. Sidenhen er sortimentet blevet udvidet, og vi tilbyder nu en lang række produkter, der kan forbedre kropsholdningen og hjælpe til smertelindring.  <\/p>",
         "button_style": "btn-outline-primary",
         "button_label": "Læs mere om os",
         "button_link": "shopify:\/\/pages\/hvem-er-vi"
@@ -381,7 +354,7 @@
           "settings": {
             "accordion_title": "Ondt i øverste del af ryggen? Sådan slipper du af med rygsmerter",
             "accordion__inner-title": "",
-            "accordion__description": "Som ved mange andre smerter kan det være svært nøjagtigt at fastslå, hvor rygsmerter stammer fra. Oftest drejer det sig dog om helt ukomplicerede tilstande, som med øvelser og få andre hjælpemidler kan afhjælpes. Holdningstøj fra Anodyne® kan være et af de redskaber, der kan hjælpe med at reducere dine rygsmerter. Det viser en undersøgelse fra 2019 foretaget i samarbejde med Bern University of Applied Sciences. Her blev 1039 brugere blandt andet spurgt ind til deres smerter og spændinger i hoved, nakke, ryg og skuldre før og efter, de begyndte at bruge holdningskorrigerende tøj fra Anodyne.* Resultaterne taler for sig selv: 81% af de adspurgte med smerter i øvre ryg føler, at de er blevet mere opmærksomme på deres kropsholdning, 61% føler, at hyppigheden af deres smerter i ryggen er mindre og hele 73% føler, at intensiteten af deres rygsmerter er reduceret. Nedenfor kan du se besvarelser fra de 422 respondenter, som har angivet, at de døjer med smerter i øvre ryg.\n<br>\n<br>\n<p style=\"font-size:70%;\">*Brugerne har alle brugt en Alignme BH eller en Posture Shirt™.<\/p>",
+            "accordion__description": "Som ved mange andre smerter kan det være svært nøjagtigt at fastslå, hvor rygsmerter stammer fra. Oftest drejer det sig dog om helt ukomplicerede tilstande, som med øvelser og få andre hjælpemidler kan afhjælpes. Holdningstøj fra Anodyne® kan være et af de redskaber, der kan hjælpe med at reducere dine rygsmerter. Det viser en undersøgelse fra 2019 foretaget i samarbejde med Bern University of Applied Sciences. Her blev 1039 brugere blandt andet spurgt ind til deres smerter og spændinger i hoved, nakke, ryg og skuldre før og efter, de begyndte at bruge holdningskorrigerende tøj fra Anodyne.* Resultaterne taler for sig selv: 81% af de adspurgte med smerter i øvre ryg føler, at de er blevet mere opmærksomme på deres kropsholdning, 61% føler, at hyppigheden af deres smerter i ryggen er mindre og hele 73% føler, at intensiteten af deres rygsmerter er reduceret. \n<br>\n<br>\n<p style=\"font-size:70%;\">*Brugerne har alle brugt en Alignme BH eller en Posture Shirt™.<\/p>",
             "accordion__buttontext": "",
             "accordion__LinkUrl": ""
           }
@@ -391,7 +364,7 @@
           "settings": {
             "accordion_title": "Få bugt med skuldersmerter",
             "accordion__inner-title": "",
-            "accordion__description": "Skuldersmerter kan være meget generende for udførelse af selv de mest naturlige bevægelser i hverdagen. Andre bevægelser bliver helt umulige at udføre, fordi det gør ondt i skulderen. Ofte vil smerterne også stråle til nakken og\/eller ned i ryggen. Det skyldes, at skulderen er et meget komplekst led, der er bundet sammen af både passive og aktive strukturer. Disse stukturer kan blandt andet blive påvirket af en dårlig kropsholdning, fordi vi på den måde overbelaster de forskellige led og stukturer i skulderen.1 Det er der heldigvis råd for; holdningstøj fra Anodyne® kan potentielt afhjælpe dine skuldersmerter. En undersøgelse foretaget i 2019 i samarbejde med Bern University of Applied Sciences viser nemlig, at 73% af de adspurgte brugere med skuldersmerter føler, at intensiteten af deres smerter blev reduceret, efter de begyndte at bruge holdningskorrigerende tøj fra Anodyne.* I undersøgelsen blev 1039 brugere blandt andet spurgt ind til deres smerter og spændinger i hoved, nakke, ryg og skuldre i dagligdagen før og efter, de begyndte at bruge holdningskorrigerende tøj fra Anodyne. Resultaterne taler for sig selv: 84% føler, at produktet har haft en positiv indvirkning på deres kropsholdning, 70% føler at hyppigheden af deres skuldersmerter er mindre og hele 73% føler, at intensiteten af deres skuldersmerter er reduceret. Så hvorfor ikke også prøve, om du kan få gavn af en holdningskorrigerende trøje fra Anodyne? Nedenfor kan du se besvarelser fra de 605 respondenter, som har angivet, at de døjer med skuldersmerter.\n<br>\n<br>\n<p style=\"font-size:70%;\">*Brugerne har alle brugt en Alignme BH eller en Posture Shirt™.<\/p>",
+            "accordion__description": "Skuldersmerter kan være meget generende for udførelse af selv de mest naturlige bevægelser i hverdagen. Andre bevægelser bliver helt umulige at udføre, fordi det gør ondt i skulderen. Ofte vil smerterne også stråle til nakken og\/eller ned i ryggen. Det skyldes, at skulderen er et meget komplekst led, der er bundet sammen af både passive og aktive strukturer. Disse stukturer kan blandt andet blive påvirket af en dårlig kropsholdning, fordi vi på den måde overbelaster de forskellige led og stukturer i skulderen. Det er der heldigvis råd for; holdningstøj fra Anodyne® kan potentielt afhjælpe dine skuldersmerter. En undersøgelse foretaget i 2019 i samarbejde med Bern University of Applied Sciences viser nemlig, at 73% af de adspurgte brugere med skuldersmerter føler, at intensiteten af deres smerter blev reduceret, efter de begyndte at bruge holdningskorrigerende tøj fra Anodyne.* I undersøgelsen blev 1039 brugere blandt andet spurgt ind til deres smerter og spændinger i hoved, nakke, ryg og skuldre i dagligdagen før og efter, de begyndte at bruge holdningskorrigerende tøj fra Anodyne. Resultaterne taler for sig selv: 84% føler, at produktet har haft en positiv indvirkning på deres kropsholdning, 70% føler at hyppigheden af deres skuldersmerter er mindre og hele 73% føler, at intensiteten af deres skuldersmerter er reduceret. Så hvorfor ikke også prøve, om du kan få gavn af en holdningskorrigerende trøje fra Anodyne? \n<br>\n<br>\n<p style=\"font-size:70%;\">*Brugerne har alle brugt en Alignme BH eller en Posture Shirt™.<\/p>",
             "accordion__buttontext": "",
             "accordion__LinkUrl": ""
           }
@@ -401,7 +374,7 @@
           "settings": {
             "accordion_title": "Døjer du med nakkesmerter?",
             "accordion__inner-title": "",
-            "accordion__description": "Smerter og stivhed i nakke rammer syv ud af ti personer én eller flere gange i løbet af livet. Som regel fremkommer nakkesmerter langsomt, men hos nogle opstår de pludseligt. Det sker ofte på grund af en række uhensigtsmæssige sidde-, løfte-, stå- og liggestillinger. Andre almindelige holdningsproblemer som kan give gener er at stå med fremadførte skuldre og hagen skudt frem, arbejde med hovedet nedad i længere perioder samt at have en dårlig holdning, når man sidder.1 Det er der heldigvis råd for; holdningstøj fra Anodyne® kan potentielt afhjælpe dine nakkesmerter. En undersøgelse foretaget i samarbejde med Bern University of Applied Sciences i 2019 viser nemlig, at 70% af de adspurgte med nakkesmerter føler, at hyppigheden af deres smerter er mindre, efter de begyndte at bruge holdningstøj fra Anodyne.* I undersøgelsen blev 1039 brugere blandt andet spurgt ind til deres smerter og spændinger i hoved, nakke, ryg og skuldre i dagligdagen før og efter, de begyndte at bruge holdningskorrigerende tøj fra Anodyne. Resultaterne taler for sig selv: 85% føler, at produktet har haft en positiv effekt (fysisk) på deres kropsholdning, 70% føler, at hyppigheden af deres nakkesmerter er mindre og hele 68% føler, at intensiteten af deres nakkesmerter er reduceret. Så hvorfor ikke prøve at få gavn af en holdningskorrigerende trøje fra Anodyne? Nedenfor kan du se besvarelser fra de 589 respondenter, som har angivet, at de døjer med nakkesmerter.\n<br>\n<br>\n<p style=\"font-size:70%;\">*Brugerne har alle brugt en Alignme BH eller en Posture Shirt™.<\/p>",
+            "accordion__description": "Smerter og stivhed i nakke rammer syv ud af ti personer én eller flere gange i løbet af livet. Som regel fremkommer nakkesmerter langsomt, men hos nogle opstår de pludseligt. Det sker ofte på grund af en række uhensigtsmæssige sidde-, løfte-, stå- og liggestillinger. Andre almindelige holdningsproblemer som kan give gener er at stå med fremadførte skuldre og hagen skudt frem, arbejde med hovedet nedad i længere perioder samt at have en dårlig holdning, når man sidder. Det er der heldigvis råd for; holdningstøj fra Anodyne® kan potentielt afhjælpe dine nakkesmerter. En undersøgelse foretaget i samarbejde med Bern University of Applied Sciences i 2019 viser nemlig, at 70% af de adspurgte med nakkesmerter føler, at hyppigheden af deres smerter er mindre, efter de begyndte at bruge holdningstøj fra Anodyne.* I undersøgelsen blev 1039 brugere blandt andet spurgt ind til deres smerter og spændinger i hoved, nakke, ryg og skuldre i dagligdagen før og efter, de begyndte at bruge holdningskorrigerende tøj fra Anodyne. Resultaterne taler for sig selv: 85% føler, at produktet har haft en positiv effekt (fysisk) på deres kropsholdning, 70% føler, at hyppigheden af deres nakkesmerter er mindre og hele 68% føler, at intensiteten af deres nakkesmerter er reduceret. Så hvorfor ikke prøve at få gavn af en holdningskorrigerende trøje fra Anodyne? \n<br>\n<br>\n<p style=\"font-size:70%;\">*Brugerne har alle brugt en Alignme BH eller en Posture Shirt™.<\/p>",
             "accordion__buttontext": "",
             "accordion__LinkUrl": ""
           }
@@ -411,7 +384,7 @@
           "settings": {
             "accordion_title": "Ondt i lænden? Sådan slipper du af med smerter i lænden",
             "accordion__inner-title": "",
-            "accordion__description": "De fleste former for rygsmerter rammer lænden. Det skyldes, at lænden er det sted, hvor kroppens tyngde og omdrejningspunkt hviler.1 Som mange andre smerter i det område, kan det være svært helt at pege på, hvad årsagen til smerterne er. Af selvsamme årsag kan den ideelle behandlingsmetode være svær at ramme i første forsøg. Det er der heldigvis råd for; holdningstøj fra Anodyne® kan være et af de redskaber, der kan hjælpe med at lindre dine smerter i lænden. En undersøgelse foretaget i samarbejde med Bern University og Applied Sciences i 2019 viser nemlig, at 65% af de adspurgte brugere med lændesmerter føler, at intensiteten af deres smerter i lænden er reduceret, efter de begyndte at bruge en holdningstrøje fra Anodyne. I undersøgelsen blev 1039 brugere spurgt ind til deres smerter og spændinger i hoved, nakke, ryg og skuldre i dagligdagen før og efter, de begyndte at bruge holdningskorrigerende tøj fra Anodyne. Resultaterne taler for sig selv: 85% føler, at de er blevet mere opmærksomme på deres kropsholdning og 60% føler, at hyppigheden af deres smerter i nedre ryg er mindre. Så hvorfor ikke prøve en holdningstrøje fra Anodyne som middel til at lindre dine lændesmerter? Nedenfor kan du se besvarelser fra de 465 respondenter, som har angivet, at de døjer med smerter i nedre ryg. \n<br>\n<br>\n<p style=\"font-size:70%;\">*Brugerne har alle brugt en Alignme BH eller en Posture Shirt™.<\/p>",
+            "accordion__description": "De fleste former for rygsmerter rammer lænden. Det skyldes, at lænden er det sted, hvor kroppens tyngde og omdrejningspunkt hviler. Som mange andre smerter i det område, kan det være svært helt at pege på, hvad årsagen til smerterne er. Af selvsamme årsag kan den ideelle behandlingsmetode være svær at ramme i første forsøg. Det er der heldigvis råd for; holdningstøj fra Anodyne® kan være et af de redskaber, der kan hjælpe med at lindre dine smerter i lænden. En undersøgelse foretaget i samarbejde med Bern University og Applied Sciences i 2019 viser nemlig, at 65% af de adspurgte brugere med lændesmerter føler, at intensiteten af deres smerter i lænden er reduceret, efter de begyndte at bruge en holdningstrøje fra Anodyne. I undersøgelsen blev 1039 brugere spurgt ind til deres smerter og spændinger i hoved, nakke, ryg og skuldre i dagligdagen før og efter, de begyndte at bruge holdningskorrigerende tøj fra Anodyne. Resultaterne taler for sig selv: 85% føler, at de er blevet mere opmærksomme på deres kropsholdning og 60% føler, at hyppigheden af deres smerter i nedre ryg er mindre. Så hvorfor ikke prøve en holdningstrøje fra Anodyne som middel til at lindre dine lændesmerter? \n<br>\n<br>\n<p style=\"font-size:70%;\">*Brugerne har alle brugt en Alignme BH eller en Posture Shirt™.<\/p>",
             "accordion__buttontext": "",
             "accordion__LinkUrl": ""
           }
@@ -421,7 +394,7 @@
           "settings": {
             "accordion_title": "Behandling af kronisk hovedpine og spændingshovedpine",
             "accordion__inner-title": "",
-            "accordion__description": "Konstant hovedpine og spændingshovedpine kan være enormt generende i dagligdagen. Holdningskorrigerende tøj fra Anodyne® kan medvirke til at reducere de gener, smerter og spændinger, der ofte er årsagen til hovedpine. Det viser en undersøgelse fra 2019 foretaget i samarbejde med Bern University of Applied Sciences, hvor 1039 brugere blandt andet blev spurgt ind til deres smerter og spændinger i hoved, nakke, ryg og skuldre før og efter, de begyndte at bruge holdningskorrigerende tøj fra Anodyne.* Som det ses nedenfor, så taler tallene for sig selv; hele 85% af de adspurgte med hovedpine føler, at de er blevet mere opmærksomme på deres kropsholdning, efter de begyndte at bruge Anodyne holdningstøj. 69% føler, at hyppigheden af deres hovedpine er blevet mindre. 77% føler, at intensiteten af deres hovedpine er reduceret. Samtidig giver langt størstedelen udtryk for, at de modtager færre behandlinger i form af fysioterapi, kiropraktik og massage. Nedenfor kan du se besvarelser fra de 266 respondenter, som har angivet, at de døjer med hovedpine.\n<br>\n<br>\n<p style=\"font-size:70%;\">*Brugerne har alle brugt en Alignme BH eller en Posture Shirt™.<\/p>",
+            "accordion__description": "Konstant hovedpine og spændingshovedpine kan være enormt generende i dagligdagen. Holdningskorrigerende tøj fra Anodyne® kan medvirke til at reducere de gener, smerter og spændinger, der ofte er årsagen til hovedpine. Det viser en undersøgelse fra 2019 foretaget i samarbejde med Bern University of Applied Sciences, hvor 1039 brugere blandt andet blev spurgt ind til deres smerter og spændinger i hoved, nakke, ryg og skuldre før og efter, de begyndte at bruge holdningskorrigerende tøj fra Anodyne.* Som det ses nedenfor, så taler tallene for sig selv; hele 85% af de adspurgte med hovedpine føler, at de er blevet mere opmærksomme på deres kropsholdning, efter de begyndte at bruge Anodyne holdningstøj. 69% føler, at hyppigheden af deres hovedpine er blevet mindre. 77% føler, at intensiteten af deres hovedpine er reduceret. Samtidig giver langt størstedelen udtryk for, at de modtager færre behandlinger i form af fysioterapi, kiropraktik og massage. \n<br>\n<br>\n<p style=\"font-size:70%;\">*Brugerne har alle brugt en Alignme BH eller en Posture Shirt™.<\/p>",
             "accordion__buttontext": "",
             "accordion__LinkUrl": ""
           }
@@ -442,7 +415,6 @@
   },
   "order": [
     "1637325960a723ac8f",
-    "16357751921072ce6a",
     "163577518155d0cfa9",
     "16358413676827deec",
     "1635839832c61f83f2",

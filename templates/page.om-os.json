@@ -60,9 +60,37 @@
         "subtitle": "",
         "section_style": "section-blank"
       }
+    },
+    "1637661995792425d4": {
+      "type": "mission",
+      "blocks": {
+        "1637661995707b7ca9-0": {
+          "type": "html",
+          "settings": {
+            "mission_title": "Our Missin",
+            "mission_description": "<h2>Custom HTML!<\/h2><p>This section can be used to code youdsfsdfdsfffffffffffffffffffffffff\nf\nffffffffffff\nfffffffffffff\nhtfffffffffffffffffffffffr own custom layout.<\/p>",
+            "column_width": 4,
+            "column_width_mobile": 12,
+            "text_alignment": "text-center",
+            "btn_text": "",
+            "btn_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1637661995707b7ca9-0"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "margin__bottom": 90,
+        "section_style": "section-default",
+        "wrapper_size": ""
+      }
     }
   },
   "order": [
-    "1636011126d2c47b6d"
+    "1636011126d2c47b6d",
+    "1637661995792425d4"
   ]
 }

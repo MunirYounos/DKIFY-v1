@@ -6,7 +6,7 @@
         "show_on_desktop": true,
         "show_on_mobile": true,
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/test.jpg",
+        "image": "shopify:\/\/shop_images\/Kropsholdning_hero3_4ae3027a-4c49-4fe9-9b3f-66b7b6d13365.jpg",
         "section_style": "section-blank",
         "wrapper__height": 360,
         "image_title": "<p><strong>God kropsholdning<\/strong><\/p>",
@@ -38,7 +38,7 @@
       "settings": {
         "show_on_desktop": true,
         "show_on_mobile": true,
-        "padding_section": true,
+        "margin__bottom": 0,
         "section_style": "section-blank",
         "wrapper_size": ""
       }
@@ -123,7 +123,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Image_woman_and_man_0003.jpg",
             "title": "Holdningskorrigerende tøj",
-            "text": "<p>Mange oplever, at det er svært at huske på den gode kropsholdning i hverdagen, hvilket har gjort holdningskorrigerende tøj til et meget populært hjælpemiddel. Vores mest solgte produkt er vores Posture Shirt™, som ved hjælp at et let træk på skuldrende, minder dig om at rette dig op, når skuldrene falder forover. Posture Shirtens fleksibilitet gør den effektiv og behagelig at have på både når man er stillesiddende eller aktiv.<\/p>",
+            "text": "<p>Mange oplever, at det er svært at huske på den gode kropsholdning i hverdagen, hvilket har gjort holdningskorrigerende tøj til et meget populært hjælpemiddel. Vores mest solgte produkt er vores Posture Shirt™, som ved hjælp at et let træk på skuldrende, minder dig om at rette dig op, når skuldrene falder forover. Posture Shirtens fleksibilitet gør den effektiv og behagelig at have på - både når man er stillesiddende og aktiv.<\/p>",
             "button_style": "btn--primary",
             "button_label": "Se udvalg",
             "button_link": "shopify:\/\/collections\/posture-shirt"

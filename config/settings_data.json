@@ -310,10 +310,10 @@
           "announcement-0": {
             "type": "message",
             "settings": {
-              "announcement_text": "<p><strong>Black Days <\/strong>- Lige nu op til 80% rabat<\/p>",
+              "announcement_text": "<p><strong>Black Days:<\/strong> Hurtig og gratis levering til pakkeshop<\/p>",
               "announcement_counter": "Nov 21, 2021 16:00:00",
               "announcemen_link": "",
-              "announcement_end_text": "<p><strong>Black Days <\/strong>- Lige nu op til 80% rabat<\/p>"
+              "announcement_end_text": ""
             }
           }
         },
@@ -830,7 +830,7 @@
         "settings": {
           "show_on_desktop": true,
           "show_on_mobile": true,
-          "padding_section": true,
+          "margin__bottom": 0,
           "section_style": "section-blank",
           "wrapper_size": "-small"
         }

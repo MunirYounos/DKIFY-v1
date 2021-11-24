@@ -98,7 +98,6 @@
       "settings": {
         "show_on_desktop": true,
         "show_on_mobile": true,
-        "padding_section": true,
         "section_style": "section-blank",
         "wrapper_size": ""
       }

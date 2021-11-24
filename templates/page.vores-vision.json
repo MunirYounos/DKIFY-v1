@@ -1,13 +1,29 @@
 {
   "sections": {
+    "16377498892cd080f4": {
+      "type": "featured-image",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/Vision_bd4a16a0-3599-4edb-a4e6-f24ab31ed395.jpg",
+        "section_style": "section-blank",
+        "wrapper__height": 360,
+        "image_title": "<p><strong>Vores vision<\/strong><\/p>",
+        "image_subtitle": "",
+        "image_btntext": "",
+        "image_link": "",
+        "show_on_image_scrolldown": false
+      }
+    },
     "1635768531cb520ba5": {
       "type": "mission",
       "blocks": {
         "1635768531cb520ba5-0": {
           "type": "html",
           "settings": {
-            "mission_title": "<div style=\"padding-top:30px\"><h2 class=\"h1\">Vi vil gøre en forskel<\/h2><\/div>",
-            "mission_description": "<div style=\"margin-bottom:-20px\">For mange er en forbedret kropsholdning vejen til et bedre liv. Uanset om man døjer med periodevise spændinger ved skrivebordet eller lider af kroniske smerter, er en sund kropsholdning noget, der kan være med til at lette hverdagen. Derfor tager vi vores kunder seriøst og arbejder benhårdt for at hjælpe dem med at nå deres mål. <\/div>",
+            "mission_title": "<div style=\"padding-top:0px\"><h2 class=\"h1\">Vi vil gøre en forskel<\/h2><\/div>",
+            "mission_description": "<div style=\"margin-bottom:-20px\">For mange er en sund kropsholdning vejen til et bedre liv. Uanset om man døjer med periodevise spændinger ved skrivebordet eller lider af kroniske smerter, er en sund kropsholdning noget, der kan være med til at lette hverdagen. Derfor tager vi vores kunder og deres situation seriøst og arbejder benhårdt for at hjælpe dem med at forbedre deres kropsholdning.<\/div>",
             "column_width": 12,
             "column_width_mobile": 12,
             "text_alignment": "text-center",
@@ -22,7 +38,7 @@
       "settings": {
         "show_on_desktop": true,
         "show_on_mobile": true,
-        "padding_section": true,
+        "margin__bottom": 0,
         "section_style": "section-blank",
         "wrapper_size": ""
       }
@@ -94,8 +110,8 @@
         "1637134227279c8f51-0": {
           "type": "html",
           "settings": {
-            "mission_title": "<div style=\"padding-top:30px\"><h2 class=\"h1\">Vores værdier<\/h2><\/div>",
-            "mission_description": "<div style=\"margin-bottom:50px\">Hos Anodyne har vi fire kerneværdier, som guider alle vores beslutninger og sikrer, at vi altid leverer den samme gode service.<\/div>",
+            "mission_title": "<div style=\"padding-top:20px\"><h2 class=\"h1\">Vores værdier<\/h2><\/div>",
+            "mission_description": "<div style=\"margin-bottom:0px\">Hos Anodyne har vi fire kerneværdier, som guider alle vores beslutninger og sikrer, at vi altid leverer den samme gode service.<\/div>",
             "column_width": 12,
             "column_width_mobile": 12,
             "text_alignment": "text-center",
@@ -110,7 +126,7 @@
       "settings": {
         "show_on_desktop": true,
         "show_on_mobile": true,
-        "padding_section": true,
+        "margin__bottom": 50,
         "section_style": "section-default",
         "wrapper_size": ""
       }
@@ -125,9 +141,7 @@
             "icon": "",
             "title": "Bevar integriteten",
             "text": "<p>Vi er respektfulde og ærlige overfor vores kunder.<\/p>",
-            "button_style": "btn--primary",
-            "button_label": "",
-            "button_link": ""
+            "button_style": "btn--primary"
           }
         },
         "163671324894c3c82e-1": {
@@ -136,10 +150,8 @@
             "image": "shopify:\/\/shop_images\/Quality.png",
             "icon": "",
             "title": "Fokus på kvalitet",
-            "text": "<p>Vores produkter virker og holder i mange år<\/p>",
-            "button_style": "btn--primary",
-            "button_label": "",
-            "button_link": ""
+            "text": "<p>Vores produkter virker og holder i mange år.<\/p>",
+            "button_style": "btn--primary"
           }
         },
         "163671324894c3c82e-0": {
@@ -149,9 +161,7 @@
             "icon": "",
             "title": "Gør det enkelt",
             "text": "<p>Vi gør det nemt at finde det helt rigtige produkt.<\/p>",
-            "button_style": "btn--primary",
-            "button_label": "",
-            "button_link": ""
+            "button_style": "btn--primary"
           }
         },
         "fec68125-762f-44cd-9f33-3514fc57db83": {
@@ -161,9 +171,7 @@
             "icon": "",
             "title": "Lyt til kunden",
             "text": "<p>Vi holder fingeren på pulsen og lytter til vores kunders feedback.<\/p>",
-            "button_style": "btn--primary",
-            "button_label": "",
-            "button_link": ""
+            "button_style": "btn--primary"
           }
         }
       },
@@ -182,8 +190,36 @@
         "text_align": "text-center"
       }
     },
+    "16376680807c58f8ff": {
+      "type": "mission",
+      "blocks": {
+        "16376680803b28d2d6-0": {
+          "type": "html",
+          "settings": {
+            "mission_title": "<div style=\"padding-top:0px\"><h2>Nysgerrig på, hvem vi er?<\/h2><\/div>",
+            "mission_description": "<div style=\"margin-top:0px\"><a class=\"btn btn--small btn-outline-primary\" href=\"https:\/\/www.anodyne.dk\/pages\/hvem-er-vi\">MØD VORES TEAM<\/a><\/div>",
+            "column_width": 12,
+            "column_width_mobile": 12,
+            "text_alignment": "text-center",
+            "btn_text": "",
+            "btn_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "16376680803b28d2d6-0"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "margin__bottom": 80,
+        "section_style": "section-blank",
+        "wrapper_size": ""
+      }
+    },
     "16371353763834624a": {
       "type": "HTML-columns",
+      "disabled": true,
       "blocks": {
         "16371353762a6c8707-0": {
           "type": "HTML_column",
@@ -268,10 +304,12 @@
     }
   },
   "order": [
+    "16377498892cd080f4",
     "1635768531cb520ba5",
     "163713422430979eb7",
     "16371342272edbe58c",
     "163671324894c3c82e",
+    "16376680807c58f8ff",
     "16371353763834624a",
     "163576830859681535"
   ]
