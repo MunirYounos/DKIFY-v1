@@ -21,6 +21,7 @@
     "border_radius": 1,
     "button_padding_x": 30,
     "button_padding_y": 15,
+    "top_button_mobile": true,
     "top_button_position": "right",
     "page_wrapper": "1248",
     "payment_icon_size": 24,
@@ -78,9 +79,10 @@
     "dbtfy_inactive_tab_message": false,
     "dbtfy_instagram_feed": false,
     "dbtfy_inventory_quantity": false,
+    "dbtfy_linked_options": true,
     "dbtfy_live_view": false,
     "dbtfy_mega_menu": true,
-    "dbtfy_newsletter_popup": false,
+    "dbtfy_newsletter_popup": true,
     "dbtfy_order_feedback": false,
     "dbtfy_order_tracking": false,
     "dbtfy_product_tabs": true,
@@ -123,13 +125,13 @@
     "dbtfy_menu_bar_link_list": "main-menu",
     "dbtfy_menu_bar_desktop": false,
     "dbtfy_newsletter_floating_bar": false,
-    "dbtfy_floating_bar_text": "Spar 10% ekstra",
-    "dbtfy_newsletter_popup_title": "Spar 10% EKSTRA på dit køb",
-    "dbtfy_newsletter_popup_text": "<p>Tilmeld dig vores nyhedsbrev og få en <strong>10% RABATKODE <\/strong>til dit næste køb.<\/p><p> <\/p>",
+    "dbtfy_floating_bar_text": "",
+    "dbtfy_newsletter_popup_title": "Spar 10% ekstra på din ordre",
+    "dbtfy_newsletter_popup_text": "<p>Tilmeld dig vores nyhedsbrev og få en<strong> 10% RABATKODE<\/strong> til dit næste køb.<\/p>",
     "dbtfy_newsletter_popup_close": "Nej tak",
     "dbtfy_newsletter_popup_exit_intent": false,
     "dbtfy_newsletter_popup_title_success": "Tak for din tilmelding!",
-    "dbtfy_newsletter_popup_text_success": "<p>Kopiér koden og indsæt den i rabatkodefeltet i indkøbskurven, ﻿så fratrækkes rabatten automatisk.<\/p>",
+    "dbtfy_newsletter_popup_text_success": "<p>Kopiér koden og indsæt den i rabatkodefeltet i indkøbskurven, ﻿så fratrækkes rabatten automatisk.<\/p>",
     "dbtfy_newsletter_popup_reward_button": "Brug rabatkode",
     "dbtfy_newsletter_popup_discount_name": "R6QG30",
     "dbtfy_newsletter_popup_discount_amount": "10",
@@ -310,10 +312,10 @@
           "announcement-0": {
             "type": "message",
             "settings": {
-              "announcement_text": "<p><strong>Black Days:<\/strong> Hurtig og gratis levering til pakkeshop<\/p>",
-              "announcement_counter": "Nov 21, 2021 16:00:00",
+              "announcement_text": "<p><strong>Decembertilbud:<\/strong> Spar op til 25%<\/p>",
+              "announcement_counter": "",
               "announcemen_link": "",
-              "announcement_end_text": ""
+              "announcement_end_text": "<p><strong>Decembertilbud<\/strong>: Spar op til 25%<\/p>"
             }
           }
         },
@@ -702,9 +704,9 @@
           "show_overlay": true,
           "image": "shopify:\/\/shop_images\/Skaermbillede_2021-11-18_kl._14.03.24.png",
           "image_position": "center center",
-          "video_title": "<span class=\"first\">BLACK<\/span> DAYS",
+          "video_title": "<span class=\"first\">Decembertilbud<\/span>",
           "text_size": "medium",
-          "text_description": "<p>Vi har rabat på <strong>alle<\/strong> produkter<br\/><strong>Spar op til -80%<\/strong><\/p>",
+          "text_description": "<p>Vi har rabat på <strong>alle<\/strong> produkter<br\/><strong>Spar op til 25%<\/strong><\/p>",
           "text_description_size": "medium",
           "button_label": "SE ALLE TILBUD",
           "button_link": "shopify:\/\/collections\/alle-produkter",
@@ -1059,8 +1061,8 @@
           "rows": "4",
           "desktop_grid": "4",
           "mobile_grid": "2",
-          "collection_banner": "shopify:\/\/shop_images\/Black_days_banner_7e3eb176-2227-47e4-8ad0-e17f5d1690fe.jpg",
-          "collection_banner_mobile": "shopify:\/\/shop_images\/Black_days_mobile.jpg"
+          "collection_banner": "shopify:\/\/shop_images\/December-offers_DK.jpg",
+          "collection_banner_mobile": "shopify:\/\/shop_images\/December-offers_mobile_DK.jpg"
         }
       },
       "dbtfy-collection-filters": {
@@ -1083,8 +1085,8 @@
           "product_title_large": false,
           "show_product_tags": false,
           "show_sharing_icons": true,
-          "product_banner": "shopify:\/\/shop_images\/Black_days_banner_7e3eb176-2227-47e4-8ad0-e17f5d1690fe.jpg",
-          "product_banner_mobile": "shopify:\/\/shop_images\/Black_days_mobile.jpg",
+          "product_banner": "shopify:\/\/shop_images\/December-offers_DK.jpg",
+          "product_banner_mobile": "shopify:\/\/shop_images\/December-offers_mobile_DK.jpg",
           "show_product_collections": false,
           "enable_image_zoom": true,
           "enable_video_looping": true,
@@ -1619,6 +1621,15 @@
           "image_btntext": "SE ALLE TILBUD",
           "image_link": "shopify:\/\/collections\/alle-produkter",
           "show_on_image_scrolldown": true
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "display_type": "all",
+          "sort": "alphabetical",
+          "section_height": "medium",
+          "collection_per_page": 12
         }
       }
     },

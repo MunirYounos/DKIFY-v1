@@ -127,16 +127,26 @@ d = addZero(days);
 h = addZero(hours - days * 24);
 m = addZero(mins - hours * 60);
 s = addZero(secs - mins * 60);
-
-someId.innerHTML = `
-<div class="announcement_number"><span class="digit">${d}</span><span class="announcement_text">D<span class="hide-small">age</span></span></div>
-<div class="announcement_number"><span class="digit">${h}</span><span class="announcement_text">T<span class="hide-small">imer</span></span></div>
-<div class="announcement_number"><span class="digit">${m}</span><span class="announcement_text">M<span class="hide-small">inutter</span></span></div>
-<div class="announcement_number"><span class="digit">${s}</span><span class="announcement_text">S<span class="hide-small">ekunder</span></span></div>
-`
-}else {
-	announcementEndTextBack.innerHTML = `${announcementCounterEndText.innerHTML}`;
-	someId.innerHTML ='';
-}
+  
+  		if(d<1){
+          someId.innerHTML = `
+          <div class="announcement_number"><span class="digit">${h}</span><span class="announcement_text">T<span class="hide-small">imer</span></span></div>
+          <div class="announcement_number"><span class="digit">${m}</span><span class="announcement_text">M<span class="hide-small">inutter</span></span></div>
+          <div class="announcement_number"><span class="digit">${s}</span><span class="announcement_text">S<span class="hide-small">ekunder</span></span></div>
+          `
+  
+  		}else{
+    
+          someId.innerHTML = `
+          <div class="announcement_number"><span class="digit">${d}</span><span class="announcement_text">D<span class="hide-small">age</span></span></div>
+          <div class="announcement_number"><span class="digit">${h}</span><span class="announcement_text">T<span class="hide-small">imer</span></span></div>
+          <div class="announcement_number"><span class="digit">${m}</span><span class="announcement_text">M<span class="hide-small">inutter</span></span></div>
+          <div class="announcement_number"><span class="digit">${s}</span><span class="announcement_text">S<span class="hide-small">ekunder</span></span></div>
+          `
+ 		 }
+    }else {
+        announcementEndTextBack.innerHTML = `${announcementCounterEndText.innerHTML}`;
+        someId.innerHTML ='';
+    }
 }
 setInterval('TopBarUpdateTimer(announcementEventDate, announcementDateId  )', 1000);

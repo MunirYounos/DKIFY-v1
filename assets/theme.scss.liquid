@@ -5673,10 +5673,8 @@ cite {
       margin:0 5px 0 0;
       font-size:0.8rem;
       font-weight:500;
-      letter-spacing: -1px;
       strong{
-        text-transform: uppercase;
-        color: lighten($cAccent, 5%);
+        color:$cAccent;
       }
     }
   }
@@ -5773,7 +5771,7 @@ cite {
     }
     .site-nav__item:nth-of-type(1){
       .site-nav__link{
-        &::before{
+/*         &::before{
           content: '';
           position: absolute;
           top: -4px;
@@ -5782,7 +5780,7 @@ cite {
           background-repeat: no-repeat;
           width: 16px;
           height: 16px;
-        }
+        } */
       }
     }
   }
@@ -6277,7 +6275,7 @@ cite {
   }
   &:nth-of-type(1){
     .mobile-nav__link{
-      &::before{
+/*       &::before{
         content: '';
         position: absolute;
         top: 1px;
@@ -6286,7 +6284,7 @@ cite {
         background-repeat: no-repeat;
         width: 16px;
         height: 16px;
-      }
+      } */
     }
   }
 }
@@ -9866,6 +9864,7 @@ body:not(.dbtfy-wish_list-destroy) {
       }
       &.anime.accIcon.anime::before{
         transform: rotate(90deg);
+        opacity:0;
       }
     }
     .item {
