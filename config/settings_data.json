@@ -95,6 +95,7 @@
     "dbtfy_skip_cart": false,
     "dbtfy_size_chart": false,
     "synced_variant_image": false,
+    "dbtfy_upsell_popup": true,
     "dbtfy_wish_list": false,
     "dbtfy_addtocart_animation_type": "pulse",
     "dbtfy_addtocart_animation_interval": 15,
@@ -172,11 +173,210 @@
     "sections": {
       "dbtfy-upsell-popup": {
         "type": "dbtfy-upsell-popup",
+        "blocks": {
+          "c98155ea-37ab-4859-9af1-f9469520a65b": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Forlæng levetiden på din BH for kun 29 kr.",
+              "dbtfy_upsell_popup_text": "<p>Tilføj en <strong>vaskepose<\/strong> og forlæng levetiden på din Anodyne® BH !<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "anodyne-bh",
+              "dbtfy_upsell_popup_product_offer": "vaskepose",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 29 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "1edbba9e-c10c-4303-9e67-87406455a11b": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Forlæng levetiden på din Posture Shirt®",
+              "dbtfy_upsell_popup_text": "<p>Tilføj en <strong>vaskepose<\/strong> og forlæng levetiden på din Posture Shirt® !<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-sort",
+              "dbtfy_upsell_popup_product_offer": "vaskepose-til-posture-shirt",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 29 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "283cf0f8-49c3-4c2e-8238-c60bfade1a42": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Forlæng levetiden på din Posture Shirt®",
+              "dbtfy_upsell_popup_text": "<p>Tilføj en <strong>vaskepose<\/strong> og forlæng levetiden på din Posture Shirt® !<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-hvid",
+              "dbtfy_upsell_popup_product_offer": "vaskepose-til-posture-shirt",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 29 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "859fbbf3-b9a1-4dfc-b242-471229823f11": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Forlæng levetiden på din Posture Shirt®",
+              "dbtfy_upsell_popup_text": "<p>Tilføj en <strong>vaskepose<\/strong> og forlæng levetiden på din Posture Shirt® !<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-nude",
+              "dbtfy_upsell_popup_product_offer": "vaskepose-til-posture-shirt",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 29 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "576ab3fd-2b86-4842-993e-e56315d2fb69": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Forlæng levetiden på din Posture Shirt®",
+              "dbtfy_upsell_popup_text": "<p>Tilføj en <strong>vaskepose<\/strong> og forlæng levetiden på din Posture Shirt® !<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-bordeaux",
+              "dbtfy_upsell_popup_product_offer": "vaskepose-til-posture-shirt",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 29 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "7bc3229d-028b-4f0e-a0c0-3444325e0c25": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Forlæng levetiden på din Posture Shirt®",
+              "dbtfy_upsell_popup_text": "<p>Tilføj en <strong>vaskepose<\/strong> og forlæng levetiden på din Posture Shirt® !<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-mint",
+              "dbtfy_upsell_popup_product_offer": "vaskepose-til-posture-shirt",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 29 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "7732f337-9670-45ec-9e03-151827390a27": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Forlæng levetiden på din Posture Shirt®",
+              "dbtfy_upsell_popup_text": "<p>Tilføj en <strong>vaskepose<\/strong> og forlæng levetiden på din Posture Shirt® !<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-zipper-sort",
+              "dbtfy_upsell_popup_product_offer": "vaskepose-til-posture-shirt",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 29 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "d3ae25a4-0673-49fc-9d2b-2278ffae3c50": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Forlæng levetiden på din Posture Shirt®",
+              "dbtfy_upsell_popup_text": "<p>Tilføj en <strong>vaskepose<\/strong> og forlæng levetiden på din Posture Shirt® !<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-zipper-hvid",
+              "dbtfy_upsell_popup_product_offer": "vaskepose-til-posture-shirt",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 29 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "5adb293f-7eab-442e-bf4f-c097a9dce1e2": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Forlæng levetiden på din Posture Shirt®",
+              "dbtfy_upsell_popup_text": "<p>Tilføj en <strong>vaskepose<\/strong> og forlæng levetiden på din Posture Shirt® !<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-zipper-nude",
+              "dbtfy_upsell_popup_product_offer": "vaskepose-til-posture-shirt",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 29 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "91f29209-c167-4aa4-a764-cca909a85b2c": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Forlæng levetiden på din Posture Shirt®",
+              "dbtfy_upsell_popup_text": "<p>Tilføj en <strong>vaskepose<\/strong> og forlæng levetiden på din Posture Shirt® !<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "mens-posture-shirt-sort",
+              "dbtfy_upsell_popup_product_offer": "vaskepose-til-posture-shirt",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 29 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "b10f98d5-8fcd-4ec0-9d68-439f1c6bd6e0": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Forlæng levetiden på din Posture Shirt®",
+              "dbtfy_upsell_popup_text": "<p>Tilføj en <strong>vaskepose<\/strong> og forlæng levetiden på din Posture Shirt® !<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "mens-posture-shirt-hvid",
+              "dbtfy_upsell_popup_product_offer": "vaskepose-til-posture-shirt",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 29 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "30f178c6-21b8-487d-939d-b68a7f5db0c4": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Forlæng levetiden på din Posture Shirt®",
+              "dbtfy_upsell_popup_text": "<p>Tilføj en <strong>vaskepose<\/strong> og forlæng levetiden på din Posture Shirt® !<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "mens-posture-shirt-zipper-sort",
+              "dbtfy_upsell_popup_product_offer": "vaskepose-til-posture-shirt",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 29 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "3fc7e0e6-7ef6-427d-92fa-1672a2cf6714": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Forlæng levetiden på din Posture Shirt®",
+              "dbtfy_upsell_popup_text": "<p>Tilføj en <strong>vaskepose<\/strong> og forlæng levetiden på din Posture Shirt® !<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "mens-posture-shirt-hvid",
+              "dbtfy_upsell_popup_product_offer": "vaskepose-til-posture-shirt",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 29 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          }
+        },
+        "block_order": [
+          "c98155ea-37ab-4859-9af1-f9469520a65b",
+          "1edbba9e-c10c-4303-9e67-87406455a11b",
+          "283cf0f8-49c3-4c2e-8238-c60bfade1a42",
+          "859fbbf3-b9a1-4dfc-b242-471229823f11",
+          "576ab3fd-2b86-4842-993e-e56315d2fb69",
+          "7bc3229d-028b-4f0e-a0c0-3444325e0c25",
+          "7732f337-9670-45ec-9e03-151827390a27",
+          "d3ae25a4-0673-49fc-9d2b-2278ffae3c50",
+          "5adb293f-7eab-442e-bf4f-c097a9dce1e2",
+          "91f29209-c167-4aa4-a764-cca909a85b2c",
+          "b10f98d5-8fcd-4ec0-9d68-439f1c6bd6e0",
+          "30f178c6-21b8-487d-939d-b68a7f5db0c4",
+          "3fc7e0e6-7ef6-427d-92fa-1672a2cf6714"
+        ],
         "settings": {
           "dbtfy_upsell_popup_width": "",
           "dbtfy_upsell_popup_description": "See product details",
-          "dbtfy_upsell_popup_cart": "No thanks",
-          "dbtfy_upsell_popup_checkout": "Go to checkout →",
+          "dbtfy_upsell_popup_cart": "Nej tak",
+          "dbtfy_upsell_popup_checkout": "Gå til checkout →",
           "text_alignment": "text-center",
           "dbtfy_upsell_popup_range": 75
         }
@@ -817,7 +1017,7 @@
             "type": "html",
             "settings": {
               "mission_title": "Hvorfor vælge holdningskorrigerende tøj fra Anodyne?",
-              "mission_description": "Med holdningskorrigerende tøj fra Anodyne® kan du på en enkelt og ubesværet måde opnå en bedre kropsholdning og reducere smerter og spændinger i nakke, skuldre og ryg. Anodyne® <u><a href=\"\/collections\/alle-produkter\/\">holdningstøj til mænd og kvinder<\/a><\/u> hjælper dig til at øge din kropsholdningsbevidsthed og kan bruges både, når du sidder på kontoret, rejser, er aktiv på jobbet eller bruger det til træning. Anodyne® er europæisk producent og distributør af holdningskorrigerende tøj med teknologi udviklet af amerikanske AlignMed - verdens eneste producent af holdningskorrigerende tøj, der er registreret hos USA’s føderale fødevare- og lægemiddelmyndighed (FDA). Anodyne® holdningskorrigerende tøj er som det eneste i Europa både FDA-registreret og MDR\/CE-mærket som medicinsk udstyr (Klasse I), hvilket er din garanti for, at vores produkter lever op til de krav, der stilles for medicinsk udstyr. Vi sælger også også en række forskellige <u><a href=\"\/collections\/rygstoette\">produkter til rygstøtte<\/a><\/u>, både i form af holdningsveste, skulderstøtter, ergonomiske puder mm.",
+              "mission_description": "Med <u><a href=\"\/\">holdningskorrigerende tøj<\/a><\/u> fra Anodyne® kan du på en enkelt og ubesværet måde opnå en bedre kropsholdning og reducere smerter og spændinger i nakke, skuldre og ryg. Anodyne® <u><a href=\"\/collections\/alle-produkter\/\">holdningstøj til mænd og kvinder<\/a><\/u> hjælper dig til at øge din kropsholdningsbevidsthed og kan bruges både, når du sidder på kontoret, rejser, er aktiv på jobbet eller bruger det til træning. Anodyne® er europæisk producent og distributør af holdningskorrigerende tøj med teknologi udviklet af amerikanske AlignMed - verdens eneste producent af holdningskorrigerende tøj, der er registreret hos USA’s føderale fødevare- og lægemiddelmyndighed (FDA). Anodyne® holdningskorrigerende tøj er som det eneste i Europa både FDA-registreret og MDR\/CE-mærket som medicinsk udstyr (Klasse I), hvilket er din garanti for, at vores produkter lever op til de krav, der stilles for medicinsk udstyr. Vi sælger også også en række forskellige <u><a href=\"\/collections\/rygstoette\">produkter til rygstøtte<\/a><\/u>, både i form af holdningsveste, skulderstøtter, ergonomiske puder mm.",
               "column_width": 12,
               "column_width_mobile": 12,
               "text_alignment": "text-center",
@@ -1003,7 +1203,7 @@
               "accordion_title": "Patenteret NeuroBand™-teknologi i Anodyne® holdningskorrigerende tøj",
               "accordion__inner-title": "",
               "accordion__description": "Anodyne® holdningskorrigerende tøj til kvinder og mænd er fremstillet af en unik sammensætning af spandex, polyester og nylon, som giver slidstærke og åndbare produkter, der bevarer elasticitet ved brug og gør tøjet behageligt at have på. Designet benytter den patenterede NeuroBand™-teknologi, der er inspireret af kinesiotape, og baseret på forskning i menneskets fysiologi. Tøjet er designet til at spejle muskulaturens sammentrækkende og eftergivende egenskaber og dermed fremme den rette kropsholdning.",
-              "accordion__buttontext": "Shop",
+              "accordion__buttontext": "Køb posture shirt her",
               "accordion__LinkUrl": "shopify:\/\/collections\/posture-shirt"
             }
           },
@@ -1013,7 +1213,7 @@
               "accordion_title": "Holdningskorrigerende tøj til dit behov",
               "accordion__inner-title": "",
               "accordion__description": "Holdningskorrigerende tøj fra Anodyne® kan anvendes af alle. Vi forhandler holdningskorrigerende t-shirts, BH’er og veste, der alle er udviklet til at hjælpe med at aktivere muskulaturen og blodcirkulationen, og derved minde kroppen om at indtage en mere optimal holdning. Anodyne® holdningskorrigerende t-shirts og BH’er kan anvendes når som helst - når du træner, handler ind, går tur, gør rent eller ved andre aktiviteter. For at få mest ud af Anodyne® holdningskorrigerende tøj, anbefaler vi, at du læser den medsendte brugsvejledning grundigt, så du har de helt rette forudsætninger for at nå den optimale effekt af vores produkter.",
-              "accordion__buttontext": "Shop",
+              "accordion__buttontext": "Se udvalg",
               "accordion__LinkUrl": "shopify:\/\/collections\/alle-produkter"
             }
           },
@@ -1023,8 +1223,8 @@
               "accordion_title": "Også til dig med skader",
               "accordion__inner-title": "",
               "accordion__description": "Døjer du med en skade, eller har du eks. en diskusprolaps, scoliose, gigt eller lignende, kan du med fordel anvende holdningskorrigerende tøj, men er du endnu ikke udredt, anbefaler vi, at du konsulterer en fagprofessionel. I nogle tilfælde vil Anodyne® holdningskorrigerende veste (MyLign og SpinalQ Pro) være at foretrække, da de har den kraftigste støttefunktion. Det er desuden vigtigt, at du vælger holdningskorrigerende tøj i den rigtige størrelse, da du ellers ikke opnår den optimale effekt. Husk derfor at tjekke størrelsesguiden omhyggeligt. Du er også velkommen til at kontakte vores kundeservice, der gerne hjælper med at svare på spørgsmål om vores produkter, samt at finde din rette størrelse.",
-              "accordion__buttontext": "Shop",
-              "accordion__LinkUrl": ""
+              "accordion__buttontext": "Se produktudvalg",
+              "accordion__LinkUrl": "shopify:\/\/collections\/rygstoette"
             }
           },
           "225005a5-c60f-4ff1-be6b-7f7256b16ac7": {

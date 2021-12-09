@@ -9400,6 +9400,32 @@ body:not(.dbtfy-upsell_popup-destroy) {
     }
   }
 }
+.dbtfy-upsell_popup {
+  .modal.up-modal{
+    .modal-dialog{
+      .overlay-content{
+        background-color: $white;
+        padding-left: $gutter-sm;
+        padding-right: $gutter-sm;
+        .progress{
+          display:none;
+        }
+        .modal-title{
+          display:none;
+        }
+        .btn--primary{
+          padding: 8px 24px;
+        }
+        .modal-footer{
+          padding:$gutter-sm ($gutter - 6);
+        }
+        .card {
+          display: none;
+        }
+      }
+    }
+  }
+}
 {%- endif -%}
 /* end-dbtfy-upsell-popup */
 
