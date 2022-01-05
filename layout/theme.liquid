@@ -9,7 +9,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="author" content="Anodyne">
-    {%- if handle contains 'search' or handle contains 'privacy-policy' or handle contains 'terms-of-service' or handle contains 'refund-policy' -%}
+    {%- if handle contains 'search' or handle contains 'privacy-policy' or handle contains 'terms-of-service' or handle contains 'refund-policy' or handle contains 'skulderstotte-basic-tilkob' -%}
     <meta name="robots" content="noindex" />
  	{%- endif -%}
     <!-- Preconnect external resources -->
@@ -268,21 +268,19 @@
 
   {% if content_for_header contains 'rio.pwztag.com' %}{% render 'productwiz-rio', product: product, shop: shop, installGuard: true %}{% endif %}
     
-    
-<!--  the wheel -->
-<script id="_ss_14183">
-  (function(w,d,s,l,r,a,m){
-      if(d.getElementById(r))return;
-      w[r]=w[r]||{};a=d.createElement(s),m=d.getElementsByTagName(s)[0];
-      a.async=1;a.src=l;a.id=r;m.parentNode.insertBefore(a,m);
-  })(window,document,'script','https://cdn.scratcher.io/embed/14183.js','Scratcher_14183');
-  Scratcher_14183.options = {
-      slug: 'dk-pop-up-lykkehjul',
-      width: '100%',
-      height: 1100,
-  };
-  </script>
-<!--  end of wheel -->
+<!-- Start of Sleeknote signup and lead generation tool - www.sleeknote.com -->
+<script id="sleeknoteScript" type="text/javascript">
+	(function () {
+		var sleeknoteScriptTag = document.createElement("script");
+		sleeknoteScriptTag.type = "text/javascript";
+		sleeknoteScriptTag.charset = "utf-8";
+		sleeknoteScriptTag.src = ("//sleeknotecustomerscripts.sleeknote.com/8999.js");
+		var s = document.getElementById("sleeknoteScript"); 
+		s.parentNode.insertBefore(sleeknoteScriptTag, s); 
+	})();
+</script>
+<!-- End of Sleeknote signup and lead generation tool - www.sleeknote.com -->
+
 </head>
 
   <body id="{{ page_title | handle }}"
@@ -379,5 +377,10 @@
     {%- if request.page_type == "product" -%}
     <script src="{{ 'dk-counter.js' | asset_url }}" ></script>
     {%- endif -%}
-  {% render 'awesome-quantity', product: product %}</body>
+  {% render 'awesome-quantity', product: product %}  <script src="//cdn.codeblackbelt.com/js/modules/frequently-bought-together/main.min.js?shop=anodyne-denmark.myshopify.com" defer></script>
+
+<!-- **BEGIN** Hextom USB Integration // Main Include - DO NOT MODIFY -->
+    {% render 'hextom_usb_main', product: product, customer: customer %}
+    <!-- **END** Hextom USB Integration // Main Include - DO NOT MODIFY -->
+</body>
 </html>

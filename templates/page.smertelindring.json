@@ -174,7 +174,7 @@
           "type": "HTML_column",
           "settings": {
             "wrapper_size": "",
-            "html_area_1": "<div style=\"margin-top:-100px; margin-bottom:-90px\"><a class=\"btn btn--small btn-outline-primary\" href=\"https:\/\/www.anodyne.dk\/pages\/test-af-holdningstoj\">Læs mere om testen af holdningstøj<\/a><\/div>",
+            "html_area_1": "<div style=\"margin-top:-100px; margin-bottom:-90px\"><a class=\"btn btn--small btn-outline-primary\" href=\"https:\/\/www.anodyne.dk\/pages\/test-af-holdningstoej\">Læs mere om testen af holdningstøj<\/a><\/div>",
             "column_width_1": 12,
             "column_width_mobile_1": 12,
             "text_alignment_1": "text-center",
@@ -303,7 +303,7 @@
         "text": "<p>Anodyne® Posture Shirt™ er den originale holdningskorrigerende t-shirt på markedet. T-shirten er udviklet på baggrund af videnskabelige studier om menneskets fysiologi og med inspiration fra brugen af kinesiotape som fysioterapeutisk behandling af smerter. <br>Kinesiotapen er integreret i vores Posture Shirt™ med de såkaldte NeuroBands™ på ryggen – støttebånd placeret netop der, hvor kinesiotape normalt påsættes. Disse NeuroBands™ er centrale for t-shirtens evne til at fremme en bedre holdning, idet de trækker skuldrene let tilbage. Dette træk påminder kroppen om at rette sig op og bevare en god kropsholdning.<\/p>",
         "button_style": "btn-outline-primary",
         "button_label": "Læs mere",
-        "button_link": "shopify:\/\/pages\/test-af-holdningstoj"
+        "button_link": "shopify:\/\/pages\/test-af-holdningstoej"
       }
     },
     "16358473897202a471": {

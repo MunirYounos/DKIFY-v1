@@ -1,6 +1,6 @@
 {
   "current": {
-    "sticky_header": false,
+    "sticky_header": true,
     "sticky_announcement_bar": true,
     "hero_header": false,
     "height_header": 100,
@@ -82,7 +82,7 @@
     "dbtfy_linked_options": true,
     "dbtfy_live_view": false,
     "dbtfy_mega_menu": true,
-    "dbtfy_newsletter_popup": true,
+    "dbtfy_newsletter_popup": false,
     "dbtfy_order_feedback": false,
     "dbtfy_order_tracking": false,
     "dbtfy_product_tabs": true,
@@ -124,6 +124,7 @@
     "dbtfy_infinite_scroll_loading_text": "Indlæs flere",
     "dbtfy_inventory_quantity_threshold": 20,
     "dbtfy_menu_bar_link_list": "main-menu",
+    "dbtfy_menu_bar_mobile": false,
     "dbtfy_menu_bar_desktop": false,
     "dbtfy_newsletter_floating_bar": false,
     "dbtfy_floating_bar_text": "",
@@ -176,6 +177,7 @@
         "blocks": {
           "c98155ea-37ab-4859-9af1-f9469520a65b": {
             "type": "upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_upsell_popup_title": "Forlæng levetiden på din BH for kun 29 kr.",
               "dbtfy_upsell_popup_text": "<p>Tilføj en <strong>vaskepose<\/strong> og forlæng levetiden på din Anodyne® BH !<\/p>",
@@ -190,6 +192,7 @@
           },
           "1edbba9e-c10c-4303-9e67-87406455a11b": {
             "type": "upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_upsell_popup_title": "Forlæng levetiden på din Posture Shirt®",
               "dbtfy_upsell_popup_text": "<p>Tilføj en <strong>vaskepose<\/strong> og forlæng levetiden på din Posture Shirt® !<\/p>",
@@ -204,6 +207,7 @@
           },
           "283cf0f8-49c3-4c2e-8238-c60bfade1a42": {
             "type": "upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_upsell_popup_title": "Forlæng levetiden på din Posture Shirt®",
               "dbtfy_upsell_popup_text": "<p>Tilføj en <strong>vaskepose<\/strong> og forlæng levetiden på din Posture Shirt® !<\/p>",
@@ -218,6 +222,7 @@
           },
           "859fbbf3-b9a1-4dfc-b242-471229823f11": {
             "type": "upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_upsell_popup_title": "Forlæng levetiden på din Posture Shirt®",
               "dbtfy_upsell_popup_text": "<p>Tilføj en <strong>vaskepose<\/strong> og forlæng levetiden på din Posture Shirt® !<\/p>",
@@ -232,6 +237,7 @@
           },
           "576ab3fd-2b86-4842-993e-e56315d2fb69": {
             "type": "upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_upsell_popup_title": "Forlæng levetiden på din Posture Shirt®",
               "dbtfy_upsell_popup_text": "<p>Tilføj en <strong>vaskepose<\/strong> og forlæng levetiden på din Posture Shirt® !<\/p>",
@@ -246,6 +252,7 @@
           },
           "7bc3229d-028b-4f0e-a0c0-3444325e0c25": {
             "type": "upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_upsell_popup_title": "Forlæng levetiden på din Posture Shirt®",
               "dbtfy_upsell_popup_text": "<p>Tilføj en <strong>vaskepose<\/strong> og forlæng levetiden på din Posture Shirt® !<\/p>",
@@ -260,6 +267,7 @@
           },
           "7732f337-9670-45ec-9e03-151827390a27": {
             "type": "upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_upsell_popup_title": "Forlæng levetiden på din Posture Shirt®",
               "dbtfy_upsell_popup_text": "<p>Tilføj en <strong>vaskepose<\/strong> og forlæng levetiden på din Posture Shirt® !<\/p>",
@@ -274,6 +282,7 @@
           },
           "d3ae25a4-0673-49fc-9d2b-2278ffae3c50": {
             "type": "upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_upsell_popup_title": "Forlæng levetiden på din Posture Shirt®",
               "dbtfy_upsell_popup_text": "<p>Tilføj en <strong>vaskepose<\/strong> og forlæng levetiden på din Posture Shirt® !<\/p>",
@@ -288,9 +297,10 @@
           },
           "5adb293f-7eab-442e-bf4f-c097a9dce1e2": {
             "type": "upsell",
+            "disabled": true,
             "settings": {
-              "dbtfy_upsell_popup_title": "Forlæng levetiden på din Posture Shirt®",
-              "dbtfy_upsell_popup_text": "<p>Tilføj en <strong>vaskepose<\/strong> og forlæng levetiden på din Posture Shirt® !<\/p>",
+              "dbtfy_upsell_popup_title": "Særtilbud til dig!",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> til <strong>KUN 149 kr<\/strong>, når du køber en Posture Shirt. <em>Normalpris er 299 kr.<\/em><\/p>",
               "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-zipper-nude",
               "dbtfy_upsell_popup_product_offer": "vaskepose-til-posture-shirt",
               "dbtfy_upsell_popup_icons": "done",
@@ -302,6 +312,7 @@
           },
           "91f29209-c167-4aa4-a764-cca909a85b2c": {
             "type": "upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_upsell_popup_title": "Forlæng levetiden på din Posture Shirt®",
               "dbtfy_upsell_popup_text": "<p>Tilføj en <strong>vaskepose<\/strong> og forlæng levetiden på din Posture Shirt® !<\/p>",
@@ -316,6 +327,7 @@
           },
           "b10f98d5-8fcd-4ec0-9d68-439f1c6bd6e0": {
             "type": "upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_upsell_popup_title": "Forlæng levetiden på din Posture Shirt®",
               "dbtfy_upsell_popup_text": "<p>Tilføj en <strong>vaskepose<\/strong> og forlæng levetiden på din Posture Shirt® !<\/p>",
@@ -330,6 +342,7 @@
           },
           "30f178c6-21b8-487d-939d-b68a7f5db0c4": {
             "type": "upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_upsell_popup_title": "Forlæng levetiden på din Posture Shirt®",
               "dbtfy_upsell_popup_text": "<p>Tilføj en <strong>vaskepose<\/strong> og forlæng levetiden på din Posture Shirt® !<\/p>",
@@ -344,13 +357,224 @@
           },
           "3fc7e0e6-7ef6-427d-92fa-1672a2cf6714": {
             "type": "upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_upsell_popup_title": "Forlæng levetiden på din Posture Shirt®",
               "dbtfy_upsell_popup_text": "<p>Tilføj en <strong>vaskepose<\/strong> og forlæng levetiden på din Posture Shirt® !<\/p>",
-              "dbtfy_upsell_popup_product_trigger": "mens-posture-shirt-hvid",
+              "dbtfy_upsell_popup_product_trigger": "mens-posture-shirt-zipper-hvid",
               "dbtfy_upsell_popup_product_offer": "vaskepose-til-posture-shirt",
               "dbtfy_upsell_popup_icons": "done",
               "button_label": "Læg i kurv - 29 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "113685c6-04fb-4453-b085-b39f44a6d41c": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Særtilbud til dig!",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr<\/strong>, når du køber en Posture Shirt. <em>Normalpris er 299 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "mens-posture-shirt-zipper-hvid",
+              "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 149 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "01d5bed2-11a3-4d13-acb0-6a54c546067d": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Særtilbud til dig!",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr<\/strong>, når du køber en Posture Shirt. <em>Normalpris er 299 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "mens-posture-shirt-zipper-sort",
+              "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 149 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "6b9b9f61-8b5d-452f-a24d-12abfe0d3a8f": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Særtilbud til dig!",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr<\/strong>, når du køber en Posture Shirt. <em>Normalpris er 299 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "mens-posture-shirt-sort",
+              "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 149 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "93143ddc-8f2e-4db6-aae7-407ca7e600c3": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Særtilbud til dig!",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr<\/strong>, når du køber en Posture Shirt. <em>Normalpris er 299 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "mens-posture-shirt-hvid",
+              "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 149 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "1ece1d79-771e-4cde-a041-2cf1b846ee0a": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Særtilbud til dig!",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr<\/strong>, når du køber en Posture Shirt. <em>Normalpris er 299 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-sort",
+              "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 149 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "b3b5f8c3-fbbc-4530-b8d6-30436bfe0450": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Særtilbud til dig!",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr<\/strong>, når du køber en Posture Shirt. <em>Normalpris er 299 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-sort",
+              "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 149 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "6674d859-1800-49a0-bfb7-57d380ecbdfe": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Særtilbud til dig!",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr<\/strong>, når du køber en Posture Shirt. <em>Normalpris er 299 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-nude",
+              "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 149 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "a56e21f4-1e94-4966-b09a-4a6b4e29f0c9": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Særtilbud til dig!",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr<\/strong>, når du køber en Posture Shirt. <em>Normalpris er 299 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-mint",
+              "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 149 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "5ff1377d-235a-44e8-8d18-550e53333865": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Særtilbud til dig!",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr<\/strong>, når du køber en Posture Shirt. <em>Normalpris er 299 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-bordeaux",
+              "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 149 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "e5e06c6c-54b0-49cd-a1e4-319bcca05e74": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Særtilbud til dig!",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr<\/strong>, når du køber en Posture Shirt. <em>Normalpris er 299 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-zipper-sort",
+              "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 149 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "145ff6bb-f3ac-4b75-a6cd-5d3a12da27d3": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Særtilbud til dig!",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr<\/strong>, når du køber en Posture Shirt. <em>Normalpris er 299 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-zipper-hvid",
+              "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 149 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "69f5da1e-51d0-4632-9eda-d15ba3f0053b": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Særtilbud til dig!",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr<\/strong>, når du køber en Posture Shirt. <em>Normalpris er 299 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-zipper-nude",
+              "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 149 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "373544eb-33c0-4877-9532-5005bd567fac": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Særtilbud til dig!",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr<\/strong>, når du køber en Anodyne BH. <em>Normalpris er 299 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "anodyne-bh",
+              "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 149 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "43a5fb5c-bedc-42d9-94f2-9d0fc9d4b361": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Særtilbud til dig!",
+              "dbtfy_upsell_popup_text": "<p>Opnå endnu bedre støtte med denne kappe til MyLign Pro. Tilkøb den til <strong>KUN 249 kr. <\/strong><em>Normalpris er 499 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "mens-mylign-pro",
+              "dbtfy_upsell_popup_product_offer": "cape-mylign",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 249 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "ff36536d-122c-46d4-b158-f633537b5ed8": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Særtilbud til dig!",
+              "dbtfy_upsell_popup_text": "<p>Opnå endnu bedre støtte med denne kappe til MyLign Pro. Tilkøb den til <strong>KUN 249 kr. <\/strong><em>Normalpris er 499 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "womens-mylign-pro",
+              "dbtfy_upsell_popup_product_offer": "cape-mylign",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 249 kr.",
               "dbtfy_upsell_popup_discount_name": "",
               "dbtfy_upsell_popup_discount_amount": "",
               "dbtfy_upsell_popup_discount_type": "%"
@@ -370,7 +594,22 @@
           "91f29209-c167-4aa4-a764-cca909a85b2c",
           "b10f98d5-8fcd-4ec0-9d68-439f1c6bd6e0",
           "30f178c6-21b8-487d-939d-b68a7f5db0c4",
-          "3fc7e0e6-7ef6-427d-92fa-1672a2cf6714"
+          "3fc7e0e6-7ef6-427d-92fa-1672a2cf6714",
+          "113685c6-04fb-4453-b085-b39f44a6d41c",
+          "01d5bed2-11a3-4d13-acb0-6a54c546067d",
+          "6b9b9f61-8b5d-452f-a24d-12abfe0d3a8f",
+          "93143ddc-8f2e-4db6-aae7-407ca7e600c3",
+          "1ece1d79-771e-4cde-a041-2cf1b846ee0a",
+          "b3b5f8c3-fbbc-4530-b8d6-30436bfe0450",
+          "6674d859-1800-49a0-bfb7-57d380ecbdfe",
+          "a56e21f4-1e94-4966-b09a-4a6b4e29f0c9",
+          "5ff1377d-235a-44e8-8d18-550e53333865",
+          "e5e06c6c-54b0-49cd-a1e4-319bcca05e74",
+          "145ff6bb-f3ac-4b75-a6cd-5d3a12da27d3",
+          "69f5da1e-51d0-4632-9eda-d15ba3f0053b",
+          "373544eb-33c0-4877-9532-5005bd567fac",
+          "43a5fb5c-bedc-42d9-94f2-9d0fc9d4b361",
+          "ff36536d-122c-46d4-b158-f633537b5ed8"
         ],
         "settings": {
           "dbtfy_upsell_popup_width": "",
@@ -512,10 +751,10 @@
           "announcement-0": {
             "type": "message",
             "settings": {
-              "announcement_text": "<p><strong>Decembertilbud:<\/strong> Spar op til 25%<\/p>",
+              "announcement_text": "<p>🇩🇰 100,000+ tilfredse kunder i Danmark 🇩🇰<\/p>",
               "announcement_counter": "",
               "announcemen_link": "",
-              "announcement_end_text": "<p><strong>Decembertilbud<\/strong>: Spar op til 25%<\/p>"
+              "announcement_end_text": ""
             }
           }
         },
@@ -657,7 +896,7 @@
               "logo_width": 150,
               "title": "Kontakt os",
               "subtitle": "",
-              "text": "<p>Anodyne.dk<\/p><p><strong>Man-fre: <\/strong>08:00 - 22:00<br\/><strong>Lør-søn: <\/strong>09:00 - 15:00<\/p>",
+              "text": "<p>Anodyne.dk<\/p><p><strong>Man-fre: <\/strong>10:00 - 16:00<br\/><strong>Lør-søn: <\/strong>10:00 - 15:00<\/p>",
               "email": true,
               "phone": true
             }
@@ -904,11 +1143,11 @@
           "show_overlay": true,
           "image": "shopify:\/\/shop_images\/Skaermbillede_2021-11-18_kl._14.03.24.png",
           "image_position": "center center",
-          "video_title": "<span class=\"first\">Decembertilbud<\/span>",
+          "video_title": "<span class=\"first\">Velkommen<\/span>",
           "text_size": "medium",
-          "text_description": "<p>Vi har rabat på <strong>alle<\/strong> produkter<br\/><strong>Spar op til 25%<\/strong><\/p>",
+          "text_description": "<p><strong>Få en bedre kropsholdning og reducér smerter med Anodyne®<\/strong><\/p>",
           "text_description_size": "medium",
-          "button_label": "SE ALLE TILBUD",
+          "button_label": "Læs mere",
           "button_link": "shopify:\/\/collections\/alle-produkter",
           "show_scrolldown": true
         }
@@ -928,8 +1167,8 @@
           "1630063768bdfa2f5f-1": {
             "type": "service",
             "settings": {
-              "title": "Gratis retur og ombytning",
-              "description": "Hvis du ønsker at returnere eller ombytte en vare, betaler vi for fragten",
+              "title": "Gratis ombytning",
+              "description": "Passer dit produkt ikke? Det er nemt og 100% gratis at ombytte dine varer hos Anodyne®",
               "icon": "shopify:\/\/shop_images\/Returns_200px.png",
               "uspLinkUrl": "shopify:\/\/pages\/forsendelse-og-retur"
             }
@@ -937,8 +1176,8 @@
           "66c69b66-4ba2-424e-a46c-68c81d83d5c4": {
             "type": "service",
             "settings": {
-              "title": "100% tilfredshedsgaranti",
-              "description": "Hvis du ikke er tilfreds med dit produkt, refunderer vi dit køb",
+              "title": "Danskernes foretrukne",
+              "description": "Flere end 100.000 glade, danske kunder kan ikke tage fejl... Vi har 4.8 ud af 5 på TrustPilot.",
               "icon": "shopify:\/\/shop_images\/Smile2_200px.png",
               "uspLinkUrl": "shopify:\/\/pages\/forsendelse-og-retur"
             }
@@ -947,7 +1186,7 @@
             "type": "service",
             "settings": {
               "title": "30 dages fuld returret",
-              "description": "Du kan frit afprøve dit produkt i 30 dage, når du handler hos os",
+              "description": "Du kan frit afprøve dit produkt i 30 dage, når du handler hos os. Vi bytter altid med et smil :)",
               "icon": "shopify:\/\/shop_images\/Checkmark_200px.png",
               "uspLinkUrl": "shopify:\/\/pages\/forsendelse-og-retur"
             }
@@ -1017,7 +1256,7 @@
             "type": "html",
             "settings": {
               "mission_title": "Hvorfor vælge holdningskorrigerende tøj fra Anodyne?",
-              "mission_description": "Med <u><a href=\"\/\">holdningskorrigerende tøj<\/a><\/u> fra Anodyne® kan du på en enkelt og ubesværet måde opnå en bedre kropsholdning og reducere smerter og spændinger i nakke, skuldre og ryg. Anodyne® <u><a href=\"\/collections\/alle-produkter\/\">holdningstøj til mænd og kvinder<\/a><\/u> hjælper dig til at øge din kropsholdningsbevidsthed og kan bruges både, når du sidder på kontoret, rejser, er aktiv på jobbet eller bruger det til træning. Anodyne® er europæisk producent og distributør af holdningskorrigerende tøj med teknologi udviklet af amerikanske AlignMed - verdens eneste producent af holdningskorrigerende tøj, der er registreret hos USA’s føderale fødevare- og lægemiddelmyndighed (FDA). Anodyne® holdningskorrigerende tøj er som det eneste i Europa både FDA-registreret og MDR\/CE-mærket som medicinsk udstyr (Klasse I), hvilket er din garanti for, at vores produkter lever op til de krav, der stilles for medicinsk udstyr. Vi sælger også også en række forskellige <u><a href=\"\/collections\/rygstoette\">produkter til rygstøtte<\/a><\/u>, både i form af holdningsveste, skulderstøtter, ergonomiske puder mm.",
+              "mission_description": "Med <u><a href=\"\/\">holdningskorrigerende tøj<\/a><\/u> fra Anodyne® kan du på en enkelt og ubesværet måde opnå en bedre kropsholdning og reducere smerter og spændinger i nakke, skuldre og ryg. Anodyne® <u><a href=\"\/collections\/alle-produkter\/\">holdningstøj til mænd og kvinder<\/a><\/u> hjælper dig til at øge din kropsholdningsbevidsthed og kan bruges både, når du sidder på kontoret, rejser, er aktiv på jobbet eller bruger det til træning. Anodyne® er europæisk producent og distributør af holdningskorrigerende tøj med teknologi udviklet af amerikanske AlignMed - verdens eneste producent af holdningskorrigerende tøj, der er registreret hos USA’s føderale fødevare- og lægemiddelmyndighed (FDA). Anodyne® holdningskorrigerende tøj er som det eneste i Europa både FDA-registreret og MDR\/CE-mærket som medicinsk udstyr (Klasse I), hvilket er din garanti for, at vores produkter lever op til de krav, der stilles for medicinsk udstyr. Vi sælger også også en række forskellige <u><a href=\"\/collections\/rygstoette\">produkter til rygstøtte<\/a><\/u>, både i form af holdningsveste, <u><a href=\"\/collections\/skulderstoette\">skulderstøtter<\/a><\/u>, ergonomiske puder mm.",
               "column_width": 12,
               "column_width_mobile": 12,
               "text_alignment": "text-center",
@@ -1213,7 +1452,7 @@
               "accordion_title": "Holdningskorrigerende tøj til dit behov",
               "accordion__inner-title": "",
               "accordion__description": "Holdningskorrigerende tøj fra Anodyne® kan anvendes af alle. Vi forhandler holdningskorrigerende t-shirts, BH’er og veste, der alle er udviklet til at hjælpe med at aktivere muskulaturen og blodcirkulationen, og derved minde kroppen om at indtage en mere optimal holdning. Anodyne® holdningskorrigerende t-shirts og BH’er kan anvendes når som helst - når du træner, handler ind, går tur, gør rent eller ved andre aktiviteter. For at få mest ud af Anodyne® holdningskorrigerende tøj, anbefaler vi, at du læser den medsendte brugsvejledning grundigt, så du har de helt rette forudsætninger for at nå den optimale effekt af vores produkter.",
-              "accordion__buttontext": "Se udvalg",
+              "accordion__buttontext": "Se udvalg af holdningstøj",
               "accordion__LinkUrl": "shopify:\/\/collections\/alle-produkter"
             }
           },
@@ -1261,8 +1500,8 @@
           "rows": "4",
           "desktop_grid": "4",
           "mobile_grid": "2",
-          "collection_banner": "shopify:\/\/shop_images\/December-offers_DK.jpg",
-          "collection_banner_mobile": "shopify:\/\/shop_images\/December-offers_mobile_DK.jpg"
+          "collection_banner_postureshirt": "shopify:\/\/shop_images\/Desktop_DK.jpg",
+          "collection_banner_mobile_postureshirt": "shopify:\/\/shop_images\/Mobile_DK.jpg"
         }
       },
       "dbtfy-collection-filters": {
@@ -1285,8 +1524,8 @@
           "product_title_large": false,
           "show_product_tags": false,
           "show_sharing_icons": true,
-          "product_banner": "shopify:\/\/shop_images\/December-offers_DK.jpg",
-          "product_banner_mobile": "shopify:\/\/shop_images\/December-offers_mobile_DK.jpg",
+          "product_banner_postureshirt": "shopify:\/\/shop_images\/Desktop_DK_96e4660b-ffe6-437f-9cb1-fff2cfb8e386.jpg",
+          "product_banner_mobile_postureshirt": "shopify:\/\/shop_images\/Mobile_DK_4fbc6ab5-a7fe-4aa6-b52a-71cbb232b76f.jpg",
           "show_product_collections": false,
           "enable_image_zoom": true,
           "enable_video_looping": true,

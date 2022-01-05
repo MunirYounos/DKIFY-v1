@@ -6,11 +6,13 @@
         <div class="grid__item large--eight-twelfths push--large--two-twelfths">
           <div class="section-header">
             <div class="page-title-wrapper">
-              {%- if current_tags -%}
+                 {% comment  %}
+<!--               {%- if current_tags -%}
                 <h1>{{ blog.title | link_to: blog.url }} &mdash; {{ current_tags.first }}</h1>
               {%- else -%}
                 <h1 class="page-title">{{ blog.title }}</h1>
-              {%- endif -%}
+              {%- endif -%}  -->
+              {% endcomment %} 
             </div>
 
             {%- if section.settings.show_rss -%}

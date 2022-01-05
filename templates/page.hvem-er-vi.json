@@ -6,7 +6,7 @@
         "1637227456ea4938f3-0": {
           "type": "html",
           "settings": {
-            "mission_title": "Om Anodyne",
+            "mission_title": "<h1>Om Anodyne<\/h1>",
             "mission_description": "",
             "column_width": 12,
             "column_width_mobile": 12,

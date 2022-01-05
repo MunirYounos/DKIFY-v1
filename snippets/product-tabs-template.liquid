@@ -139,18 +139,33 @@
 
 <div class="product-single" data-product-handle="{{ product.handle }}" data-product-id="{{ product.id }}">
   <!-- product top banner  -->
-      {%- if section.settings.product_banner or section.settings.product_banner_mobile != blank -%}
-      <div class="wrapper">
-        <div class="collection__banner">
-          <img class="collection__banner-img lazyload"
-          src="{{section.settings.product_banner | img_url: '1920x60'}}"
-          alt="{{ collection.title }}">
-          <img class="collection__banner-img-mobil lazyload"
-          src="{{section.settings.product_banner_mobile | img_url: '500x40'}}"
-          alt="{{ collection.title }}">
+{%- if collection.handle == "posture-shirt" or product.handle contains "womens-posture-shirt" or product.handle contains "mens-posture-shirt" -%}
+    {%- if section.settings.product_banner_postureshirt or section.settings.product_banner_mobile_postureshirt != blank -%}
+        <div class="wrapper">
+          <div class="collection__banner">
+            <img class="collection__banner-img lazyload"
+            src="{{section.settings.product_banner_postureshirt | img_url: '1920x60'}}"
+            alt="{{ product.title }}">
+            <img class="collection__banner-img-mobil lazyload"
+            src="{{section.settings.product_banner_mobile_postureshirt | img_url: '1920x60'}}"
+            alt="{{ product.title }}">
+          </div>
         </div>
-      </div>
-    {%- endif -%}
+   {%- endif-%}
+{%- else -%}
+    {%- if section.settings.product_banner or section.settings.product_banner_mobile != blank -%}
+        <div class="wrapper">
+          <div class="collection__banner">
+            <img class="collection__banner-img lazyload"
+            src="{{section.settings.product_banner | img_url: '1920x60'}}"
+            alt="{{ product.title }}">
+            <img class="collection__banner-img-mobil lazyload"
+            src="{{section.settings.product_banner_mobile | img_url: '1920x60'}}"
+            alt="{{ product.title }}">
+          </div>
+        </div>
+  {%- endif-%}
+ {%- endif-%}
   <div class="box">
     <div class="wrapper">
       <div class="grid product-single">

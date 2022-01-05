@@ -1,16 +1,31 @@
 <div id="CollectionSection" data-section-id="{{ section.id }}" data-section-type="collection-template">
-  {%- if section.settings.collection_banner or section.settings.collection_banner_mobile != blank-%}
+{%- if collection.handle contains 'posture-shirt'-%}
+    {%- if section.settings.collection_banner_postureshirt or section.settings.collection_banner_mobile_postureshirt != blank-%}
+        <div class="wrapper">
+          <div class="collection__banner">
+            <img class="collection__banner-img lazyload"
+            src="{{section.settings.collection_banner_postureshirt | img_url: '1920x60'}}"
+            alt="{{ collection.title }}">
+            <img class="collection__banner-img-mobil lazyload"
+            src="{{section.settings.collection_banner_mobile_postureshirt | img_url: '1920x60'}}"
+            alt="{{ collection.title }}">
+          </div>
+        </div>
+    {%- endif-%}
+  {%- else -%}
+    {%- if section.settings.collection_banner or section.settings.collection_banner_mobile != blank-%}
         <div class="wrapper">
           <div class="collection__banner">
             <img class="collection__banner-img lazyload"
             src="{{section.settings.collection_banner | img_url: '1920x60'}}"
             alt="{{ collection.title }}">
             <img class="collection__banner-img-mobil lazyload"
-            src="{{section.settings.collection_banner_mobile | img_url: '500x40'}}"
+            src="{{section.settings.collection_banner_mobile | img_url: '1920x60'}}"
             alt="{{ collection.title }}">
           </div>
         </div>
   {%- endif-%}
+{%- endif -%}
   <div class="box">
     <div class="wrapper">
 
@@ -401,6 +416,16 @@
         "type": "image_picker",
         "id": "collection_banner_mobile",
         "label": "Add a banner on top for Mobile. Size: 500X40px"
+      },
+      {
+        "type": "image_picker",
+        "id": "collection_banner_postureshirt",
+        "label": "Add a banner on postureshirt top. Size: 1920X60px"
+      },
+      {
+        "type": "image_picker",
+        "id": "collection_banner_mobile_postureshirt",
+        "label": "Add a banner on top for postureshirt Mobile. Size: 500X40px"
       }
     ]
   }
