@@ -479,7 +479,9 @@
                                data-option-name="{{ option.name | escape }}">
                           {{ option.name | escape }}: <span class="variant-label-option-value">{{ first_option_value | escape }}</span>
                         </label>
-
+                        <!-- select size message infobar start -->
+                        <div id="not_select_id" class="not-select"></div>
+                        <!-- select size message infobar end -->
                         {%- if section.settings.product_selector == 'radio' -%}
                           <fieldset class="single-option-radio inline-list"
                             id="ProductSelect-option-{{ forloop.index0 }}">
@@ -616,17 +618,15 @@
                        {%- endif -%}
                     </div>
                   {%- endif -%}
-        
-     
-									<!-- size-chart -->
-									{%- if show_sizeGuide == true -%}
-									<div class="custom_size_chart">
-										{{product.metafields.sizeChart.sizeTable}}
-									</div>
-								{%- endif -%}
+                    <!-- size-chart -->
+                    {%- if show_sizeGuide == true -%}
+                    <div class="custom_size_chart">
+                      {{product.metafields.sizeChart.sizeTable}}
+                    </div>
+                    {%- endif -%}
 
                   <div class="product-single__add-to-cart">
-                    <button type="submit" name="add" id="AddToCart--{{ section.id }}" class="btn btn--primary btn--add-to-cart full"{% unless current_variant.available %} disabled="disabled"{% endunless %}>
+                    <button type="submit" aria-label="submit" name="add" id="AddToCart--{{ section.id }}" class="btn btn--primary btn--add-to-cart full"{% unless current_variant.available %} disabled="disabled"{% endunless %}>
                       <span class="btn__text">
                         <span class="{{ settings.icon }} button-cart-icon">{{ settings.icon_cart }}</span>
                         <span class="btn__add-to-cart-text">
@@ -648,9 +648,7 @@
                 {% render "dbtfy-back-in-stock", product: product, current_variant: current_variant %}
               {%- endif -%}
             </div>
-            
-
-                <!-- Nl basic counter start -->
+              <!-- Nl basic counter start -->
                 <div class="nlify-counter">
                 <div id="dk___js-counter"></div>
               </div>
@@ -902,3 +900,23 @@
 {{ product.media | where: 'media_type', 'model' | json }}
 </script>
 {%- endunless -%}
+
+<script>
+//check if radio wrapper for sizes exists and run the scrips
+if($('.radio-wrapper').length){  
+  if($('.single-option-radio')){
+      $('.variant-label-option-value').html("");
+      $('.single-option-radio > input').removeAttr('checked'); 
+      $('#AddToCart--product-tabs-template').click(function(event){
+        if($('.single-option-radio > input:checked').length){
+        setTimeout(function(){$('.single-option-radio > input').removeAttr('checked'); $('.variant-label-option-value').html(""); }, 5000 );
+        } else {
+        event.preventDefault()
+        $("#not_select_id").html("<p id='not_select-m'> {{ 'products.sizes.choose-size-message' | t }}</p>"); 
+        $('.variant-label-option-value').html("");
+        setTimeout(function(){$("#not_select-m").hide();}, 5000);
+        }
+    });
+  }
+} 
+</script>

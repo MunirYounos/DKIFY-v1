@@ -106,12 +106,12 @@ function calculateDeliveryTimeFriday(someId, currentDate, setTime) {
 			setTimeout(tick, 1000);
 		} else if (now > startDateOfToday) {
 
-			someId.innerHTML = `<div class="timer__wrapper"><div class="timer__text"> Gratis levering til pakkeshop </div></div>`;
+			someId.innerHTML = `<div class="timer__wrapper"><div class="timer__text"> Fri fragt ved køb over 399 kr </div></div>`;
     
 		}
 	}
 	tick();
 }
 function calculateDeliveryTimeSaturday(someId) {
-    someId.innerHTML = `<div class="timer__wrapper"><div class="timer__text"> Gratis levering til pakkeshop </div></div>`;
+    someId.innerHTML = `<div class="timer__wrapper"><div class="timer__text"> Fri fragt ved køb over 399 kr </div></div>`;
 }

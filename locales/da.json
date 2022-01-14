@@ -352,11 +352,14 @@
       "tab-use": "Anvendelse",
       "tab-manual": "Brugsvejledning",
       "tab-material": "Materialer",
-      "tab-delivery": "Levering og retur"
+      "tab-delivery": "Levering og fragt"
     },
     "radios": {
       "radio-one": "Køb",
       "radio-save-amount": "Spar"
+    },
+    "sizes": {
+      "choose-size-message": "Husk at vælge størrelse"
     }
   },
   "gift_cards": {
@@ -374,5 +377,21 @@
   },
   "date_formats": {
     "month_day_year": "%a %b %d"
+  },
+  "shopify": {
+    "checkout": {
+      "tips": {
+        "title": "Gør din ordre klimaneutral 💚",
+        "custom_label": "Vælg selv beløb",
+        "update_tip": "Bekræft",
+        "description": "Giv en donation på 1% af din ordres samlede beløb til klimakompensation. Anodyne® matcher din donation 1:1, så vi sammen kan gøre en forskel. ",
+        "add_tip": "Tilføj til din ordre",
+        "message": "Alle donationer går ubeskåret til plantning af nye bæredygtige skove gennem Ecotree.green",
+        "no_tip_label": "Nej tak"
+      },
+      "field_errors": {
+        "tips_invalid_tip_amount": "Højeste beløb muligt {{ amount }}"
+      }
+    }
   }
 }

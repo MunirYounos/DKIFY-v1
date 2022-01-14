@@ -21,7 +21,8 @@
     "border_radius": 1,
     "button_padding_x": 30,
     "button_padding_y": 15,
-    "top_button_mobile": true,
+    "show_top_button": false,
+    "top_button_mobile": false,
     "top_button_position": "right",
     "page_wrapper": "1248",
     "payment_icon_size": 24,
@@ -94,6 +95,7 @@
     "dbtfy_shop_protect": false,
     "dbtfy_skip_cart": false,
     "dbtfy_size_chart": false,
+    "dbtfy_sticky_addtocart": false,
     "synced_variant_image": false,
     "dbtfy_upsell_popup": true,
     "dbtfy_wish_list": false,
@@ -113,7 +115,7 @@
     "dbtfy_cart_discount_apply_button_label": "Brug kode",
     "nlify_cart_notification": "Har du valgt den rigtige størrelse? Husk at tjekke størrelsesguiden inden købet.",
     "dbtfy_cart_goal_before_text": "Endnu",
-    "dbtfy_cart_goal_amount": "0",
+    "dbtfy_cart_goal_amount": "400",
     "dbtfy_cart_goal_after_text": "til gratis forsendelse.",
     "dbtfy_cart_goal_reached_text": "Gratis levering til pakkeshop",
     "dbtfy_cart_discount_savings_label": "Total besparelse",
@@ -370,11 +372,27 @@
               "dbtfy_upsell_popup_discount_type": "%"
             }
           },
-          "113685c6-04fb-4453-b085-b39f44a6d41c": {
+          "373544eb-33c0-4877-9532-5005bd567fac": {
             "type": "upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_upsell_popup_title": "Særtilbud til dig!",
-              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr<\/strong>, når du køber en Posture Shirt. <em>Normalpris er 299 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr<\/strong>, når du køber en Anodyne BH. <em>Normalpris er 349 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "anodyne-bh",
+              "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 149 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "113685c6-04fb-4453-b085-b39f44a6d41c": {
+            "type": "upsell",
+            "disabled": true,
+            "settings": {
+              "dbtfy_upsell_popup_title": "Særtilbud til dig!",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr.<\/strong> Spar over <strong>50%<\/strong><em>. Normalpris er 349 kr.<\/em><\/p>",
               "dbtfy_upsell_popup_product_trigger": "mens-posture-shirt-zipper-hvid",
               "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
               "dbtfy_upsell_popup_icons": "done",
@@ -386,9 +404,10 @@
           },
           "01d5bed2-11a3-4d13-acb0-6a54c546067d": {
             "type": "upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_upsell_popup_title": "Særtilbud til dig!",
-              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr<\/strong>, når du køber en Posture Shirt. <em>Normalpris er 299 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr.<\/strong> Spar over <strong>50%<\/strong><em>. Normalpris er 349 kr.<\/em><\/p>",
               "dbtfy_upsell_popup_product_trigger": "mens-posture-shirt-zipper-sort",
               "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
               "dbtfy_upsell_popup_icons": "done",
@@ -400,9 +419,10 @@
           },
           "6b9b9f61-8b5d-452f-a24d-12abfe0d3a8f": {
             "type": "upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_upsell_popup_title": "Særtilbud til dig!",
-              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr<\/strong>, når du køber en Posture Shirt. <em>Normalpris er 299 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr.<\/strong> Spar over <strong>50%<\/strong><em>. Normalpris er 349 kr.<\/em><\/p>",
               "dbtfy_upsell_popup_product_trigger": "mens-posture-shirt-sort",
               "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
               "dbtfy_upsell_popup_icons": "done",
@@ -414,9 +434,10 @@
           },
           "93143ddc-8f2e-4db6-aae7-407ca7e600c3": {
             "type": "upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_upsell_popup_title": "Særtilbud til dig!",
-              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr<\/strong>, når du køber en Posture Shirt. <em>Normalpris er 299 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr.<\/strong> Spar over <strong>50%<\/strong><em>. Normalpris er 349 kr.<\/em><\/p>",
               "dbtfy_upsell_popup_product_trigger": "mens-posture-shirt-hvid",
               "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
               "dbtfy_upsell_popup_icons": "done",
@@ -428,10 +449,11 @@
           },
           "1ece1d79-771e-4cde-a041-2cf1b846ee0a": {
             "type": "upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_upsell_popup_title": "Særtilbud til dig!",
-              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr<\/strong>, når du køber en Posture Shirt. <em>Normalpris er 299 kr.<\/em><\/p>",
-              "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-sort",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr.<\/strong> Spar over <strong>50%<\/strong><em>. Normalpris er 349 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-hvid",
               "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
               "dbtfy_upsell_popup_icons": "done",
               "button_label": "Læg i kurv - 149 kr.",
@@ -442,9 +464,10 @@
           },
           "b3b5f8c3-fbbc-4530-b8d6-30436bfe0450": {
             "type": "upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_upsell_popup_title": "Særtilbud til dig!",
-              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr<\/strong>, når du køber en Posture Shirt. <em>Normalpris er 299 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr.<\/strong> Spar over <strong>50%<\/strong><em>. Normalpris er 349 kr.<\/em><\/p>",
               "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-sort",
               "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
               "dbtfy_upsell_popup_icons": "done",
@@ -456,9 +479,10 @@
           },
           "6674d859-1800-49a0-bfb7-57d380ecbdfe": {
             "type": "upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_upsell_popup_title": "Særtilbud til dig!",
-              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr<\/strong>, når du køber en Posture Shirt. <em>Normalpris er 299 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr.<\/strong> Spar over <strong>50%<\/strong><em>. Normalpris er 349 kr.<\/em><\/p>",
               "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-nude",
               "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
               "dbtfy_upsell_popup_icons": "done",
@@ -470,9 +494,10 @@
           },
           "a56e21f4-1e94-4966-b09a-4a6b4e29f0c9": {
             "type": "upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_upsell_popup_title": "Særtilbud til dig!",
-              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr<\/strong>, når du køber en Posture Shirt. <em>Normalpris er 299 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr.<\/strong> Spar over <strong>50%<\/strong><em>. Normalpris er 349 kr.<\/em><\/p>",
               "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-mint",
               "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
               "dbtfy_upsell_popup_icons": "done",
@@ -484,9 +509,10 @@
           },
           "5ff1377d-235a-44e8-8d18-550e53333865": {
             "type": "upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_upsell_popup_title": "Særtilbud til dig!",
-              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr<\/strong>, når du køber en Posture Shirt. <em>Normalpris er 299 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr.<\/strong> Spar over <strong>50%<\/strong><em>. Normalpris er 349 kr.<\/em><\/p>",
               "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-bordeaux",
               "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
               "dbtfy_upsell_popup_icons": "done",
@@ -498,9 +524,10 @@
           },
           "e5e06c6c-54b0-49cd-a1e4-319bcca05e74": {
             "type": "upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_upsell_popup_title": "Særtilbud til dig!",
-              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr<\/strong>, når du køber en Posture Shirt. <em>Normalpris er 299 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr.<\/strong> Spar over <strong>50%<\/strong><em>. Normalpris er 349 kr.<\/em><\/p>",
               "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-zipper-sort",
               "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
               "dbtfy_upsell_popup_icons": "done",
@@ -512,9 +539,10 @@
           },
           "145ff6bb-f3ac-4b75-a6cd-5d3a12da27d3": {
             "type": "upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_upsell_popup_title": "Særtilbud til dig!",
-              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr<\/strong>, når du køber en Posture Shirt. <em>Normalpris er 299 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr.<\/strong> Spar over <strong>50%<\/strong><em>. Normalpris er 349 kr.<\/em><\/p>",
               "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-zipper-hvid",
               "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
               "dbtfy_upsell_popup_icons": "done",
@@ -526,9 +554,10 @@
           },
           "69f5da1e-51d0-4632-9eda-d15ba3f0053b": {
             "type": "upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_upsell_popup_title": "Særtilbud til dig!",
-              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr<\/strong>, når du køber en Posture Shirt. <em>Normalpris er 299 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr.<\/strong> Spar over <strong>50%<\/strong><em>. Normalpris er 349 kr.<\/em><\/p>",
               "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-zipper-nude",
               "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
               "dbtfy_upsell_popup_icons": "done",
@@ -538,12 +567,298 @@
               "dbtfy_upsell_popup_discount_type": "%"
             }
           },
-          "373544eb-33c0-4877-9532-5005bd567fac": {
+          "09b295e9-7bc7-43d9-a5c4-2a120bcc4e1d": {
             "type": "upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_upsell_popup_title": "Særtilbud til dig!",
-              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr<\/strong>, når du køber en Anodyne BH. <em>Normalpris er 299 kr.<\/em><\/p>",
-              "dbtfy_upsell_popup_product_trigger": "anodyne-bh",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr.<\/strong> Spar over <strong>50%<\/strong><em>. Normalpris er 349 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "laendebaelte",
+              "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 149 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "c9d5edaf-8af9-49d6-a955-0abdf0cd8937": {
+            "type": "upsell",
+            "disabled": true,
+            "settings": {
+              "dbtfy_upsell_popup_title": "Særtilbud til dig!",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr.<\/strong> Spar over <strong>50%<\/strong><em>. Normalpris er 349 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "alignme-capri-leggings-graa",
+              "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 149 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "2ee05869-26c3-4535-bda4-3ef82eb5b214": {
+            "type": "upsell",
+            "disabled": true,
+            "settings": {
+              "dbtfy_upsell_popup_title": "Særtilbud til dig!",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr.<\/strong> Spar over <strong>50%<\/strong><em>. Normalpris er 349 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "alignme-capri-leggings-groen",
+              "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 149 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "f8003366-34bc-45d3-97fe-01a272c42080": {
+            "type": "upsell",
+            "disabled": true,
+            "settings": {
+              "dbtfy_upsell_popup_title": "Særtilbud til dig!",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr.<\/strong> Spar over <strong>50%<\/strong><em>. Normalpris er 349 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "alignme-capri-leggings-blaa",
+              "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 149 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "cda85a36-1fcc-4cf9-b2a9-f6a6afe9a672": {
+            "type": "upsell",
+            "disabled": true,
+            "settings": {
+              "dbtfy_upsell_popup_title": "Særtilbud til dig!",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr.<\/strong> Spar over <strong>50%<\/strong><em>. Normalpris er 349 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "massage-gun-mini",
+              "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 149 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "57c5d120-1999-41d3-bfcb-a608d4d29e8c": {
+            "type": "upsell",
+            "disabled": true,
+            "settings": {
+              "dbtfy_upsell_popup_title": "Særtilbud til dig!",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr.<\/strong> Spar over <strong>50%<\/strong><em>. Normalpris er 349 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "back-stretcher",
+              "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 149 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "8dd050f7-c19e-43a4-b355-df17cda732c5": {
+            "type": "upsell",
+            "disabled": true,
+            "settings": {
+              "dbtfy_upsell_popup_title": "Særtilbud til dig!",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr.<\/strong> Spar over <strong>50%<\/strong><em>. Normalpris er 349 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "knaebind-justerbart",
+              "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 149 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "76fd0e3b-fc65-4aa8-8c97-8600b03741f1": {
+            "type": "upsell",
+            "disabled": true,
+            "settings": {
+              "dbtfy_upsell_popup_title": "Særtilbud til dig!",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr.<\/strong> Spar over <strong>50%<\/strong><em>. Normalpris er 349 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "knaestoettebind",
+              "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 149 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "e3486a2c-a4f4-42d8-8c37-923ae2a714e6": {
+            "type": "upsell",
+            "disabled": true,
+            "settings": {
+              "dbtfy_upsell_popup_title": "Særtilbud til dig!",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr.<\/strong> Spar over <strong>50%<\/strong><em>. Normalpris er 349 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "albuebind",
+              "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 149 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "42a259ee-e15e-4e44-82d0-e50de20ebe9a": {
+            "type": "upsell",
+            "disabled": true,
+            "settings": {
+              "dbtfy_upsell_popup_title": "Særtilbud til dig!",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr.<\/strong> Spar over <strong>50%<\/strong><em>. Normalpris er 349 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "kulde-og-varmepude",
+              "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 149 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "7008ddf4-0fbf-4673-8ff7-ad44df0b42dd": {
+            "type": "upsell",
+            "disabled": true,
+            "settings": {
+              "dbtfy_upsell_popup_title": "Særtilbud til dig!",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr.<\/strong> Spar over <strong>50%<\/strong><em>. Normalpris er 349 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "kulde-og-varmebaelte",
+              "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 149 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "3976c91f-5758-4711-9043-8048442bd519": {
+            "type": "upsell",
+            "disabled": true,
+            "settings": {
+              "dbtfy_upsell_popup_title": "Særtilbud til dig!",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr.<\/strong> Spar over <strong>50%<\/strong><em>. Normalpris er 349 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "akupressur-maatte-og-pude",
+              "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 149 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "a9b74723-4012-42d4-8fdb-5b886caa0e93": {
+            "type": "upsell",
+            "disabled": true,
+            "settings": {
+              "dbtfy_upsell_popup_title": "Særtilbud til dig!",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr.<\/strong> Spar over <strong>50%<\/strong><em>. Normalpris er 349 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "ergonomisk-rygpude",
+              "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 149 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "cb5a54a3-5cde-4bd9-b200-6a3f96ca2e71": {
+            "type": "upsell",
+            "disabled": true,
+            "settings": {
+              "dbtfy_upsell_popup_title": "Særtilbud til dig!",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr.<\/strong> Spar over <strong>50%<\/strong><em>. Normalpris er 349 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "ergonomisk-siddepude",
+              "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 149 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "4a705935-63e2-421d-b416-d5361f00538e": {
+            "type": "upsell",
+            "disabled": true,
+            "settings": {
+              "dbtfy_upsell_popup_title": "Særtilbud til dig!",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr.<\/strong> Spar over <strong>50%<\/strong><em>. Normalpris er 349 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "ergonomisk-knaepude",
+              "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 149 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "96a31533-829f-4588-97a8-10d26adb7a09": {
+            "type": "upsell",
+            "disabled": true,
+            "settings": {
+              "dbtfy_upsell_popup_title": "Særtilbud til dig!",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr.<\/strong> Spar over <strong>50%<\/strong><em>. Normalpris er 349 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "kinesiotape",
+              "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 149 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "8f685f0b-0446-4678-a222-351669e4d1ec": {
+            "type": "upsell",
+            "disabled": true,
+            "settings": {
+              "dbtfy_upsell_popup_title": "Særtilbud til dig!",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr.<\/strong> Spar over <strong>50%<\/strong><em>. Normalpris er 349 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "backjoy-posture",
+              "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 149 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "52cd4862-7ab2-49fd-b495-8af58689c40f": {
+            "type": "upsell",
+            "disabled": true,
+            "settings": {
+              "dbtfy_upsell_popup_title": "Særtilbud til dig!",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr.<\/strong> Spar over <strong>50%<\/strong><em>. Normalpris er 349 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "backjoy-posture-mini",
+              "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 149 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "e2338c2b-d47a-4ef4-af92-00f04ef999d3": {
+            "type": "upsell",
+            "disabled": true,
+            "settings": {
+              "dbtfy_upsell_popup_title": "Særtilbud til dig!",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr.<\/strong> Spar over <strong>50%<\/strong><em>. Normalpris er 349 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "gel-lign-channeling-feet",
+              "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Læg i kurv - 149 kr.",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "bd1bf7c1-10a7-4e36-b311-e838bc1889cb": {
+            "type": "upsell",
+            "disabled": true,
+            "settings": {
+              "dbtfy_upsell_popup_title": "Særtilbud til dig!",
+              "dbtfy_upsell_popup_text": "<p>Tilkøb en <strong>Skulderstøtte Basic<\/strong> for <strong>KUN 149 kr.<\/strong> Spar over <strong>50%<\/strong><em>. Normalpris er 349 kr.<\/em><\/p>",
+              "dbtfy_upsell_popup_product_trigger": "backjoy-comfort-soles",
               "dbtfy_upsell_popup_product_offer": "skulderstotte-basic-tilkob",
               "dbtfy_upsell_popup_icons": "done",
               "button_label": "Læg i kurv - 149 kr.",
@@ -595,6 +910,7 @@
           "b10f98d5-8fcd-4ec0-9d68-439f1c6bd6e0",
           "30f178c6-21b8-487d-939d-b68a7f5db0c4",
           "3fc7e0e6-7ef6-427d-92fa-1672a2cf6714",
+          "373544eb-33c0-4877-9532-5005bd567fac",
           "113685c6-04fb-4453-b085-b39f44a6d41c",
           "01d5bed2-11a3-4d13-acb0-6a54c546067d",
           "6b9b9f61-8b5d-452f-a24d-12abfe0d3a8f",
@@ -607,7 +923,26 @@
           "e5e06c6c-54b0-49cd-a1e4-319bcca05e74",
           "145ff6bb-f3ac-4b75-a6cd-5d3a12da27d3",
           "69f5da1e-51d0-4632-9eda-d15ba3f0053b",
-          "373544eb-33c0-4877-9532-5005bd567fac",
+          "09b295e9-7bc7-43d9-a5c4-2a120bcc4e1d",
+          "c9d5edaf-8af9-49d6-a955-0abdf0cd8937",
+          "2ee05869-26c3-4535-bda4-3ef82eb5b214",
+          "f8003366-34bc-45d3-97fe-01a272c42080",
+          "cda85a36-1fcc-4cf9-b2a9-f6a6afe9a672",
+          "57c5d120-1999-41d3-bfcb-a608d4d29e8c",
+          "8dd050f7-c19e-43a4-b355-df17cda732c5",
+          "76fd0e3b-fc65-4aa8-8c97-8600b03741f1",
+          "e3486a2c-a4f4-42d8-8c37-923ae2a714e6",
+          "42a259ee-e15e-4e44-82d0-e50de20ebe9a",
+          "7008ddf4-0fbf-4673-8ff7-ad44df0b42dd",
+          "3976c91f-5758-4711-9043-8048442bd519",
+          "a9b74723-4012-42d4-8fdb-5b886caa0e93",
+          "cb5a54a3-5cde-4bd9-b200-6a3f96ca2e71",
+          "4a705935-63e2-421d-b416-d5361f00538e",
+          "96a31533-829f-4588-97a8-10d26adb7a09",
+          "8f685f0b-0446-4678-a222-351669e4d1ec",
+          "52cd4862-7ab2-49fd-b495-8af58689c40f",
+          "e2338c2b-d47a-4ef4-af92-00f04ef999d3",
+          "bd1bf7c1-10a7-4e36-b311-e838bc1889cb",
           "43a5fb5c-bedc-42d9-94f2-9d0fc9d4b361",
           "ff36536d-122c-46d4-b158-f633537b5ed8"
         ],
@@ -681,17 +1016,546 @@
       "dbtfy-cart-upsell": {
         "type": "dbtfy-cart-upsell",
         "blocks": {
-          "eda47616-f2ab-4615-8281-7b159e2ca931": {
+          "769d68e9-4fca-4124-b184-5ab7fdbee475": {
             "type": "cart-upsell",
             "settings": {
-              "dbtfy_cart_general_upsell_title": "NYHED! Tilkøb en flot gaveæske",
+              "dbtfy_cart_general_upsell_title": "Forlæng levetiden på din Posture Shirt eller BH",
+              "dbtfy_cart_general_upsell_product_offer": "vaskepose-til-posture-shirt",
+              "dbtfy_cart_general_upsell_btn_title": "Ja tak"
+            }
+          },
+          "eda47616-f2ab-4615-8281-7b159e2ca931": {
+            "type": "cart-upsell",
+            "disabled": true,
+            "settings": {
+              "dbtfy_cart_general_upsell_title": "Tilkøb en flot gaveæske",
               "dbtfy_cart_general_upsell_product_offer": "30x21x7cm",
               "dbtfy_cart_general_upsell_btn_title": "Tilføj"
+            }
+          },
+          "2f49a907-f1d8-439f-bfaa-0effae902c99": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Få en Skulderstøtte Basic med til under halv pris (norm. 349,00 kr.)",
+              "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-zipper-hvid",
+              "dbtfy_cart_specific_upsell_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "39c472d8-5b99-4a66-bf89-74698ddb372d": {
+            "type": "cart-item-upsell",
+            "disabled": true,
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Forlæng levetiden på din Posture Shirt",
+              "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-zipper-hvid",
+              "dbtfy_cart_specific_upsell_product_offer": "vaskepose-til-posture-shirt",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "4171f067-6e38-4a79-92a6-340501220467": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Få en Skulderstøtte Basic med til under halv pris (norm. 349,00 kr.)",
+              "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-zipper-sort",
+              "dbtfy_cart_specific_upsell_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "39f9a54b-59da-4f90-a2f8-761b1087359e": {
+            "type": "cart-item-upsell",
+            "disabled": true,
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Forlæng levetiden på din Posture Shirt",
+              "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-zipper-sort",
+              "dbtfy_cart_specific_upsell_product_offer": "vaskepose-til-posture-shirt",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "1b110481-fbd9-403f-a8d5-bf83ec463791": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Få en Skulderstøtte Basic med til under halv pris (norm. 349,00 kr.)",
+              "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-sort",
+              "dbtfy_cart_specific_upsell_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "07b55882-af77-4784-940c-51701efa81c6": {
+            "type": "cart-item-upsell",
+            "disabled": true,
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Forlæng levetiden på din Posture Shirt",
+              "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-sort",
+              "dbtfy_cart_specific_upsell_product_offer": "vaskepose-til-posture-shirt",
+              "dbtfy_cart_specific_upsell_btn_title": "Tilføj"
+            }
+          },
+          "daabd7ed-b179-4064-82a3-7df793dbc669": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Få en Skulderstøtte Basic med til under halv pris (norm. 349,00 kr.)",
+              "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-hvid",
+              "dbtfy_cart_specific_upsell_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "76f7da0b-abf8-4248-9a5c-0f5946f7e254": {
+            "type": "cart-item-upsell",
+            "disabled": true,
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Forlæng levetiden på din Posture Shirt",
+              "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-hvid",
+              "dbtfy_cart_specific_upsell_product_offer": "vaskepose-til-posture-shirt",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "2c35bd2c-a411-4b93-8c2e-c338e01bb4ff": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Få en Skulderstøtte Basic med til under halv pris (norm. 349,00 kr.)",
+              "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-hvid",
+              "dbtfy_cart_specific_upsell_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "4dd42e77-0c04-4203-9e64-a4a9d3540b73": {
+            "type": "cart-item-upsell",
+            "disabled": true,
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Forlæng levetiden på din Posture Shirt",
+              "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-hvid",
+              "dbtfy_cart_specific_upsell_product_offer": "vaskepose-til-posture-shirt",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "1902b942-766d-4ccf-b35e-3cf1d0132d54": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Få en Skulderstøtte Basic med til under halv pris (norm. 349,00 kr.)",
+              "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-sort",
+              "dbtfy_cart_specific_upsell_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "b2e8e80e-2107-4e0f-8f73-6ad0df59890a": {
+            "type": "cart-item-upsell",
+            "disabled": true,
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Forlæng levetiden på din Posture Shirt",
+              "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-sort",
+              "dbtfy_cart_specific_upsell_product_offer": "vaskepose-til-posture-shirt",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "ff3d75ab-26aa-494f-bfdc-e0125a3dbb39": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Få en Skulderstøtte Basic med til under halv pris (norm. 349,00 kr.)",
+              "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-nude",
+              "dbtfy_cart_specific_upsell_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "25d43a5a-b731-4321-affb-4fe470d57284": {
+            "type": "cart-item-upsell",
+            "disabled": true,
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Forlæng levetiden på din Posture Shirt",
+              "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-nude",
+              "dbtfy_cart_specific_upsell_product_offer": "vaskepose-til-posture-shirt",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "78a5881d-aa64-4a77-b136-efcb722d8cec": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Få en Skulderstøtte Basic med til under halv pris (norm. 349,00 kr.)",
+              "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-sort",
+              "dbtfy_cart_specific_upsell_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "2aa65fd1-6ee7-45bf-bb37-0eed0fcae142": {
+            "type": "cart-item-upsell",
+            "disabled": true,
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Forlæng levetiden på din Posture Shirt",
+              "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-sort",
+              "dbtfy_cart_specific_upsell_product_offer": "vaskepose-til-posture-shirt",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "cc79ddc9-998f-43db-bd42-6e7fe64e6564": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Få en Skulderstøtte Basic med til under halv pris (norm. 349,00 kr.)",
+              "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-hvid",
+              "dbtfy_cart_specific_upsell_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "df6392c3-5c01-4c10-9433-1acba67bb3d9": {
+            "type": "cart-item-upsell",
+            "disabled": true,
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Forlæng levetiden på din Posture Shirt",
+              "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-hvid",
+              "dbtfy_cart_specific_upsell_product_offer": "vaskepose-til-posture-shirt",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "dd81cfdb-e48e-44cd-8478-ecb6fe40fdaf": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Få en Skulderstøtte Basic med til under halv pris (norm. 349,00 kr.)",
+              "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-nude",
+              "dbtfy_cart_specific_upsell_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "0870e6f8-f852-40a5-9d95-5eecc71785bf": {
+            "type": "cart-item-upsell",
+            "disabled": true,
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Forlæng levetiden på din Posture Shirt",
+              "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-nude",
+              "dbtfy_cart_specific_upsell_product_offer": "vaskepose-til-posture-shirt",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "c5e518dc-37f7-4e81-873d-b8f1fd947647": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Få en Skulderstøtte Basic med til under halv pris (norm. 349,00 kr.)",
+              "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-mint",
+              "dbtfy_cart_specific_upsell_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "3407fb2e-118b-4468-ba76-aab0cbcd8b71": {
+            "type": "cart-item-upsell",
+            "disabled": true,
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Forlæng levetiden på din Posture Shirt",
+              "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-mint",
+              "dbtfy_cart_specific_upsell_product_offer": "vaskepose-til-posture-shirt",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "5ecebba7-55bf-477e-b1ba-0c45d4a23b4b": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Få en Skulderstøtte Basic med til under halv pris (norm. 349,00 kr.)",
+              "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-bordeaux",
+              "dbtfy_cart_specific_upsell_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "bbe316b5-7205-4977-8ec3-b9f3f1a264d5": {
+            "type": "cart-item-upsell",
+            "disabled": true,
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Forlæng levetiden på din Posture Shirt",
+              "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-bordeaux",
+              "dbtfy_cart_specific_upsell_product_offer": "vaskepose-til-posture-shirt",
+              "dbtfy_cart_specific_upsell_btn_title": "Tilføj"
+            }
+          },
+          "d4126994-beeb-48bd-91a6-6e557238675b": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Få en Skulderstøtte Basic med til under halv pris (norm. 349,00 kr.)",
+              "dbtfy_cart_specific_upsell_product_trigger": "anodyne-bh",
+              "dbtfy_cart_specific_upsell_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "04ff27f4-2e06-467b-983e-994a3ff5a450": {
+            "type": "cart-item-upsell",
+            "disabled": true,
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Forlæng levetiden på din BH",
+              "dbtfy_cart_specific_upsell_product_trigger": "anodyne-bh",
+              "dbtfy_cart_specific_upsell_product_offer": "vaskepose",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "570160bb-c403-444e-8525-2c6757de2504": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Få en Skulderstøtte Basic med til under halv pris (norm. 349,00 kr.)",
+              "dbtfy_cart_specific_upsell_product_trigger": "laendebaelte",
+              "dbtfy_cart_specific_upsell_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "436c4b0c-2fd7-425c-8308-33522373455d": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Få en Skulderstøtte Basic med til under halv pris (norm. 349,00 kr.)",
+              "dbtfy_cart_specific_upsell_product_trigger": "alignme-capri-leggings-graa",
+              "dbtfy_cart_specific_upsell_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "d8d9a8e7-172d-4864-9b18-8558c6e6a087": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Få en Skulderstøtte Basic med til under halv pris (norm. 349,00 kr.)",
+              "dbtfy_cart_specific_upsell_product_trigger": "alignme-capri-leggings-blaa",
+              "dbtfy_cart_specific_upsell_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "d5f5a513-a1f9-4b9d-8e35-f5a5d9346aee": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Få en Skulderstøtte Basic med til under halv pris (norm. 349,00 kr.)",
+              "dbtfy_cart_specific_upsell_product_trigger": "alignme-capri-leggings-groen",
+              "dbtfy_cart_specific_upsell_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "34f3dbbc-9675-4c50-9732-cb78c8853d96": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Få en Skulderstøtte Basic med til under halv pris (norm. 349,00 kr.)",
+              "dbtfy_cart_specific_upsell_product_trigger": "massage-gun-mini",
+              "dbtfy_cart_specific_upsell_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "e0391610-4e9a-43e4-81e6-eeb10c63eae2": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Få en Skulderstøtte Basic med til under halv pris (norm. 349,00 kr.)",
+              "dbtfy_cart_specific_upsell_product_trigger": "back-stretcher",
+              "dbtfy_cart_specific_upsell_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "e7d7c5a1-e7e7-4ede-92cf-af57512f941b": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Få en Skulderstøtte Basic med til under halv pris (norm. 349,00 kr.)",
+              "dbtfy_cart_specific_upsell_product_trigger": "knaebind-justerbart",
+              "dbtfy_cart_specific_upsell_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "10ae3ef2-996d-4462-bd96-b20e555258bd": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Få en Skulderstøtte Basic med til under halv pris (norm. 349,00 kr.)",
+              "dbtfy_cart_specific_upsell_product_trigger": "knaestoettebind",
+              "dbtfy_cart_specific_upsell_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "8f62a402-3ca8-4ba8-9d9c-e1ee68f67858": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Få en Skulderstøtte Basic med til under halv pris (norm. 349,00 kr.)",
+              "dbtfy_cart_specific_upsell_product_trigger": "albuebind",
+              "dbtfy_cart_specific_upsell_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "a79246fc-797c-4585-b82c-06303ab35cf5": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Få en Skulderstøtte Basic med til under halv pris (norm. 349,00 kr.)",
+              "dbtfy_cart_specific_upsell_product_trigger": "kulde-og-varmepude",
+              "dbtfy_cart_specific_upsell_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "443ade16-c4e4-4883-9310-f88c587addc0": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Få en Skulderstøtte Basic med til under halv pris (norm. 349,00 kr.)",
+              "dbtfy_cart_specific_upsell_product_trigger": "kulde-og-varmebaelte",
+              "dbtfy_cart_specific_upsell_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "aaceed04-58e6-45c0-8d52-e22e9a8af1b3": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Få en Skulderstøtte Basic med til under halv pris (norm. 349,00 kr.)",
+              "dbtfy_cart_specific_upsell_product_trigger": "akupressur-maatte-og-pude",
+              "dbtfy_cart_specific_upsell_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "9ef5e3d5-2100-49f4-8a2a-4f29fdc31228": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Få en Skulderstøtte Basic med til under halv pris (norm. 349,00 kr.)",
+              "dbtfy_cart_specific_upsell_product_trigger": "ergonomisk-rygpude",
+              "dbtfy_cart_specific_upsell_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "aa4d580e-a6ff-487d-b829-7af5ec6da1ec": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Få en Skulderstøtte Basic med til under halv pris (norm. 349,00 kr.)",
+              "dbtfy_cart_specific_upsell_product_trigger": "ergonomisk-siddepude",
+              "dbtfy_cart_specific_upsell_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "e6af7fb1-dbf0-4e71-9790-eef5002edb3e": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Få en Skulderstøtte Basic med til under halv pris (norm. 349,00 kr.)",
+              "dbtfy_cart_specific_upsell_product_trigger": "ergonomisk-knaepude",
+              "dbtfy_cart_specific_upsell_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "ce6d4b3b-d2b0-4923-8bdf-b03539d1b1cc": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Få en Skulderstøtte Basic med til under halv pris (norm. 349,00 kr.)",
+              "dbtfy_cart_specific_upsell_product_trigger": "kinesiotape",
+              "dbtfy_cart_specific_upsell_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "eb326bfd-18da-46d2-a466-9de0dfa93463": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Få en Skulderstøtte Basic med til under halv pris (norm. 349,00 kr.)",
+              "dbtfy_cart_specific_upsell_product_trigger": "backjoy-posture",
+              "dbtfy_cart_specific_upsell_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "fa2fa30e-3a2b-42b2-8ec1-8bab694075f7": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Få en Skulderstøtte Basic med til under halv pris (norm. 349,00 kr.)",
+              "dbtfy_cart_specific_upsell_product_trigger": "backjoy-posture-mini",
+              "dbtfy_cart_specific_upsell_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "090271bc-654a-4db5-b506-df4d23a52684": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Få en Skulderstøtte Basic med til under halv pris (norm. 349,00 kr.)",
+              "dbtfy_cart_specific_upsell_product_trigger": "gel-lign-channeling-feet",
+              "dbtfy_cart_specific_upsell_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
+            }
+          },
+          "a033178e-8b1f-4f8a-ac6c-3e886482ae92": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Få en Skulderstøtte Basic med til under halv pris (norm. 349,00 kr.)",
+              "dbtfy_cart_specific_upsell_product_trigger": "backjoy-comfort-soles",
+              "dbtfy_cart_specific_upsell_product_offer": "skulderstotte-basic-tilkob",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja tak"
             }
           }
         },
         "block_order": [
-          "eda47616-f2ab-4615-8281-7b159e2ca931"
+          "769d68e9-4fca-4124-b184-5ab7fdbee475",
+          "eda47616-f2ab-4615-8281-7b159e2ca931",
+          "2f49a907-f1d8-439f-bfaa-0effae902c99",
+          "39c472d8-5b99-4a66-bf89-74698ddb372d",
+          "4171f067-6e38-4a79-92a6-340501220467",
+          "39f9a54b-59da-4f90-a2f8-761b1087359e",
+          "1b110481-fbd9-403f-a8d5-bf83ec463791",
+          "07b55882-af77-4784-940c-51701efa81c6",
+          "daabd7ed-b179-4064-82a3-7df793dbc669",
+          "76f7da0b-abf8-4248-9a5c-0f5946f7e254",
+          "2c35bd2c-a411-4b93-8c2e-c338e01bb4ff",
+          "4dd42e77-0c04-4203-9e64-a4a9d3540b73",
+          "1902b942-766d-4ccf-b35e-3cf1d0132d54",
+          "b2e8e80e-2107-4e0f-8f73-6ad0df59890a",
+          "ff3d75ab-26aa-494f-bfdc-e0125a3dbb39",
+          "25d43a5a-b731-4321-affb-4fe470d57284",
+          "78a5881d-aa64-4a77-b136-efcb722d8cec",
+          "2aa65fd1-6ee7-45bf-bb37-0eed0fcae142",
+          "cc79ddc9-998f-43db-bd42-6e7fe64e6564",
+          "df6392c3-5c01-4c10-9433-1acba67bb3d9",
+          "dd81cfdb-e48e-44cd-8478-ecb6fe40fdaf",
+          "0870e6f8-f852-40a5-9d95-5eecc71785bf",
+          "c5e518dc-37f7-4e81-873d-b8f1fd947647",
+          "3407fb2e-118b-4468-ba76-aab0cbcd8b71",
+          "5ecebba7-55bf-477e-b1ba-0c45d4a23b4b",
+          "bbe316b5-7205-4977-8ec3-b9f3f1a264d5",
+          "d4126994-beeb-48bd-91a6-6e557238675b",
+          "04ff27f4-2e06-467b-983e-994a3ff5a450",
+          "570160bb-c403-444e-8525-2c6757de2504",
+          "436c4b0c-2fd7-425c-8308-33522373455d",
+          "d8d9a8e7-172d-4864-9b18-8558c6e6a087",
+          "d5f5a513-a1f9-4b9d-8e35-f5a5d9346aee",
+          "34f3dbbc-9675-4c50-9732-cb78c8853d96",
+          "e0391610-4e9a-43e4-81e6-eeb10c63eae2",
+          "e7d7c5a1-e7e7-4ede-92cf-af57512f941b",
+          "10ae3ef2-996d-4462-bd96-b20e555258bd",
+          "8f62a402-3ca8-4ba8-9d9c-e1ee68f67858",
+          "a79246fc-797c-4585-b82c-06303ab35cf5",
+          "443ade16-c4e4-4883-9310-f88c587addc0",
+          "aaceed04-58e6-45c0-8d52-e22e9a8af1b3",
+          "9ef5e3d5-2100-49f4-8a2a-4f29fdc31228",
+          "aa4d580e-a6ff-487d-b829-7af5ec6da1ec",
+          "e6af7fb1-dbf0-4e71-9790-eef5002edb3e",
+          "ce6d4b3b-d2b0-4923-8bdf-b03539d1b1cc",
+          "eb326bfd-18da-46d2-a466-9de0dfa93463",
+          "fa2fa30e-3a2b-42b2-8ec1-8bab694075f7",
+          "090271bc-654a-4db5-b506-df4d23a52684",
+          "a033178e-8b1f-4f8a-ac6c-3e886482ae92"
         ],
         "settings": {
           "dbtfy_cart_upsell_button_style": "btn--primary"
@@ -751,7 +1615,7 @@
           "announcement-0": {
             "type": "message",
             "settings": {
-              "announcement_text": "<p>🇩🇰 100,000+ tilfredse kunder i Danmark 🇩🇰<\/p>",
+              "announcement_text": "<p>30 dages returret • Fri fragt ved køb over 399 kr<\/p>",
               "announcement_counter": "",
               "announcemen_link": "",
               "announcement_end_text": ""
@@ -811,7 +1675,7 @@
               "image": "shopify:\/\/shop_images\/Returns_200px.png",
               "guarantee_icon": "loyalty",
               "title": "",
-              "text": "<p>Gratis ombytning og returnering<\/p>",
+              "text": "<p>Gratis ombytning<\/p>",
               "button_style": "btn-outline-primary",
               "button_label": "",
               "button_link": ""
@@ -823,7 +1687,7 @@
               "image": "shopify:\/\/shop_images\/Truck_200px.png",
               "guarantee_icon": "loyalty",
               "title": "",
-              "text": "<p>Gratis levering til pakkeshop<\/p>",
+              "text": "<p>Mulighed for gratis levering til pakkeshop<\/p>",
               "button_style": "btn-outline-primary",
               "button_label": "",
               "button_link": ""
@@ -835,7 +1699,7 @@
               "image": "shopify:\/\/shop_images\/Smile2_200px.png",
               "guarantee_icon": "loyalty",
               "title": "",
-              "text": "<p>30 dages fuld returret<\/p>",
+              "text": "<p>Prøv frit i 30 dage<\/p>",
               "button_style": "btn-outline-primary",
               "button_label": "",
               "button_link": ""
@@ -896,7 +1760,7 @@
               "logo_width": 150,
               "title": "Kontakt os",
               "subtitle": "",
-              "text": "<p>Anodyne.dk<\/p><p><strong>Man-fre: <\/strong>10:00 - 16:00<br\/><strong>Lør-søn: <\/strong>10:00 - 15:00<\/p>",
+              "text": "<p>Anodyne.dk<\/p><p><strong>Man-tors: <\/strong>10:00 - 16:00<br\/><strong>Fre: <\/strong>10:00 - 15:00<\/p>",
               "email": true,
               "phone": true
             }
@@ -1147,8 +2011,10 @@
           "text_size": "medium",
           "text_description": "<p><strong>Få en bedre kropsholdning og reducér smerter med Anodyne®<\/strong><\/p>",
           "text_description_size": "medium",
-          "button_label": "Læs mere",
-          "button_link": "shopify:\/\/collections\/alle-produkter",
+          "button_label": "Mænd",
+          "button_link": "shopify:\/\/collections\/maend",
+          "second_button_label": "Kvinder",
+          "second_button_link": "shopify:\/\/collections\/kvinder",
           "show_scrolldown": true
         }
       },
@@ -1158,10 +2024,10 @@
           "1630063768bdfa2f5f-0": {
             "type": "service",
             "settings": {
-              "title": "Gratis fragt",
-              "description": "Vi tilbyder fri fragt til alle pakkeshops. Ingen minimum fragtgrænse",
+              "title": "Hurtig levering",
+              "description": "Vi tilbyder også fri fragt til alle pakkeshops ved køb over 399 kr.",
               "icon": "shopify:\/\/shop_images\/Truck_200px.png",
-              "uspLinkUrl": "shopify:\/\/pages\/forsendelse-og-retur"
+              "uspLinkUrl": "shopify:\/\/pages\/levering-og-forsendelse"
             }
           },
           "1630063768bdfa2f5f-1": {
@@ -1170,7 +2036,7 @@
               "title": "Gratis ombytning",
               "description": "Passer dit produkt ikke? Det er nemt og 100% gratis at ombytte dine varer hos Anodyne®",
               "icon": "shopify:\/\/shop_images\/Returns_200px.png",
-              "uspLinkUrl": "shopify:\/\/pages\/forsendelse-og-retur"
+              "uspLinkUrl": "shopify:\/\/pages\/levering-og-forsendelse"
             }
           },
           "66c69b66-4ba2-424e-a46c-68c81d83d5c4": {
@@ -1179,16 +2045,16 @@
               "title": "Danskernes foretrukne",
               "description": "Flere end 100.000 glade, danske kunder kan ikke tage fejl... Vi har 4.8 ud af 5 på TrustPilot.",
               "icon": "shopify:\/\/shop_images\/Smile2_200px.png",
-              "uspLinkUrl": "shopify:\/\/pages\/forsendelse-og-retur"
+              "uspLinkUrl": "shopify:\/\/pages\/levering-og-forsendelse"
             }
           },
           "3011a919-3be7-41c5-aa09-25734c19504d": {
             "type": "service",
             "settings": {
-              "title": "30 dages fuld returret",
-              "description": "Du kan frit afprøve dit produkt i 30 dage, når du handler hos os. Vi bytter altid med et smil :)",
+              "title": "Prøv frit i 30 dage",
+              "description": "Du kan frit afprøve dit produkt, når du handler hos os. Vi bytter altid med et smil :)",
               "icon": "shopify:\/\/shop_images\/Checkmark_200px.png",
-              "uspLinkUrl": "shopify:\/\/pages\/forsendelse-og-retur"
+              "uspLinkUrl": "shopify:\/\/pages\/levering-og-forsendelse"
             }
           }
         },
@@ -1376,7 +2242,7 @@
               "image": "shopify:\/\/shop_images\/Smile2_200px.png",
               "icon": "",
               "title": "Holdningskorrigerende tøj med 100% tilfredshedsgaranti",
-              "text": "<p>Hos Anodyne® tilbyder vi altid gratis fragt til en pakkeshop i hele landet, 100% tilfredshedsgaranti, 30 dages fuld returret og gratis retur og ombytning. Det betyder, at du inden for 30 dage frit kan teste og afprøve dit produkt, og finde ud af om det lever op til dine forventninger. Vi vedlægger en gratis returlabel i alle forsendelser, så det er let og enkelt at returnere eller bytte hos os. Det er vores mål, at du skal være 100% tilfreds - ligesom det har været vores mål for de flere end 100.000 andre danskere, som allerede har købt et originalt Anodyne® produkt i løbet af de sidste 7 år. <\/p>",
+              "text": "<p>Hos Anodyne® tilbyder vi altid 100% tilfredshedsgaranti, 30 dages fuld returret og gratis retur og ombytning. Det betyder, at du inden for 30 dage frit kan teste og afprøve dit produkt, og finde ud af om det lever op til dine forventninger. Vi vedlægger en gratis returlabel i alle forsendelser, så det er let og enkelt at returnere eller bytte hos os. Det er vores mål, at du skal være 100% tilfreds - ligesom det har været vores mål for de flere end 100.000 andre danskere, som allerede har købt et originalt Anodyne® produkt i løbet af de sidste 7 år. <\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "button_link": ""
@@ -1564,8 +2430,8 @@
             "type": "row",
             "settings": {
               "card__icon": "shopify:\/\/shop_images\/Returns_200px.png",
-              "title": "Gratis retur og ombytning",
-              "text": "<p>Husk, at vi hos Anodyne® har 100% tilfredshedsgaranti, fri fragt til pakkeshop og <strong>30 dages returret<\/strong>. Det betyder, at du frit kan afprøve vores produkter og kontrollere, om de lever op til dine forventninger. <\/p>",
+              "title": "Prøv frit i 30 dage",
+              "text": "<p>Hos Anodyne® er det vores mål at du bliver glad for dit produkt. Det indebærer blandt andet, at du har en 30-dages prøveperiode, hvor du frit kan teste og afprøve dit produkt. Du kan gratis ombytte din vare til en anden størrelse eller produkt.<\/p>",
               "card__alignement": "center",
               "text_alignment": "text-center",
               "type_row": "",
@@ -1872,7 +2738,7 @@
               "dbtfy_faq_page_open": false,
               "dbtfy_faq_page_icon": "",
               "title": "Hvad betyder jeres 30-dages prøveperiode?",
-              "text": "<p>Hos Anodyne® er det vores mål, at du skal være 100% tilfreds. Det indebærer blandt andet, at du har en 30-dages prøveperiode. Det betyder, at du inden for 30 dage frit kan teste og afprøve dit produkt, og finde ud af, om det lever op til dine forventninger. Brug tøjet i din hverdag, på arbejde, til sport eller i andre sammenhænge og lad dette afgøre, om du er tilfreds med dit produkt. Du må gerne vaske tøjet med parfumeri vaskemiddel i denne periode.<br\/><\/p><p>Skulle du mod forventning ikke være tilfreds, anvender du blot den medsendte gratis returlabel. Produktet skal leveres tilbage til Anodyne® i original emballage, i god stand, uden stærk lugt af f.eks. parfume eller røg og med alle vaske- og produktmærker intakte. Herefter vil du modtage fuld refusion. Hvis der er brugt skyllemiddel eller tørretumbler, kan vi afvise at refundere det betalte beløb, da produktet herved bliver ødelagt.<\/p>"
+              "text": "<p>Hos Anodyne® er det vores mål, at du bliver glad for dit køb. Det indebærer blandt andet, at du har en 30-dages prøveperiode. Det betyder, at du inden for 30 dage frit kan teste og afprøve dit produkt. Brug tøjet i din hverdag, på arbejde, til sport eller i andre sammenhænge og lad dette afgøre, om du er tilfreds med dit produkt. Du må gerne vaske tøjet med parfumeri vaskemiddel i denne periode.<br\/><\/p><p>Skulle du mod forventning ikke være tilfreds, anvender du blot den medsendte returlabel. Produktet skal leveres tilbage til Anodyne® i original emballage, i god stand, uden stærk lugt af f.eks. parfume eller røg og med alle vaske- og produktmærker intakte. Hvis der er brugt skyllemiddel eller tørretumbler, kan vi afvise at refundere det betalte beløb, da produktet herved bliver ødelagt.<\/p>"
             }
           },
           "22d4bc2c-7c72-4162-89bc-0662744a5aeb": {
@@ -1880,12 +2746,13 @@
             "settings": {
               "dbtfy_faq_page_open": false,
               "dbtfy_faq_page_icon": "",
-              "title": "Kan jeg ombytte mit\/mine bestilte produkt(er)?",
-              "text": "<p>Ja, hvis du stadig er inden for din 30-dages prøveperiode. Udfyld returformularen med dit navn, ordrenummer og den størrelse, du vil ombytte til. Så snart vi modtager din pakke, behandler vi din ombytning og sender et nyt produkt afsted til dig. Når du har modtaget dit nye produkt, starter en ny 30-dages prøveperiode.<br\/><\/p><p>Hvis du er i tvivl om din størrelse, så tøv ikke med at kontakte vores kundeservice, så vi kan hjælpe dig med at vælge den rigtige størrelse.<\/p>"
+              "title": "Kan jeg ombytte min ordre?",
+              "text": "<p>Ja, hvis du stadig er inden for din 30-dages prøveperiode. Udfyld ombytningsformularen med dit navn, ordrenummer og den størrelse, du vil ombytte til. Så snart vi modtager din pakke, behandler vi din ombytning og sender et nyt produkt afsted til dig. Når du har modtaget dit nye produkt, starter en ny 30-dages prøveperiode.<br\/><\/p><p>Hvis du er i tvivl om din størrelse, så tøv ikke med at kontakte vores kundeservice, så vi kan hjælpe dig med at vælge den rigtige størrelse.<\/p>"
             }
           },
           "5ccc6c42-e193-4781-b245-1a612fe8b76d": {
             "type": "text_block",
+            "disabled": true,
             "settings": {
               "dbtfy_faq_page_open": false,
               "dbtfy_faq_page_icon": "",
@@ -1898,8 +2765,18 @@
             "settings": {
               "dbtfy_faq_page_open": false,
               "dbtfy_faq_page_icon": "",
-              "title": "Koster det mig noget, når jeg ønsker at ombytte inden for 30 dage?",
-              "text": "<p>Du kan nemt og gratis sende dit produkt retur ved at udfylde den medsendte gratis returlabel og returformular. Hvis du ønsker at ombytte til en anden størrelse eller farve kræves der ingen betaling. Vi ombytter blot og sender dig et nyt produkt. Hvis du bytter til et billigere produkt, opretter vi en refusion for forskellen. Hvis du ønsker at bytte dit produkt til et dyrere produkt, skal du returnere dit produkt mod en fuld refusion og herefter lægge en ny ordre med det ønskede produkt på vores hjemmeside.<\/p>"
+              "title": "Er det gratis at ombytte inden for 30 dage?",
+              "text": "<p>Ja, du kan nemt og gratis sende dit produkt retur ved at udfylde den medsendte formular og benytte den forudbetalte returlabel. Hvis du ønsker at ombytte til en anden størrelse eller farve kræves der ingen betaling. Vi ombytter blot og sender dig et nyt produkt. <br\/>Hvis du bytter til et billigere produkt, opretter vi en refusion for forskellen. Hvis du ønsker at bytte dit produkt til et dyrere produkt, skal du returnere dit produkt mod en fuld refusion og herefter lægge en ny ordre med det ønskede produkt på vores hjemmeside.<\/p>"
+            }
+          },
+          "0e28a17a-8e36-491c-8c64-2c5098b9d3c4": {
+            "type": "text_block",
+            "disabled": true,
+            "settings": {
+              "dbtfy_faq_page_open": false,
+              "dbtfy_faq_page_icon": "",
+              "title": "Betaler jeg for ombytning eller returnering af et produkt?",
+              "text": "<p>Nej, i din ordre finder du en forudbetalt returlabel (sørg for at beholder den i din 30-dages prøveperiode, da vi ikke kan sende dig en ny label). Anbring din label på den originale emballage, som du har modtaget din ordre i. Sørg for at udfylde og medsende returformularen med dit navn, ordrenummer og grunden til returnering (refusion eller bytte), og vi sørger for, at din anmodning bliver imødekommet.<\/p>"
             }
           },
           "7f15f122-e418-4f58-8ea3-f4b218761da0": {
@@ -1908,16 +2785,16 @@
               "dbtfy_faq_page_open": false,
               "dbtfy_faq_page_icon": "",
               "title": "Hvordan returnerer jeg min ordre?",
-              "text": "<p>Udfyld den medsendte returformular med dit navn, ordrenummer og oplysninger om, at du vil returnere produktet mod en refusion, eller at du vil bytte produktet for en anden størrelse eller et andet produkt. Brug venligst den medsendte og forudbetalte returlabel. Så snart vi modtager din pakke, behandler vi den og sørger for, at din anmodning bliver imødekommet. <\/p>"
+              "text": "<p>For at vi kan behandle en returnering, er det et krav at man udfylder og vedlægger den medsendte formular med navn, ordrenummer og oplysninger om, at man vil returnere produktet mod en refusion eller ombytte produktet for til en anden størrelse eller et andet produkt.<\/p><p>Brug venligst den medsendte returlabel. Så snart vi modtager din pakke, behandler vi den og sørger for, at din anmodning bliver imødekommet. <\/p>"
             }
           },
-          "0e28a17a-8e36-491c-8c64-2c5098b9d3c4": {
+          "426b28df-ebbd-4803-bddd-a84c6c77234e": {
             "type": "text_block",
             "settings": {
               "dbtfy_faq_page_open": false,
               "dbtfy_faq_page_icon": "",
-              "title": "Betaler jeg for ombytning eller returnering af et produkt?",
-              "text": "<p>Nej, i din ordre finder du en forudbetalt returlabel (sørg for at beholder den i din 30-dages prøveperiode, da vi ikke kan sende dig en ny label). Anbring din label på den originale emballage, som du har modtaget din ordre i. Sørg for at udfylde og medsende returformularen med dit navn, ordrenummer og grunden til returnering (refusion eller bytte), og vi sørger for, at din anmodning bliver imødekommet.<\/p>"
+              "title": "Jeg har returneret min vare. Hvornår modtager jeg refusionen?",
+              "text": "<p>Normalt modtager vi din returpakke inden for 3-5 arbejdsdage. Vi bestræber os på at behandle din refusion samme dag. Hvis du har betalt med PayPal, får du pengene tilbage til din PayPal-konto inden for få minutter efter modtagelse af vores e-mail, der bekræfter refusionen.<\/p><p>Hvis du har købt ved hjælp af et kreditkort eller betalingskort, tager det typisk 2-5 dage, før pengene er tilbage på din bankkonto. I få tilfælde kan gå 8-10 hverdage før, du kan se<br\/>krediteringen på din konto. <\/p><p>Hvis du har betalt for din ordre med ved hjælp af Klarna, tilbagebetales refusionen til det samme kort inden for 14 dage efter, at Anodyne har annulleret ordren.<\/p>"
             }
           },
           "5e725c8e-afa6-4af3-a42f-6ca06c20eea2": {
@@ -1927,15 +2804,6 @@
               "dbtfy_faq_page_icon": "",
               "title": "Mit nyligt modtagne produkt er beskadiget eller ødelagt. Hvad skal jeg gøre?",
               "text": "<p>Hos Anodyne gør vi altid vores bedste for at sikre, at alle produkter leveres i god stand. En fabriksfejl kan dog altid ske. Hvis du modtager et beskadiget eller ødelagt produkt, skal du kontakte kundeservice hurtigst muligt - så sørger vi for, at du får et nyt produkt.<\/p>"
-            }
-          },
-          "426b28df-ebbd-4803-bddd-a84c6c77234e": {
-            "type": "text_block",
-            "settings": {
-              "dbtfy_faq_page_open": false,
-              "dbtfy_faq_page_icon": "",
-              "title": "Jeg har returneret min vare. Hvornår får jeg mine penge tilbage?",
-              "text": "<p>Normalt modtager vi din returpakke inden for 3-5 arbejdsdage. Vi bestræber os på at behandle din refusion samme dag. Hvis du har betalt med PayPal, får du pengene tilbage til din PayPal-konto inden for få minutter efter modtagelse af vores e-mail, der bekræfter refusionen.<\/p><p>Hvis du har købt ved hjælp af et kreditkort eller betalingskort, tager det typisk 2-5 dage, før pengene er tilbage på din bankkonto.<\/p><p>Hvis du har betalt for din ordre med ved hjælp af Klarna, tilbagebetales refusionen til det samme kort inden for 14 dage efter, at Anodyne har annulleret ordren.<\/p>"
             }
           },
           "511b7f8d-9aa7-43a3-b67d-b6d1ff8a9e2f": {
@@ -1981,10 +2849,10 @@
           "22d4bc2c-7c72-4162-89bc-0662744a5aeb",
           "5ccc6c42-e193-4781-b245-1a612fe8b76d",
           "94547239-64d8-49d3-9ca9-0f9588c84671",
-          "7f15f122-e418-4f58-8ea3-f4b218761da0",
           "0e28a17a-8e36-491c-8c64-2c5098b9d3c4",
-          "5e725c8e-afa6-4af3-a42f-6ca06c20eea2",
+          "7f15f122-e418-4f58-8ea3-f4b218761da0",
           "426b28df-ebbd-4803-bddd-a84c6c77234e",
+          "5e725c8e-afa6-4af3-a42f-6ca06c20eea2",
           "511b7f8d-9aa7-43a3-b67d-b6d1ff8a9e2f"
         ],
         "settings": {
